@@ -1,0 +1,171 @@
+ispLEVER Classic 2.0.00.17.20.15 Linked Equations File
+Copyright(C), 1992-2015, Lattice Semiconductor Corp.
+All Rights Reserved.
+
+Design contador created Mon May 27 08:52:10 2019
+
+
+ P-Terms   Fan-in  Fan-out  Type  Name (attributes)
+---------  ------  -------  ----  -----------------
+   4/4        4        1    Pin   cnt_out_6_ 
+   2/2        3        1    Pin   dos 
+   5/3        4        1    Pin   cnt_out_5_ 
+   4/2        4        1    Pin   cnt_out_4_ 
+   6/5        4        1    Pin   cnt_out_3_ 
+   3/3        4        1    Pin   cnt_out_2_ 
+   6/5        4        1    Pin   cnt_out_1_ 
+   5/3        4        1    Pin   cnt_out_0_ 
+   1/1        1        1    Node  cnt_tmp_0_.D 
+   1/1        1        1    Node  cnt_tmp_0_.C 
+   4/4        3        1    Node  cnt_tmp_1_.D 
+   1/1        1        1    Node  cnt_tmp_1_.C 
+   5/5        4        1    Node  cnt_tmp_2_.D 
+   1/1        1        1    Node  cnt_tmp_2_.C 
+   6/6        5        1    Node  cnt_tmp_3_.D 
+   1/1        1        1    Node  cnt_tmp_3_.C 
+=========
+  55/47         Best P-Term Total: 47
+                       Total Pins: 10
+                      Total Nodes: 4
+            Average P-Term/Output: 3
+
+
+Equations:
+
+cnt_out_6_ = (!cnt_tmp_0_ & !cnt_tmp_2_
+     # cnt_tmp_0_ & cnt_tmp_2_
+     # cnt_tmp_1_ & !cnt_tmp_3_
+     # !cnt_tmp_1_ & cnt_tmp_3_);
+
+dos = (cnt_tmp_2_ & cnt_tmp_3_
+     # cnt_tmp_1_ & cnt_tmp_3_);
+
+cnt_out_5_ = (!cnt_tmp_0_ & !cnt_tmp_1_
+     # cnt_tmp_0_ & cnt_tmp_1_ & !cnt_tmp_3_
+     # !cnt_tmp_1_ & cnt_tmp_3_
+     # !cnt_tmp_2_
+     # !cnt_tmp_0_ & cnt_tmp_3_);
+
+cnt_out_4_ = (cnt_tmp_2_ & !cnt_tmp_3_
+     # cnt_tmp_1_ & cnt_tmp_3_
+     # !cnt_tmp_1_ & !cnt_tmp_2_
+     # cnt_tmp_0_);
+
+cnt_out_3_ = (cnt_tmp_0_ & !cnt_tmp_1_ & cnt_tmp_2_
+     # cnt_tmp_0_ & cnt_tmp_2_ & cnt_tmp_3_
+     # cnt_tmp_1_ & !cnt_tmp_2_ & !cnt_tmp_3_
+     # !cnt_tmp_0_ & cnt_tmp_1_ & !cnt_tmp_3_
+     # !cnt_tmp_0_ & !cnt_tmp_2_
+     # !cnt_tmp_1_ & cnt_tmp_3_);
+
+cnt_out_2_ = (!cnt_tmp_0_ & cnt_tmp_1_ & !cnt_tmp_3_
+     # !cnt_tmp_0_ & !cnt_tmp_1_ & cnt_tmp_3_
+     # !cnt_tmp_0_ & !cnt_tmp_2_);
+
+cnt_out_1_ = (!cnt_tmp_0_ & !cnt_tmp_1_ & !cnt_tmp_2_
+     # !cnt_tmp_0_ & cnt_tmp_2_ & !cnt_tmp_3_
+     # !cnt_tmp_0_ & !cnt_tmp_2_ & cnt_tmp_3_
+     # !cnt_tmp_1_ & cnt_tmp_2_ & !cnt_tmp_3_
+     # !cnt_tmp_1_ & !cnt_tmp_2_ & cnt_tmp_3_
+     # cnt_tmp_1_ & cnt_tmp_2_ & cnt_tmp_3_);
+
+cnt_out_0_ = (!cnt_tmp_0_ & cnt_tmp_2_
+     # cnt_tmp_1_ & !cnt_tmp_2_ & !cnt_tmp_3_
+     # !cnt_tmp_1_ & cnt_tmp_2_
+     # !cnt_tmp_1_ & cnt_tmp_3_
+     # cnt_tmp_2_ & cnt_tmp_3_);
+
+cnt_tmp_0_.D = (!cnt_tmp_0_);
+
+cnt_tmp_0_.C = (clk);
+
+cnt_tmp_1_.D = (direc & !cnt_tmp_0_ & !cnt_tmp_1_
+     # !direc & cnt_tmp_0_ & !cnt_tmp_1_
+     # !direc & !cnt_tmp_0_ & cnt_tmp_1_
+     # direc & cnt_tmp_0_ & cnt_tmp_1_);
+
+cnt_tmp_1_.C = (clk);
+
+cnt_tmp_2_.D = (cnt_tmp_0_ & !cnt_tmp_1_ & cnt_tmp_2_
+     # direc & cnt_tmp_1_ & cnt_tmp_2_
+     # !direc & !cnt_tmp_0_ & cnt_tmp_2_
+     # direc & !cnt_tmp_0_ & !cnt_tmp_1_ & !cnt_tmp_2_
+     # !direc & cnt_tmp_0_ & cnt_tmp_1_ & !cnt_tmp_2_);
+
+cnt_tmp_2_.C = (clk);
+
+cnt_tmp_3_.D = (cnt_tmp_1_ & !cnt_tmp_2_ & cnt_tmp_3_
+     # !cnt_tmp_0_ & cnt_tmp_2_ & cnt_tmp_3_
+     # !direc & !cnt_tmp_1_ & cnt_tmp_3_
+     # direc & cnt_tmp_0_ & cnt_tmp_3_
+     # direc & !cnt_tmp_0_ & !cnt_tmp_1_ & !cnt_tmp_2_ & !cnt_tmp_3_
+     # !direc & cnt_tmp_0_ & cnt_tmp_1_ & cnt_tmp_2_ & !cnt_tmp_3_);
+
+cnt_tmp_3_.C = (clk);
+
+
+Reverse-Polarity Equations:
+
+!cnt_out_6_ = (cnt_tmp_0_ & !cnt_tmp_1_ & !cnt_tmp_2_ & !cnt_tmp_3_
+     # !cnt_tmp_0_ & !cnt_tmp_1_ & cnt_tmp_2_ & !cnt_tmp_3_
+     # cnt_tmp_0_ & cnt_tmp_1_ & !cnt_tmp_2_ & cnt_tmp_3_
+     # !cnt_tmp_0_ & cnt_tmp_1_ & cnt_tmp_2_ & cnt_tmp_3_);
+
+!dos = (!cnt_tmp_1_ & !cnt_tmp_2_
+     # !cnt_tmp_3_);
+
+!cnt_out_5_ = (cnt_tmp_0_ & !cnt_tmp_1_ & cnt_tmp_2_ & !cnt_tmp_3_
+     # !cnt_tmp_0_ & cnt_tmp_1_ & cnt_tmp_2_ & !cnt_tmp_3_
+     # cnt_tmp_0_ & cnt_tmp_1_ & cnt_tmp_2_ & cnt_tmp_3_);
+
+!cnt_out_4_ = (!cnt_tmp_0_ & cnt_tmp_1_ & !cnt_tmp_2_ & !cnt_tmp_3_
+     # !cnt_tmp_0_ & !cnt_tmp_1_ & cnt_tmp_2_ & cnt_tmp_3_);
+
+!cnt_out_3_ = (cnt_tmp_0_ & !cnt_tmp_1_ & !cnt_tmp_2_ & !cnt_tmp_3_
+     # !cnt_tmp_0_ & !cnt_tmp_1_ & cnt_tmp_2_ & !cnt_tmp_3_
+     # cnt_tmp_0_ & cnt_tmp_1_ & !cnt_tmp_2_ & cnt_tmp_3_
+     # !cnt_tmp_0_ & cnt_tmp_1_ & cnt_tmp_2_ & cnt_tmp_3_
+     # cnt_tmp_0_ & cnt_tmp_1_ & cnt_tmp_2_ & !cnt_tmp_3_);
+
+!cnt_out_2_ = (!cnt_tmp_1_ & cnt_tmp_2_ & !cnt_tmp_3_
+     # cnt_tmp_1_ & cnt_tmp_2_ & cnt_tmp_3_
+     # cnt_tmp_0_);
+
+!cnt_out_1_ = (!cnt_tmp_1_ & cnt_tmp_2_ & cnt_tmp_3_
+     # cnt_tmp_0_ & cnt_tmp_1_ & !cnt_tmp_2_
+     # cnt_tmp_1_ & !cnt_tmp_2_ & !cnt_tmp_3_
+     # cnt_tmp_0_ & !cnt_tmp_2_ & !cnt_tmp_3_
+     # cnt_tmp_0_ & cnt_tmp_1_ & !cnt_tmp_3_);
+
+!cnt_out_0_ = (cnt_tmp_0_ & cnt_tmp_1_ & cnt_tmp_2_ & !cnt_tmp_3_
+     # !cnt_tmp_1_ & !cnt_tmp_2_ & !cnt_tmp_3_
+     # cnt_tmp_1_ & !cnt_tmp_2_ & cnt_tmp_3_);
+
+!cnt_tmp_0_.D = (cnt_tmp_0_);
+
+!cnt_tmp_0_.C = (!clk);
+
+!cnt_tmp_1_.D = (!direc & !cnt_tmp_0_ & !cnt_tmp_1_
+     # direc & cnt_tmp_0_ & !cnt_tmp_1_
+     # direc & !cnt_tmp_0_ & cnt_tmp_1_
+     # !direc & cnt_tmp_0_ & cnt_tmp_1_);
+
+!cnt_tmp_1_.C = (!clk);
+
+!cnt_tmp_2_.D = (cnt_tmp_0_ & !cnt_tmp_1_ & !cnt_tmp_2_
+     # direc & cnt_tmp_1_ & !cnt_tmp_2_
+     # !direc & !cnt_tmp_0_ & !cnt_tmp_2_
+     # direc & !cnt_tmp_0_ & !cnt_tmp_1_ & cnt_tmp_2_
+     # !direc & cnt_tmp_0_ & cnt_tmp_1_ & cnt_tmp_2_);
+
+!cnt_tmp_2_.C = (!clk);
+
+!cnt_tmp_3_.D = (cnt_tmp_1_ & !cnt_tmp_2_ & !cnt_tmp_3_
+     # !cnt_tmp_0_ & cnt_tmp_2_ & !cnt_tmp_3_
+     # !direc & !cnt_tmp_1_ & !cnt_tmp_3_
+     # direc & cnt_tmp_0_ & !cnt_tmp_3_
+     # direc & !cnt_tmp_0_ & !cnt_tmp_1_ & !cnt_tmp_2_ & cnt_tmp_3_
+     # !direc & cnt_tmp_0_ & cnt_tmp_1_ & cnt_tmp_2_ & cnt_tmp_3_);
+
+!cnt_tmp_3_.C = (!clk);
+

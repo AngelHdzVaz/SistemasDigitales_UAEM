@@ -1,0 +1,5 @@
+Message[302] C:\USERS\USUARIO\DESKTOP\W7AIOSP1\NUEVOS\PRACTICA6.X\PRACTICA6.ASM 25 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] C:\USERS\USUARIO\DESKTOP\W7AIOSP1\NUEVOS\PRACTICA6.X\PRACTICA6.ASM 27 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] C:\USERS\USUARIO\DESKTOP\W7AIOSP1\NUEVOS\PRACTICA6.X\PRACTICA6.ASM 29 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] C:\USERS\USUARIO\DESKTOP\W7AIOSP1\NUEVOS\PRACTICA6.X\PRACTICA6.ASM 30 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[313] C:\USERS\USUARIO\DESKTOP\W7AIOSP1\NUEVOS\PRACTICA6.X\RETARDOS.INC 19 : CBLOCK constants will start with a value of 0.

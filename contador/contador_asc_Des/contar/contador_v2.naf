@@ -1,0 +1,6 @@
+clk  i
+areset  i
+cnt_out[3]  o
+cnt_out[2]  o
+cnt_out[1]  o
+cnt_out[0]  o

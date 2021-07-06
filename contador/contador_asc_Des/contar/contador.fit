@@ -1,0 +1,26 @@
+Note 4042: Unable to assign dos, need more pins 
+like pin 23.
+Note 4042: Unable to assign cnt_out_6_, need more pins 
+like pin 23.
+Note 4042: Unable to assign dos, need more pins 
+like pin 22.
+Note 4042: Unable to assign cnt_out_6_, need more pins 
+like pin 22.
+Note 4042: Unable to assign dos, need more pins 
+like pin 21.
+Note 4042: Unable to assign cnt_out_6_, need more pins 
+like pin 21.
+Note 4042: Unable to assign dos, need more pins 
+like pin 20.
+Note 4042: Unable to assign cnt_out_6_, need more pins 
+like pin 20.
+Note 4042: Unable to assign dos, need more pins 
+like pin 19.
+Note 4042: Unable to assign cnt_out_6_, need more pins 
+like pin 19.
+$DEVICE         p22v10g  nofit 
+$PINS   12  cnt_tmp_3_:23   cnt_tmp_2_:14   cnt_tmp_1_:22   cnt_tmp_0_:15   cnt_out_0_:21   cnt_out_1_:16   cnt_out_2_:20   
+cnt_out_3_:17   cnt_out_4_:19   cnt_out_5_:18   direc:2   clk:1   
+$UNASSIGNED    2  dos   cnt_out_6_   
+--------------------------------------------------------------
+

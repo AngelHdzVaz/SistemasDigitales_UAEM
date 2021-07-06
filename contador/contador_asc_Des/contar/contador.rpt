@@ -1,0 +1,201 @@
+
+
+                                                                      Page 1
+ispLEVER Classic 2.0.00.17.20.15  -  Device Utilization Chart         Sat Dec 08 16:14:57 2018
+
+
+
+--------------------------------------------------------------------------------
+
+Module                   : 'contador'
+
+--------------------------------------------------------------------------------
+
+Input files:
+
+    ABEL PLA file        : contador.tt3
+    Device library       : P22V10G.dev
+
+Output files:
+
+    Report file          : contador.rpt
+    Programmer load file : contador.jed
+
+--------------------------------------------------------------------------------
+
+
+                                                                      Page 2
+ispLEVER Classic 2.0.00.17.20.15  -  Device Utilization Chart         Sat Dec 08 16:14:57 2018
+
+P22V10G Programmed Logic:
+--------------------------------------------------------------------------------
+
+
+
+cnt_out_3_     = (  cnt_tmp_1_.Q & cnt_tmp_2_.Q 
+                  #   cnt_tmp_3_.Q );
+
+cnt_out_2_     = (  !cnt_tmp_1_.Q & cnt_tmp_2_.Q 
+                  #   cnt_tmp_1_.Q & cnt_tmp_3_.Q );
+
+cnt_out_1_     = (  cnt_tmp_1_.Q & !cnt_tmp_2_.Q 
+                  #   cnt_tmp_2_.Q & cnt_tmp_3_.Q );
+
+cnt_out_0_     = (  cnt_tmp_0_.Q & cnt_tmp_1_.Q & cnt_tmp_2_.Q 
+                  #   !cnt_tmp_1_.Q & !cnt_tmp_2_.Q 
+                  #   !cnt_tmp_3_.Q );
+
+cnt_tmp_0_.D   = (  !cnt_tmp_0_.Q ); " ISTYPE 'BUFFER'
+cnt_tmp_0_.C   = (  clk );
+
+cnt_tmp_1_.D   = (  direc & cnt_tmp_0_.Q & cnt_tmp_1_.Q 
+                  #   !direc & !cnt_tmp_0_.Q & cnt_tmp_1_.Q 
+                  #   !direc & cnt_tmp_0_.Q & !cnt_tmp_1_.Q 
+                  #   direc & !cnt_tmp_0_.Q & !cnt_tmp_1_.Q );
+                " ISTYPE 'BUFFER'
+cnt_tmp_1_.C   = (  clk );
+
+cnt_tmp_2_.D   = (  !direc & !cnt_tmp_0_.Q & cnt_tmp_2_.Q 
+                  #   direc & cnt_tmp_1_.Q & cnt_tmp_2_.Q 
+                  #   cnt_tmp_0_.Q & !cnt_tmp_1_.Q & cnt_tmp_2_.Q 
+                  #   !direc & cnt_tmp_0_.Q & cnt_tmp_1_.Q & !cnt_tmp_2_.Q 
+                  #   direc & !cnt_tmp_0_.Q & !cnt_tmp_1_.Q & !cnt_tmp_2_.Q );
+                " ISTYPE 'BUFFER'
+cnt_tmp_2_.C   = (  clk );
+
+cnt_tmp_3_.D   = (  direc & cnt_tmp_0_.Q & cnt_tmp_3_.Q 
+                  #   !direc & !cnt_tmp_1_.Q & cnt_tmp_3_.Q 
+                  #   !cnt_tmp_0_.Q & cnt_tmp_2_.Q & cnt_tmp_3_.Q 
+                  #   cnt_tmp_1_.Q & !cnt_tmp_2_.Q & cnt_tmp_3_.Q 
+                  #   !direc & cnt_tmp_0_.Q & cnt_tmp_1_.Q & cnt_tmp_2_.Q 
+                    & !cnt_tmp_3_.Q 
+                  #   direc & !cnt_tmp_0_.Q & !cnt_tmp_1_.Q & !cnt_tmp_2_.Q 
+                    & !cnt_tmp_3_.Q ); " ISTYPE 'BUFFER'
+cnt_tmp_3_.C   = (  clk );
+
+
+
+                                                                      Page 3
+ispLEVER Classic 2.0.00.17.20.15  -  Device Utilization Chart         Sat Dec 08 16:14:57 2018
+
+P22V10G Chip Diagram:
+--------------------------------------------------------------------------------
+
+
+
+
+                                   P22V10G
+
+                         +---------\       /---------+
+                         |          \     /          |
+                         |           -----           |
+                     clk |  1                    24  | Vcc                     
+                         |                           |
+                   direc |  2                    23  | cnt_tmp_3_              
+                         |                           |
+                         |  3                    22  | cnt_tmp_1_              
+                         |                           |
+                         |  4                    21  | cnt_out_0_              
+                         |                           |
+                         |  5                    20  | cnt_out_2_              
+                         |                           |
+                         |  6                    19  |                         
+                         |                           |
+                         |  7                    18  |                         
+                         |                           |
+                         |  8                    17  | cnt_out_3_              
+                         |                           |
+                         |  9                    16  | cnt_out_1_              
+                         |                           |
+                         | 10                    15  | cnt_tmp_0_              
+                         |                           |
+                         | 11                    14  | cnt_tmp_2_              
+                         |                           |
+                     GND | 12                    13  |                         
+                         |                           |
+                         |                           |
+                         `---------------------------'
+
+                        SIGNATURE: N/A
+
+
+                                                                      Page 4
+ispLEVER Classic 2.0.00.17.20.15  -  Device Utilization Chart         Sat Dec 08 16:14:57 2018
+
+P22V10G Resource Allocations:
+--------------------------------------------------------------------------------
+
+
+
+        Device        | Resource  |   Design    |
+       Resources      | Available | Requirement | Unused
+======================|===========|=============|==============
+                      |           |             |
+Input Pins:           |           |             |
+                      |           |             |
+          Input:      |     12    |      2      |   10 ( 83 %)
+                      |           |             |
+Output Pins:          |           |             |
+                      |           |             |
+          In/Out:     |     10    |      8      |    2 ( 20 %)
+          Output:     |      -    |      -      |    -
+                      |           |             |
+Buried Nodes:         |           |             |
+                      |           |             |
+          Input Reg:  |      -    |      -      |    -
+          Pin Reg:    |     10    |      4      |    6 ( 60 %)
+          Buried Reg: |      -    |      -      |    -
+
+
+                                                                      Page 5
+ispLEVER Classic 2.0.00.17.20.15  -  Device Utilization Chart         Sat Dec 08 16:14:57 2018
+
+P22V10G Product Terms Distribution:
+--------------------------------------------------------------------------------
+
+
+
+            Signal                       |    Pin   | Terms | Terms | Terms
+             Name                        | Assigned | Used  |  Max  | Unused
+=========================================|==========|=======|=======|=======
+cnt_out_3_                               |   17     |   2   |  14   |  12
+cnt_out_2_                               |   20     |   2   |  14   |  12
+cnt_out_1_                               |   16     |   2   |  12   |  10
+cnt_out_0_                               |   21     |   3   |  12   |   9
+cnt_tmp_0_.D                             |   15     |   1   |  10   |   9
+cnt_tmp_1_.D                             |   22     |   4   |  10   |   6
+cnt_tmp_2_.D                             |   14     |   5   |   8   |   3
+cnt_tmp_3_.D                             |   23     |   6   |   8   |   2
+
+
+     ==== List of Inputs/Feedbacks ====
+
+Signal Name                              | Pin      | Pin Type
+=========================================|==========|=========
+clk                                      |    1     | CLK/IN
+direc                                    |    2     | INPUT
+
+
+                                                                      Page 6
+ispLEVER Classic 2.0.00.17.20.15  -  Device Utilization Chart         Sat Dec 08 16:14:57 2018
+
+P22V10G Unused Resources:
+--------------------------------------------------------------------------------
+
+
+
+ Pin   |  Pin   |   Product   | Flip-flop
+Number |  Type  |   Terms     |   Type
+=======|========|=============|==========
+    3  |  INPUT |      -      |    -   
+    4  |  INPUT |      -      |    -   
+    5  |  INPUT |      -      |    -   
+    6  |  INPUT |      -      |    -   
+    7  |  INPUT |      -      |    -   
+    8  |  INPUT |      -      |    -   
+    9  |  INPUT |      -      |    -   
+   10  |  INPUT |      -      |    -   
+   11  |  INPUT |      -      |    -   
+   13  |  INPUT |      -      |    -   
+   18  |  BIDIR | NORMAL 16   |    D
+   19  |  BIDIR | NORMAL 16   |    D

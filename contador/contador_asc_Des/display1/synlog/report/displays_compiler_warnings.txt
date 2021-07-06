@@ -1,0 +1,2 @@
+@W: CL111 :"C:\isplever_classic2_0\proyectos\display1\display.vhd":15:1:15:2|All reachable assignments to s(2) assign '0'; register removed by optimization
+

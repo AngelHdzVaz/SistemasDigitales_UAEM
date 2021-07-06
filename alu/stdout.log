@@ -1,0 +1,52 @@
+Running in Lattice mode
+
+
+Starting:    C:\ispLEVER_Classic2_0\synpbase\win64\mbin\synbatch.exe
+Install:     C:\ispLEVER_Classic2_0\synpbase
+Date:        Fri May 17 09:37:20 2019
+Version:     I-2014.03LC 
+
+Arguments:   -product synplify_pro  -batch c:/users/usuario/desktop/escuela 2019/sistemas/alu\alu3.prj
+ProductType: synplify_pro
+
+
+
+
+
+log file: "C:\users\usuario\desktop\escuela 2019\sistemas\alu\alu3.srr"
+
+Running alu3|alu
+
+Running: Compile on alu3|alu
+
+Running: Compile Process on alu3|alu
+
+Running: Compile Input on alu3|alu
+Copied C:\users\usuario\desktop\escuela 2019\sistemas\alu\synwork\alu3_comp.srs to C:\users\usuario\desktop\escuela 2019\sistemas\alu\alu3.srs
+compiler Completed
+Return Code: 0
+Run Time:0h:00m:01s
+
+Running: Multi-srs Generator on alu3|alu
+Copied C:\users\usuario\desktop\escuela 2019\sistemas\alu\synwork\alu3_comp.srs to C:\users\usuario\desktop\escuela 2019\sistemas\alu\synwork\alu3_s.srs
+multi_srs_gen Completed
+Return Code: 0
+Run Time:0h:00m:01s
+Copied C:\users\usuario\desktop\escuela 2019\sistemas\alu\synwork\alu3_mult.srs to C:\users\usuario\desktop\escuela 2019\sistemas\alu\alu3.srs
+Copied C:\users\usuario\desktop\escuela 2019\sistemas\alu\alu3.srr to C:\users\usuario\desktop\escuela 2019\sistemas\alu\alu3.srf
+Complete: Compile Process on alu3|alu
+Complete: Compile on alu3|alu
+
+Running: Map on alu3|alu
+
+Running: Map & Optimize on alu3|alu
+fpga_mapper Completed
+Return Code: 0
+Run Time:0h:00m:00s
+Complete: Map on alu3|alu
+Complete: Logic Synthesis on alu3|alu
+
+exit status=0
+
+exit status=0
+

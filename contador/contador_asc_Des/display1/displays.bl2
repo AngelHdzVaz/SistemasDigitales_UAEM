@@ -1,0 +1,73 @@
+#$ TOOL ispLEVER Classic 2.0.00.17.20.15
+#$ DATE Sat Dec 08 14:01:16 2018
+#$ MODULE displays
+#$ PINS 12 num_3_ salida_6_ dis2 num_2_ num_1_ num_0_ salida_5_ salida_4_ salida_3_ salida_2_ salida_1_ salida_0_
+
+.model displays
+.inputs num_3_.BLIF num_2_.BLIF num_1_.BLIF num_0_.BLIF
+.outputs salida_6_ dis2 salida_5_ salida_4_ salida_3_ salida_2_ salida_1_ \
+salida_0_
+.names num_3_.BLIF num_2_.BLIF num_1_.BLIF num_0_.BLIF salida_6_
+1001 1
+0101 1
+0011 1
+1111 1
+000- 0
+110- 0
+101- 0
+011- 0
+---0 0
+.names num_3_.BLIF num_2_.BLIF num_1_.BLIF dis2
+111 1
+-0- 0
+0-- 0
+--0 0
+.names num_3_.BLIF num_2_.BLIF num_1_.BLIF num_0_.BLIF salida_5_
+1110 1
+-001 1
+00-1 1
+101- 0
+0--0 0
+-1-1 0
+--00 0
+.names num_3_.BLIF num_2_.BLIF num_1_.BLIF num_0_.BLIF salida_4_
+111- 1
+-001 1
+0-01 1
+00-1 1
+0--0 0
+-0-0 0
+101- 0
+011- 0
+110- 0
+.names num_3_.BLIF num_2_.BLIF num_1_.BLIF num_0_.BLIF salida_3_
+0101 1
+0011 1
+1111 1
+011- 0
+-00- 0
+1-0- 0
+10-- 0
+---0 0
+.names salida_2_
+.names num_3_.BLIF num_2_.BLIF num_1_.BLIF num_0_.BLIF salida_1_
+111- 1
+1001 1
+0101 1
+--00 0
+110- 0
+-01- 0
+0-1- 0
+00-- 0
+.names num_3_.BLIF num_2_.BLIF num_1_.BLIF num_0_.BLIF salida_0_
+111- 1
+1001 1
+0101 1
+0011 1
+0--0 0
+-0-0 0
+110- 0
+101- 0
+011- 0
+000- 0
+.end

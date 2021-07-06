@@ -1,0 +1,7 @@
+C:\ispLEVER_Classic2_0\synpbase\bin64\syn_nfilter.exe  -link  -top  comparador  -multisrs  "C:\users\emanu\onedrive\documentos\sistemas digitales\vhdl\comparador\synwork\comparador_comp.srs"  -osyn  "C:\users\emanu\onedrive\documentos\sistemas digitales\vhdl\comparador\synwork\comparador_mult.srs"  -log  "C:\users\emanu\onedrive\documentos\sistemas digitales\vhdl\comparador\synlog\comparador_multi_srs_gen.srr" 
+rc:0 success:1
+C:\users\emanu\onedrive\documentos\sistemas digitales\vhdl\comparador\synwork\comparador_comp.srs|i|1557442051|1602
+C:\users\emanu\onedrive\documentos\sistemas digitales\vhdl\comparador\synwork\comparador_mult.srs|o|1557442052|1704
+C:\users\emanu\onedrive\documentos\sistemas digitales\vhdl\comparador\synlog\comparador_multi_srs_gen.srr|o|1557442052|502
+C:\ispLEVER_Classic2_0\synpbase\bin\syn_nfilter.exe|i|1401252736|2741760
+C:\ispLEVER_Classic2_0\synpbase\bin64\syn_nfilter.exe|i|1401252932|6337536

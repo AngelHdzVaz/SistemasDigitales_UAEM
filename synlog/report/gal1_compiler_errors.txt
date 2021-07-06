@@ -1,0 +1,2 @@
+@E: CD395 :"C:\users\usuario\desktop\escuela 2019\sistemas\programas\alu.vhd":26:10:26:13|Constant width 2 does not match context width 3
+

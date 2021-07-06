@@ -1,0 +1,4 @@
+Message[302] C:\USERS\JANETH\DOCUMENTS\SISTEMAS DIGITALES\SECUENCIA.X\SECUENCIA.ASM 28 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] C:\USERS\JANETH\DOCUMENTS\SISTEMAS DIGITALES\SECUENCIA.X\SECUENCIA.ASM 30 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] C:\USERS\JANETH\DOCUMENTS\SISTEMAS DIGITALES\SECUENCIA.X\SECUENCIA.ASM 33 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Warning[207] C:\USERS\JANETH\DOCUMENTS\SISTEMAS DIGITALES\SECUENCIA.X\SECUENCIA.ASM 42 : Found label after column 1. (INICIO)

@@ -1,0 +1,154 @@
+#$ DATE Sat Dec 08 14:01:16 2018
+#$ TOOL EDIF2BLIF version IspLever 1.0 
+#$ MODULE displays
+#$ PINS 12 num_3_ salida_6_ dis2 num_2_ num_1_ num_0_ salida_5_ salida_4_ salida_3_ salida_2_ salida_1_ salida_0_
+#$ NODES 56 gnd_n_n un33_salida salida_1_5__n salida_1_3__n salida_1_0__n salida_1_1__n un33_salida_3 N_10 N_6_i N_11 \
+#  N_8 un9_salida N_7 salida_1_3__i1_mux_n un11_salida_2 un3_salida N_24 un3_salida_2 N_22_1 num_i_2__n \
+#  num_i_0__n num_i_3__n num_i_1__n un3_salida_2_i un11_salida_2_i salida_1_3__i1_mux_i_n N_6_i_i num_c_0__n num_c_1__n num_c_2__n \
+#  num_c_3__n un33_salida_3_i un33_salida_0 N_24_i N_22_1_i N_11_i N_10_i salida_1_0_1__n un3_salida_i salida_1_0_0__n \
+#  N_7_0 N_5_i N_8_i un9_salida_i salida_1_0_5__n N_5_i_1 N_24_1 N_24_2 un3_salida_1 un9_salida_1 \
+#  un9_salida_2 un33_salida_0_1 N_8_1 salida_1_3__m3_un3_n salida_1_3__m3_un1_n salida_1_3__m3_un0_n 
+.model displays
+.inputs num_3_.BLIF num_2_.BLIF num_1_.BLIF num_0_.BLIF gnd_n_n.BLIF un33_salida.BLIF salida_1_5__n.BLIF salida_1_3__n.BLIF salida_1_0__n.BLIF \
+  salida_1_1__n.BLIF un33_salida_3.BLIF N_10.BLIF N_6_i.BLIF N_11.BLIF N_8.BLIF un9_salida.BLIF N_7.BLIF salida_1_3__i1_mux_n.BLIF \
+  un11_salida_2.BLIF un3_salida.BLIF N_24.BLIF un3_salida_2.BLIF N_22_1.BLIF num_i_2__n.BLIF num_i_0__n.BLIF num_i_3__n.BLIF num_i_1__n.BLIF \
+  un3_salida_2_i.BLIF un11_salida_2_i.BLIF salida_1_3__i1_mux_i_n.BLIF N_6_i_i.BLIF num_c_0__n.BLIF num_c_1__n.BLIF num_c_2__n.BLIF num_c_3__n.BLIF un33_salida_3_i.BLIF \
+  un33_salida_0.BLIF N_24_i.BLIF N_22_1_i.BLIF N_11_i.BLIF N_10_i.BLIF salida_1_0_1__n.BLIF un3_salida_i.BLIF salida_1_0_0__n.BLIF N_7_0.BLIF \
+  N_5_i.BLIF N_8_i.BLIF un9_salida_i.BLIF salida_1_0_5__n.BLIF N_5_i_1.BLIF N_24_1.BLIF N_24_2.BLIF un3_salida_1.BLIF un9_salida_1.BLIF \
+  un9_salida_2.BLIF un33_salida_0_1.BLIF N_8_1.BLIF salida_1_3__m3_un3_n.BLIF salida_1_3__m3_un1_n.BLIF salida_1_3__m3_un0_n.BLIF  
+.outputs salida_6_ dis2 salida_5_ salida_4_ salida_3_ salida_2_ salida_1_ salida_0_ gnd_n_n un33_salida salida_1_5__n \
+  salida_1_3__n salida_1_0__n salida_1_1__n un33_salida_3 N_10 N_6_i N_11 N_8 un9_salida N_7 salida_1_3__i1_mux_n \
+  un11_salida_2 un3_salida N_24 un3_salida_2 N_22_1 num_i_2__n num_i_0__n num_i_3__n num_i_1__n un3_salida_2_i un11_salida_2_i \
+  salida_1_3__i1_mux_i_n N_6_i_i num_c_0__n num_c_1__n num_c_2__n num_c_3__n un33_salida_3_i un33_salida_0 N_24_i N_22_1_i N_11_i \
+  N_10_i salida_1_0_1__n un3_salida_i salida_1_0_0__n N_7_0 N_5_i N_8_i un9_salida_i salida_1_0_5__n N_5_i_1 N_24_1 \
+  N_24_2 un3_salida_1 un9_salida_1 un9_salida_2 un33_salida_0_1 N_8_1 salida_1_3__m3_un3_n salida_1_3__m3_un1_n salida_1_3__m3_un0_n
+.names  num_0_.BLIF num_c_0__n
+1 1
+.names  num_1_.BLIF num_c_1__n
+1 1
+.names  num_2_.BLIF num_c_2__n
+1 1
+.names  num_3_.BLIF num_c_3__n
+1 1
+.names  un33_salida_3.BLIF dis2
+1 1
+.names  salida_1_0__n.BLIF salida_0_
+1 1
+.names  salida_1_1__n.BLIF salida_1_
+1 1
+.names  gnd_n_n.BLIF salida_2_
+1 1
+.names  salida_1_3__n.BLIF salida_3_
+1 1
+.names  un33_salida.BLIF salida_4_
+1 1
+.names  salida_1_5__n.BLIF salida_5_
+1 1
+.names  N_5_i.BLIF salida_6_
+1 1
+.names  N_8_1.BLIF num_i_2__n.BLIF N_8
+11 1
+.names  un9_salida.BLIF un9_salida_i
+0 1
+.names  salida_1_0_5__n.BLIF salida_1_5__n
+0 1
+.names  N_10_i.BLIF N_11_i.BLIF N_5_i_1
+11 1
+.names  N_5_i_1.BLIF num_c_0__n.BLIF N_5_i
+11 1
+.names  num_c_0__n.BLIF num_i_1__n.BLIF N_24_1
+11 1
+.names  un3_salida_2_i.BLIF un11_salida_2_i.BLIF N_24_2
+11 1
+.names  N_24_1.BLIF N_24_2.BLIF N_24
+11 1
+.names  num_c_0__n.BLIF num_c_1__n.BLIF un3_salida_1
+11 1
+.names  un3_salida_1.BLIF un3_salida_2.BLIF un3_salida
+11 1
+.names  num_c_1__n.BLIF num_c_2__n.BLIF un9_salida_1
+11 1
+.names  num_c_3__n.BLIF num_i_0__n.BLIF un9_salida_2
+11 1
+.names  un9_salida_1.BLIF un9_salida_2.BLIF un9_salida
+11 1
+.names  N_22_1_i.BLIF N_24_i.BLIF un33_salida_0_1
+11 1
+.names  un33_salida_0_1.BLIF un33_salida_3_i.BLIF un33_salida_0
+11 1
+.names  N_7.BLIF num_c_0__n.BLIF N_8_1
+11 1
+.names  un33_salida_3.BLIF un33_salida_3_i
+0 1
+.names  un33_salida_0.BLIF un33_salida
+0 1
+.names  N_24.BLIF N_24_i
+0 1
+.names  N_22_1.BLIF N_22_1_i
+0 1
+.names  N_11.BLIF N_11_i
+0 1
+.names  N_10.BLIF N_10_i
+0 1
+.names  salida_1_0_1__n.BLIF salida_1_1__n
+0 1
+.names  un3_salida.BLIF un3_salida_i
+0 1
+.names  salida_1_0_0__n.BLIF salida_1_0__n
+0 1
+.names  N_7_0.BLIF N_7
+0 1
+.names  N_8.BLIF N_8_i
+0 1
+.names  num_c_0__n.BLIF un3_salida_2.BLIF N_22_1
+11 1
+.names  num_c_2__n.BLIF num_c_3__n.BLIF un11_salida_2
+11 1
+.names  num_c_3__n.BLIF num_i_3__n
+0 1
+.names  num_i_2__n.BLIF num_i_3__n.BLIF un3_salida_2
+11 1
+.names  num_c_0__n.BLIF num_i_0__n
+0 1
+.names  num_c_2__n.BLIF num_i_2__n
+0 1
+.names  num_c_1__n.BLIF num_c_3__n.BLIF N_6_i
+01 1
+10 1
+.names  N_6_i.BLIF num_c_2__n.BLIF N_10
+11 1
+.names  N_6_i.BLIF N_6_i_i
+0 1
+.names  N_6_i_i.BLIF num_i_2__n.BLIF N_11
+11 1
+.names  N_8_i.BLIF un9_salida_i.BLIF salida_1_0_5__n
+11 1
+.names  num_c_1__n.BLIF num_c_3__n.BLIF N_7_0
+11 1
+.names  salida_1_3__i1_mux_n.BLIF salida_1_3__i1_mux_i_n
+0 1
+.names  num_c_0__n.BLIF salida_1_3__i1_mux_i_n.BLIF salida_1_3__n
+11 1
+.names  N_6_i.BLIF salida_1_3__m3_un3_n
+0 1
+.names  un3_salida_2_i.BLIF N_6_i.BLIF salida_1_3__m3_un1_n
+11 1
+.names  num_i_2__n.BLIF salida_1_3__m3_un3_n.BLIF salida_1_3__m3_un0_n
+11 1
+.names  salida_1_3__m3_un1_n.BLIF salida_1_3__m3_un0_n.BLIF salida_1_3__i1_mux_n
+1- 1
+-1 1
+.names  num_c_1__n.BLIF un11_salida_2.BLIF un33_salida_3
+11 1
+.names  salida_1_0_1__n.BLIF un3_salida_i.BLIF salida_1_0_0__n
+11 1
+.names  N_24_i.BLIF un33_salida_3_i.BLIF salida_1_0_1__n
+11 1
+.names  un3_salida_2.BLIF un3_salida_2_i
+0 1
+.names  un11_salida_2.BLIF un11_salida_2_i
+0 1
+.names  num_c_1__n.BLIF num_i_1__n
+0 1
+.names  gnd_n_n
+.end

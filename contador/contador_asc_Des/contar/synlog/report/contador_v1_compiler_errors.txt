@@ -1,0 +1,3 @@
+@E: CD425 :"C:\isplever_classic2_0\proyectos\contar\contar.vhd":12:25:12:35|No such entity contador_v1
+@E|Parse errors encountered - exiting
+

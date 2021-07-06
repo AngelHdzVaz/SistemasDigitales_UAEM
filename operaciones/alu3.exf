@@ -1,0 +1,462 @@
+Section Type   Array Num   Name                     Real Name          Base     Number     Increment
+// -------------------------------------------------------------------------------------------------
+      Port          1      A(3:0)                        A                  3          4            -1
+      Port          2      B(3:0)                        B                  3          4            -1
+      Port          3      S(1:0)                        S                  1          2            -1
+      Port          4      L(7:0)                        L                  7          8            -1
+End
+Section Member   Rename                   Array-Notation          Array Number     Index
+// -------------------------------------------------------------------------------------
+        Port      A_3_                        A[3]                       1            0            
+        Port      A_2_                        A[2]                       1            1            
+        Port      A_1_                        A[1]                       1            2            
+        Port      A_0_                        A[0]                       1            3            
+        Port      B_3_                        B[3]                       2            0            
+        Port      B_2_                        B[2]                       2            1            
+        Port      B_1_                        B[1]                       2            2            
+        Port      B_0_                        B[0]                       2            3            
+        Port      S_1_                        S[1]                       3            0            
+        Port      S_0_                        S[0]                       3            1            
+        Port      L_7_                        L[7]                       4            0            
+        Port      L_6_                        L[6]                       4            1            
+        Port      L_5_                        L[5]                       4            2            
+        Port      L_4_                        L[4]                       4            3            
+        Port      L_3_                        L[3]                       4            4            
+        Port      L_2_                        L[2]                       4            5            
+        Port      L_1_                        L[1]                       4            6            
+        Port      L_0_                        L[0]                       4            7            
+End
+Section Cross Reference File
+Design 'ALU3' created Mon May 20 12:59:59 2019
+   Type              New Name                               Original Name
+// ----------------------------------------------------------------------
+   Inst           un1_a_1_G_14                              un1_a_1.G_14
+   Inst           un1_a_1_G_17                              un1_a_1.G_17
+   Inst           un1_a_1_G_19                              un1_a_1.G_19
+   Inst           un1_a_1_G_20                              un1_a_1.G_20
+   Inst           un1_a_1_G_21                              un1_a_1.G_21
+   Inst           un1_a_1_G_23                              un1_a_1.G_23
+   Inst           un1_a_1_G_25                              un1_a_1.G_25
+   Inst           un1_a_1_G_26                              un1_a_1.G_26
+   Inst                   A_0_                                      A[0]
+   Inst                   A_1_                                      A[1]
+   Inst                   A_2_                                      A[2]
+   Inst                   A_3_                                      A[3]
+   Inst                   B_0_                                      B[0]
+   Inst                   B_1_                                      B[1]
+   Inst                   B_2_                                      B[2]
+   Inst                   B_3_                                      B[3]
+   Inst                   S_0_                                      S[0]
+   Inst                   S_1_                                      S[1]
+   Inst                   L_0_                                      L[0]
+   Inst                   L_1_                                      L[1]
+   Inst                   L_2_                                      L[2]
+   Inst                   L_3_                                      L[3]
+   Inst                   L_4_                                      L[4]
+   Inst                   L_5_                                      L[5]
+   Inst                   L_6_                                      L[6]
+   Inst                   L_7_                                      L[7]
+   Inst         un1_a_1_G_22_1                            un1_a_1.G_22_1
+   Inst           un1_a_1_G_22                              un1_a_1.G_22
+   Inst         un1_a_1_G_15_1                            un1_a_1.G_15_1
+   Inst           un1_a_1_G_15                              un1_a_1.G_15
+   Inst          un1_a_1_G_8_1                             un1_a_1.G_8_1
+   Inst            un1_a_1_G_8                               un1_a_1.G_8
+   Inst           un1_a_1_G_37                              un1_a_1.G_37
+   Inst         un1_a_1_G_52_1                            un1_a_1.G_52_1
+   Inst           un1_a_1_G_52                              un1_a_1.G_52
+   Inst         un1_a_1_G_47_1                            un1_a_1.G_47_1
+   Inst         un1_a_1_G_47_2                            un1_a_1.G_47_2
+   Inst           un1_a_1_G_47                              un1_a_1.G_47
+   Inst         un1_a_1_G_45_1                            un1_a_1.G_45_1
+   Inst           un1_a_1_G_45                              un1_a_1.G_45
+   Inst         un1_a_1_G_44_1                            un1_a_1.G_44_1
+   Inst         un1_a_1_G_44_2                            un1_a_1.G_44_2
+   Inst           un1_a_1_G_44                              un1_a_1.G_44
+   Inst         un1_a_1_G_31_1                            un1_a_1.G_31_1
+   Inst           un1_a_1_G_31                              un1_a_1.G_31
+   Inst         un1_a_1_G_29_1                            un1_a_1.G_29_1
+   Inst           un1_a_1_G_29                              un1_a_1.G_29
+   Inst         un1_a_1_G_56_1                            un1_a_1.G_56_1
+   Inst           un1_a_1_G_56                              un1_a_1.G_56
+   Inst         un1_a_1_G_53_1                            un1_a_1.G_53_1
+   Inst         un1_a_1_G_53_2                            un1_a_1.G_53_2
+   Inst         un1_a_1_G_53_3                            un1_a_1.G_53_3
+   Inst           un1_a_1_G_53                              un1_a_1.G_53
+   Inst         un1_a_1_G_48_1                            un1_a_1.G_48_1
+   Inst         un1_a_1_G_48_2                            un1_a_1.G_48_2
+   Inst         un1_a_1_G_48_3                            un1_a_1.G_48_3
+   Inst         un1_a_1_G_48_4                            un1_a_1.G_48_4
+   Inst           un1_a_1_G_48                              un1_a_1.G_48
+   Inst         un1_a_1_G_37_1                            un1_a_1.G_37_1
+   Inst         un1_a_1_G_37_2                            un1_a_1.G_37_2
+   Inst         un1_a_1_G_37_3                            un1_a_1.G_37_3
+   Inst         un1_a_1_G_37_4                            un1_a_1.G_37_4
+   Inst         un1_a_1_G_18_1                            un1_a_1.G_18_1
+   Inst           un1_a_1_G_18                              un1_a_1.G_18
+   Inst         un1_a_1_G_11_1                            un1_a_1.G_11_1
+   Inst           un1_a_1_G_11                              un1_a_1.G_11
+   Inst          un1_a_1_G_4_1                             un1_a_1.G_4_1
+   Inst            un1_a_1_G_4                               un1_a_1.G_4
+   Inst         un1_a_1_G_34_1                            un1_a_1.G_34_1
+   Inst           un1_a_1_G_34                              un1_a_1.G_34
+   Inst         un1_a_1_G_15_i                            un1_a_1.G_15_i
+   Inst          un1_a_1_N_5_i                             un1_a_1.N_5_i
+   Inst          un1_a_1_N_6_i                             un1_a_1.N_6_i
+   Inst          un1_a_1_N_7_i                             un1_a_1.N_7_i
+   Inst          un1_a_1_G_8_i                             un1_a_1.G_8_i
+   Inst         un1_a_1_N_34_i                            un1_a_1.N_34_i
+   Inst         un1_a_1_G_31_i                            un1_a_1.G_31_i
+   Inst          un1_a_1_N_4_i                             un1_a_1.N_4_i
+   Inst          un1_a_1_N_9_i                             un1_a_1.N_9_i
+   Inst         un1_a_1_G_28_i                            un1_a_1.G_28_i
+   Inst          un1_a_1_N_2_i                             un1_a_1.N_2_i
+   Inst      un1_a_1_a0_b_i_2_                         un1_a_1.a0_b_i[2]
+   Inst         un1_a_1_G_26_i                            un1_a_1.G_26_i
+   Inst         un1_a_1_N_19_i                            un1_a_1.N_19_i
+   Inst         un1_a_1_N_20_i                            un1_a_1.N_20_i
+   Inst         un1_a_1_N_21_i                            un1_a_1.N_21_i
+   Inst         un1_a_1_G_22_i                            un1_a_1.G_22_i
+   Inst         un1_a_1_N_12_i                            un1_a_1.N_12_i
+   Inst         un1_a_1_N_13_i                            un1_a_1.N_13_i
+   Inst         un1_a_1_N_14_i                            un1_a_1.N_14_i
+   Inst         un1_a_1_N_53_i                            un1_a_1.N_53_i
+   Inst         un1_a_1_G_47_i                            un1_a_1.G_47_i
+   Inst      un1_a_1_a3_b_i_3_                         un1_a_1.a3_b_i[3]
+   Inst         un1_a_1_G_43_i                            un1_a_1.G_43_i
+   Inst         un1_a_1_N_17_i                            un1_a_1.N_17_i
+   Inst         un1_a_1_N_18_i                            un1_a_1.N_18_i
+   Inst         un1_a_1_G_41_i                            un1_a_1.G_41_i
+   Inst         un1_a_1_N_11_i                            un1_a_1.N_11_i
+   Inst         un1_a_1_N_16_i                            un1_a_1.N_16_i
+   Inst         un1_a_1_G_39_i                            un1_a_1.G_39_i
+   Inst         un1_a_1_N_29_i                            un1_a_1.N_29_i
+   Inst         un1_a_1_N_37_i                            un1_a_1.N_37_i
+   Inst         un1_a_1_G_36_i                            un1_a_1.G_36_i
+   Inst         un1_a_1_N_31_i                            un1_a_1.N_31_i
+   Inst         un1_a_1_N_33_i                            un1_a_1.N_33_i
+   Inst               B_c_i_2_                                  B_c_i[2]
+   Inst               B_c_i_1_                                  B_c_i[1]
+   Inst         un1_a_1_N_47_i                            un1_a_1.N_47_i
+   Inst         un1_a_1_N_59_i                            un1_a_1.N_59_i
+   Inst         un1_a_1_G_55_i                            un1_a_1.G_55_i
+   Inst         un1_a_1_N_45_i                            un1_a_1.N_45_i
+   Inst         un1_a_1_N_56_i                            un1_a_1.N_56_i
+   Inst         un1_a_1_N_57_i                            un1_a_1.N_57_i
+   Inst         un1_a_1_G_52_i                            un1_a_1.G_52_i
+   Inst         un1_a_1_N_49_i                            un1_a_1.N_49_i
+   Inst         un1_a_1_N_51_i                            un1_a_1.N_51_i
+   Inst         un1_a_1_N_52_i                            un1_a_1.N_52_i
+   Inst               B_c_i_0_                                  B_c_i[0]
+   Inst                Land_1_                                   Land[1]
+   Inst                Land_0_                                   Land[0]
+   Inst               L_0_7__r                                  L_0_7_.r
+   Inst               L_0_7__m                                  L_0_7_.m
+   Inst               L_0_7__n                                  L_0_7_.n
+   Inst               L_0_7__p                                  L_0_7_.p
+   Inst               L_0_6__r                                  L_0_6_.r
+   Inst               L_0_6__m                                  L_0_6_.m
+   Inst               L_0_6__n                                  L_0_6_.n
+   Inst               L_0_6__p                                  L_0_6_.p
+   Inst               L_0_5__r                                  L_0_5_.r
+   Inst               L_0_5__m                                  L_0_5_.m
+   Inst               L_0_5__n                                  L_0_5_.n
+   Inst               L_0_5__p                                  L_0_5_.p
+   Inst               L_0_4__r                                  L_0_4_.r
+   Inst               L_0_4__m                                  L_0_4_.m
+   Inst               L_0_4__n                                  L_0_4_.n
+   Inst               L_0_4__p                                  L_0_4_.p
+   Inst               L_0_3__r                                  L_0_3_.r
+   Inst               L_0_3__m                                  L_0_3_.m
+   Inst               L_0_3__n                                  L_0_3_.n
+   Inst               L_0_3__p                                  L_0_3_.p
+   Inst               L_0_2__r                                  L_0_2_.r
+   Inst               L_0_2__m                                  L_0_2_.m
+   Inst               L_0_2__n                                  L_0_2_.n
+   Inst               L_0_2__p                                  L_0_2_.p
+   Inst               L_0_1__r                                  L_0_1_.r
+   Inst               L_0_1__m                                  L_0_1_.m
+   Inst               L_0_1__n                                  L_0_1_.n
+   Inst               L_0_1__p                                  L_0_1_.p
+   Inst               L_0_0__r                                  L_0_0_.r
+   Inst               L_0_0__m                                  L_0_0_.m
+   Inst               L_0_0__n                                  L_0_0_.n
+   Inst               L_0_0__p                                  L_0_0_.p
+   Inst                 A_i_0_                                    A_i[0]
+   Inst                 A_i_3_                                    A_i[3]
+   Inst                Land_7_                                   Land[7]
+   Inst                Land_6_                                   Land[6]
+   Inst                Land_5_                                   Land[5]
+   Inst                Land_4_                                   Land[4]
+   Inst                Land_3_                                   Land[3]
+   Inst                Land_2_                                   Land[2]
+   Inst        un1_a_1_a3_b_0_                           un1_a_1.a3_b[0]
+   Inst        un1_a_1_a3_b_1_                           un1_a_1.a3_b[1]
+   Inst        un1_a_1_a3_b_2_                           un1_a_1.a3_b[2]
+   Inst        un1_a_1_a3_b_3_                           un1_a_1.a3_b[3]
+   Inst            un1_a_1_G_2                               un1_a_1.G_2
+   Inst           un1_a_1_G_32                              un1_a_1.G_32
+   Inst                 A_i_1_                                    A_i[1]
+   Inst                 A_i_2_                                    A_i[2]
+   Inst           un1_a_1_G_55                              un1_a_1.G_55
+   Inst            un1_a_1_G_9                               un1_a_1.G_9
+   Inst           un1_a_1_G_16                              un1_a_1.G_16
+   Inst        un1_a_1_a0_b_0_                           un1_a_1.a0_b[0]
+   Inst        un1_a_1_a0_b_1_                           un1_a_1.a0_b[1]
+   Inst        un1_a_1_a0_b_2_                           un1_a_1.a0_b[2]
+   Inst        un1_a_1_a0_b_3_                           un1_a_1.a0_b[3]
+   Inst        un1_a_1_a1_b_0_                           un1_a_1.a1_b[0]
+   Inst        un1_a_1_a1_b_1_                           un1_a_1.a1_b[1]
+   Inst        un1_a_1_a1_b_2_                           un1_a_1.a1_b[2]
+   Inst        un1_a_1_a1_b_3_                           un1_a_1.a1_b[3]
+   Inst        un1_a_1_a2_b_0_                           un1_a_1.a2_b[0]
+   Inst        un1_a_1_a2_b_1_                           un1_a_1.a2_b[1]
+   Inst        un1_a_1_a2_b_2_                           un1_a_1.a2_b[2]
+   Inst        un1_a_1_a2_b_3_                           un1_a_1.a2_b[3]
+   Inst           un1_a_1_G_27                              un1_a_1.G_27
+   Inst           un1_a_1_G_28                              un1_a_1.G_28
+   Inst           un1_a_1_G_30                              un1_a_1.G_30
+   Inst           un1_a_1_G_35                              un1_a_1.G_35
+   Inst           un1_a_1_G_36                              un1_a_1.G_36
+   Inst           un1_a_1_G_38                              un1_a_1.G_38
+   Inst           un1_a_1_G_39                              un1_a_1.G_39
+   Inst           un1_a_1_G_40                              un1_a_1.G_40
+   Inst           un1_a_1_G_41                              un1_a_1.G_41
+   Inst           un1_a_1_G_42                              un1_a_1.G_42
+   Inst           un1_a_1_G_43                              un1_a_1.G_43
+   Inst           un1_a_1_G_46                              un1_a_1.G_46
+   Inst           un1_a_1_G_50                              un1_a_1.G_50
+   Inst           un1_a_1_G_51                              un1_a_1.G_51
+   Inst           un1_a_1_G_54                              un1_a_1.G_54
+   Inst            un1_a_1_G_3                               un1_a_1.G_3
+   Inst            un1_a_1_G_5                               un1_a_1.G_5
+   Inst            un1_a_1_G_6                               un1_a_1.G_6
+   Inst            un1_a_1_G_7                               un1_a_1.G_7
+   Inst           un1_a_1_G_10                              un1_a_1.G_10
+   Inst           un1_a_1_G_12                              un1_a_1.G_12
+   Inst           un1_a_1_G_13                              un1_a_1.G_13
+   Net            l_0_4__un1_n                                L_0_4_.un1
+   Net            l_0_4__un0_n                                L_0_4_.un0
+   Net            l_0_3__un3_n                                L_0_3_.un3
+   Net            l_0_3__un1_n                                L_0_3_.un1
+   Net            l_0_3__un0_n                                L_0_3_.un0
+   Net            un1_a_1_0__n                                un1_a_1[0]
+   Net            l_0_2__un3_n                                L_0_2_.un3
+   Net            un1_a_1_1__n                                un1_a_1[1]
+   Net            l_0_2__un1_n                                L_0_2_.un1
+   Net            un1_a_1_2__n                                un1_a_1[2]
+   Net            l_0_2__un0_n                                L_0_2_.un0
+   Net            un1_a_1_3__n                                un1_a_1[3]
+   Net            l_0_1__un3_n                                L_0_1_.un3
+   Net            un1_a_1_4__n                                un1_a_1[4]
+   Net            l_0_1__un1_n                                L_0_1_.un1
+   Net            un1_a_1_5__n                                un1_a_1[5]
+   Net            l_0_1__un0_n                                L_0_1_.un0
+   Net            un1_a_1_6__n                                un1_a_1[6]
+   Net            l_0_0__un3_n                                L_0_0_.un3
+   Net            un1_a_1_7__n                                un1_a_1[7]
+   Net            l_0_0__un1_n                                L_0_0_.un1
+   Net            l_0_0__un0_n                                L_0_0_.un0
+   Net       un1_a_1_a0_b_1__n                           un1_a_1.a0_b[1]
+   Net       un1_a_1_a0_b_2__n                           un1_a_1.a0_b[2]
+   Net       un1_a_1_a0_b_3__n                           un1_a_1.a0_b[3]
+   Net       un1_a_1_a1_b_0__n                           un1_a_1.a1_b[0]
+   Net       un1_a_1_a1_b_1__n                           un1_a_1.a1_b[1]
+   Net       un1_a_1_a1_b_2__n                           un1_a_1.a1_b[2]
+   Net       un1_a_1_a1_b_3__n                           un1_a_1.a1_b[3]
+   Net       un1_a_1_a2_b_0__n                           un1_a_1.a2_b[0]
+   Net       un1_a_1_a2_b_1__n                           un1_a_1.a2_b[1]
+   Net       un1_a_1_a2_b_2__n                           un1_a_1.a2_b[2]
+   Net       un1_a_1_a2_b_3__n                           un1_a_1.a2_b[3]
+   Net       un1_a_1_a3_b_0__n                           un1_a_1.a3_b[0]
+   Net       un1_a_1_a3_b_1__n                           un1_a_1.a3_b[1]
+   Net       un1_a_1_a3_b_2__n                           un1_a_1.a3_b[2]
+   Net       un1_a_1_a3_b_3__n                           un1_a_1.a3_b[3]
+   Net           un1_a_1_n_2_n                               un1_a_1.N_2
+   Net           un1_a_1_n_3_n                               un1_a_1.N_3
+   Net           un1_a_1_n_4_n                               un1_a_1.N_4
+   Net           un1_a_1_n_5_n                               un1_a_1.N_5
+   Net           un1_a_1_n_6_n                               un1_a_1.N_6
+   Net           un1_a_1_n_7_n                               un1_a_1.N_7
+   Net           un1_a_1_n_8_n                               un1_a_1.N_8
+   Net           un1_a_1_n_9_n                               un1_a_1.N_9
+   Net          un1_a_1_n_10_n                              un1_a_1.N_10
+   Net          un1_a_1_n_11_n                              un1_a_1.N_11
+   Net          un1_a_1_n_12_n                              un1_a_1.N_12
+   Net          un1_a_1_n_13_n                              un1_a_1.N_13
+   Net          un1_a_1_n_14_n                              un1_a_1.N_14
+   Net          un1_a_1_n_15_n                              un1_a_1.N_15
+   Net          un1_a_1_n_16_n                              un1_a_1.N_16
+   Net          un1_a_1_n_17_n                              un1_a_1.N_17
+   Net          un1_a_1_n_18_n                              un1_a_1.N_18
+   Net          un1_a_1_n_19_n                              un1_a_1.N_19
+   Net          un1_a_1_n_20_n                              un1_a_1.N_20
+   Net          un1_a_1_n_21_n                              un1_a_1.N_21
+   Net          un1_a_1_n_22_n                              un1_a_1.N_22
+   Net          un1_a_1_n_27_n                              un1_a_1.N_27
+   Net          un1_a_1_n_29_n                              un1_a_1.N_29
+   Net          un1_a_1_n_30_n                              un1_a_1.N_30
+   Net          un1_a_1_n_31_n                              un1_a_1.N_31
+   Net          un1_a_1_n_32_n                              un1_a_1.N_32
+   Net          un1_a_1_n_33_n                              un1_a_1.N_33
+   Net          un1_a_1_n_34_n                              un1_a_1.N_34
+   Net          un1_a_1_n_35_n                              un1_a_1.N_35
+   Net          un1_a_1_n_37_n                              un1_a_1.N_37
+   Net          un1_a_1_n_38_n                              un1_a_1.N_38
+   Net          un1_a_1_n_45_n                              un1_a_1.N_45
+   Net          un1_a_1_n_46_n                              un1_a_1.N_46
+   Net          un1_a_1_n_47_n                              un1_a_1.N_47
+   Net          un1_a_1_n_48_n                              un1_a_1.N_48
+   Net          un1_a_1_n_49_n                              un1_a_1.N_49
+   Net          un1_a_1_n_50_n                              un1_a_1.N_50
+   Net          un1_a_1_n_51_n                              un1_a_1.N_51
+   Net          un1_a_1_n_52_n                              un1_a_1.N_52
+   Net          un1_a_1_n_53_n                              un1_a_1.N_53
+   Net          un1_a_1_n_56_n                              un1_a_1.N_56
+   Net          un1_a_1_n_57_n                              un1_a_1.N_57
+   Net          un1_a_1_n_58_n                              un1_a_1.N_58
+   Net          un1_a_1_n_59_n                              un1_a_1.N_59
+   Net          un1_a_1_n_60_n                              un1_a_1.N_60
+   Net                a_i_3__n                                    A_i[3]
+   Net                a_i_0__n                                    A_i[0]
+   Net                a_i_2__n                                    A_i[2]
+   Net                a_i_1__n                                    A_i[1]
+   Net                a_c_0__n                                    A_c[0]
+   Net                  a_0__n                                      A[0]
+   Net                a_c_1__n                                    A_c[1]
+   Net                  a_1__n                                      A[1]
+   Net                a_c_2__n                                    A_c[2]
+   Net                  a_2__n                                      A[2]
+   Net                a_c_3__n                                    A_c[3]
+   Net                b_c_0__n                                    B_c[0]
+   Net                  b_0__n                                      B[0]
+   Net                b_c_1__n                                    B_c[1]
+   Net                  b_1__n                                      B[1]
+   Net                b_c_2__n                                    B_c[2]
+   Net                  b_2__n                                      B[2]
+   Net                b_c_3__n                                    B_c[3]
+   Net                s_c_0__n                                    S_c[0]
+   Net                  s_0__n                                      S[0]
+   Net                s_c_1__n                                    S_c[1]
+   Net                l_c_0__n                                    L_c[0]
+   Net                  l_0__n                                      L[0]
+   Net                l_c_1__n                                    L_c[1]
+   Net                  l_1__n                                      L[1]
+   Net                l_c_2__n                                    L_c[2]
+   Net                  l_2__n                                      L[2]
+   Net                l_c_3__n                                    L_c[3]
+   Net                  l_3__n                                      L[3]
+   Net                l_c_4__n                                    L_c[4]
+   Net                  l_4__n                                      L[4]
+   Net                l_c_5__n                                    L_c[5]
+   Net                  l_5__n                                      L[5]
+   Net                l_c_6__n                                    L_c[6]
+   Net                  l_6__n                                      L[6]
+   Net                l_c_7__n                                    L_c[7]
+   Net              b_c_i_0__n                                  B_c_i[0]
+   Net              b_c_i_2__n                                  B_c_i[2]
+   Net              b_c_i_1__n                                  B_c_i[1]
+   Net        un1_a_1_n_47_i_n                            un1_a_1.N_47_i
+   Net        un1_a_1_n_59_i_n                            un1_a_1.N_59_i
+   Net        un1_a_1_n_60_0_n                            un1_a_1.N_60_0
+   Net        un1_a_1_n_45_i_n                            un1_a_1.N_45_i
+   Net        un1_a_1_n_56_i_n                            un1_a_1.N_56_i
+   Net        un1_a_1_n_57_i_n                            un1_a_1.N_57_i
+   Net        un1_a_1_n_58_0_n                            un1_a_1.N_58_0
+   Net        un1_a_1_n_49_i_n                            un1_a_1.N_49_i
+   Net        un1_a_1_n_51_i_n                            un1_a_1.N_51_i
+   Net        un1_a_1_n_52_i_n                            un1_a_1.N_52_i
+   Net        un1_a_1_n_53_i_n                            un1_a_1.N_53_i
+   Net          un1_a_1_0_7__n                              un1_a_1_0[7]
+   Net     un1_a_1_a3_b_i_3__n                         un1_a_1.a3_b_i[3]
+   Net        un1_a_1_n_50_0_n                            un1_a_1.N_50_0
+   Net        un1_a_1_n_17_i_n                            un1_a_1.N_17_i
+   Net        un1_a_1_n_18_i_n                            un1_a_1.N_18_i
+   Net        un1_a_1_n_48_0_n                            un1_a_1.N_48_0
+   Net        un1_a_1_n_11_i_n                            un1_a_1.N_11_i
+   Net        un1_a_1_n_16_i_n                            un1_a_1.N_16_i
+   Net        un1_a_1_n_46_0_n                            un1_a_1.N_46_0
+   Net        un1_a_1_n_29_i_n                            un1_a_1.N_29_i
+   Net        un1_a_1_n_37_i_n                            un1_a_1.N_37_i
+   Net        un1_a_1_n_38_0_n                            un1_a_1.N_38_0
+   Net        un1_a_1_n_31_i_n                            un1_a_1.N_31_i
+   Net        un1_a_1_n_33_i_n                            un1_a_1.N_33_i
+   Net        un1_a_1_n_34_i_n                            un1_a_1.N_34_i
+   Net        un1_a_1_n_35_0_n                            un1_a_1.N_35_0
+   Net         un1_a_1_n_4_i_n                             un1_a_1.N_4_i
+   Net         un1_a_1_n_9_i_n                             un1_a_1.N_9_i
+   Net        un1_a_1_n_32_0_n                            un1_a_1.N_32_0
+   Net         un1_a_1_n_2_i_n                             un1_a_1.N_2_i
+   Net     un1_a_1_a0_b_i_2__n                         un1_a_1.a0_b_i[2]
+   Net        un1_a_1_n_30_0_n                            un1_a_1.N_30_0
+   Net        un1_a_1_n_19_i_n                            un1_a_1.N_19_i
+   Net        un1_a_1_n_20_i_n                            un1_a_1.N_20_i
+   Net        un1_a_1_n_21_i_n                            un1_a_1.N_21_i
+   Net        un1_a_1_n_22_i_n                            un1_a_1.N_22_i
+   Net        un1_a_1_n_12_i_n                            un1_a_1.N_12_i
+   Net        un1_a_1_n_13_i_n                            un1_a_1.N_13_i
+   Net        un1_a_1_n_14_i_n                            un1_a_1.N_14_i
+   Net        un1_a_1_n_15_0_n                            un1_a_1.N_15_0
+   Net         un1_a_1_n_5_i_n                             un1_a_1.N_5_i
+   Net         un1_a_1_n_6_i_n                             un1_a_1.N_6_i
+   Net         un1_a_1_n_7_i_n                             un1_a_1.N_7_i
+   Net         un1_a_1_n_8_0_n                             un1_a_1.N_8_0
+   Net        un1_a_1_n_18_1_n                            un1_a_1.N_18_1
+   Net        un1_a_1_n_11_1_n                            un1_a_1.N_11_1
+   Net         un1_a_1_n_4_1_n                             un1_a_1.N_4_1
+   Net          un1_a_1_1_2__n                              un1_a_1_1[2]
+   Net          un1_a_1_1_6__n                              un1_a_1_1[6]
+   Net          un1_a_1_1_5__n                              un1_a_1_1[5]
+   Net          un1_a_1_2_5__n                              un1_a_1_2[5]
+   Net          un1_a_1_3_5__n                              un1_a_1_3[5]
+   Net          un1_a_1_1_4__n                              un1_a_1_1[4]
+   Net          un1_a_1_2_4__n                              un1_a_1_2[4]
+   Net          un1_a_1_3_4__n                              un1_a_1_3[4]
+   Net          un1_a_1_4_4__n                              un1_a_1_4[4]
+   Net          un1_a_1_1_3__n                              un1_a_1_1[3]
+   Net          un1_a_1_2_3__n                              un1_a_1_2[3]
+   Net          un1_a_1_3_3__n                              un1_a_1_3[3]
+   Net          un1_a_1_4_3__n                              un1_a_1_4[3]
+   Net      un1_a_1_n_58_0_1_n                          un1_a_1.N_58_0_1
+   Net        un1_a_1_0_1_7__n                            un1_a_1_0_1[7]
+   Net        un1_a_1_0_2_7__n                            un1_a_1_0_2[7]
+   Net        un1_a_1_n_52_1_n                            un1_a_1.N_52_1
+   Net        un1_a_1_n_51_1_n                            un1_a_1.N_51_1
+   Net        un1_a_1_n_51_2_n                            un1_a_1.N_51_2
+   Net      un1_a_1_n_35_0_1_n                          un1_a_1.N_35_0_1
+   Net        un1_a_1_n_33_1_n                            un1_a_1.N_33_1
+   Net      un1_a_1_n_22_i_1_n                          un1_a_1.N_22_i_1
+   Net      un1_a_1_n_15_0_1_n                          un1_a_1.N_15_0_1
+   Net       un1_a_1_n_8_0_1_n                           un1_a_1.N_8_0_1
+   Net            l_0_7__un3_n                                L_0_7_.un3
+   Net            l_0_7__un1_n                                L_0_7_.un1
+   Net            l_0_7__un0_n                                L_0_7_.un0
+   Net            l_0_6__un3_n                                L_0_6_.un3
+   Net            l_0_6__un1_n                                L_0_6_.un1
+   Net            l_0_6__un0_n                                L_0_6_.un0
+   Net            l_0_5__un3_n                                L_0_5_.un3
+   Net            l_0_5__un1_n                                L_0_5_.un1
+   Net            l_0_5__un0_n                                L_0_5_.un0
+   Net            l_0_4__un3_n                                L_0_4_.un3
+End
+Section Type      Name
+// ----------------------------------------------------------------------
+        Input     A_3_
+        Input     B_3_
+        Input     S_1_
+        Input     A_2_
+        Input     A_1_
+        Input     A_0_
+        Input     B_2_
+        Input     B_1_
+        Input     B_0_
+        Input     S_0_
+        Output     L_7_
+        Output     L_6_
+        Output     L_5_
+        Output     L_4_
+        Output     L_3_
+        Output     L_2_
+        Output     L_1_
+        Output     L_0_
+End

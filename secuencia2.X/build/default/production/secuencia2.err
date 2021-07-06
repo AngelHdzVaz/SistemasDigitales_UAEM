@@ -1,0 +1,6 @@
+Message[302] C:\USERS\USUARIO\DESKTOP\ESCUELA 2019\SISTEMAS\PROGRAMAS\SECUENCIA2.X\SECUENCIA2.ASM 22 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] C:\USERS\USUARIO\DESKTOP\ESCUELA 2019\SISTEMAS\PROGRAMAS\SECUENCIA2.X\SECUENCIA2.ASM 24 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] C:\USERS\USUARIO\DESKTOP\ESCUELA 2019\SISTEMAS\PROGRAMAS\SECUENCIA2.X\SECUENCIA2.ASM 25 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] C:\USERS\USUARIO\DESKTOP\ESCUELA 2019\SISTEMAS\PROGRAMAS\SECUENCIA2.X\SECUENCIA2.ASM 28 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] C:\USERS\USUARIO\DESKTOP\ESCUELA 2019\SISTEMAS\PROGRAMAS\SECUENCIA2.X\SECUENCIA2.ASM 29 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Warning[205] C:\USERS\USUARIO\DESKTOP\ESCUELA 2019\SISTEMAS\PROGRAMAS\SECUENCIA2.X\SECUENCIA2.ASM 230 : Found directive in column 1. (INCLUDE)

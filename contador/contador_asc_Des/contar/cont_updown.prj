@@ -1,0 +1,33 @@
+#-- Lattice Semiconductor Corporation Ltd.
+#-- Synplify OEM project file c:/isplever_classic2_0/proyectos/contar\cont_updown.prj
+#-- Written on Sat Dec 08 14:43:43 2018
+
+
+#device options
+set_option -technology ispGAL
+
+#compilation/mapping options
+
+#map options
+
+#simulation options
+set_option -write_verilog false
+set_option -write_vhdl false
+
+#timing analysis options
+set_option -synthesis_onoff_pragma false
+
+#-- add_file options
+add_file -vhdl -lib work "contar.vhd"
+
+#-- top module name
+set_option -top_module cont_updown
+
+#-- set result format/file last
+project -result_file "cont_updown.edi"
+
+#-- error message log file
+project -log_file cont_updown.srf
+
+#-- run Synplify with 'arrange VHDL file'
+project -run

@@ -1,0 +1,6 @@
+@W: MT462 :"c:\isplever_classic2_0\proyectos\contar\codificador.vhd":13:1:13:2|Net N_11_0 appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"c:\isplever_classic2_0\proyectos\contar\codificador.vhd":13:1:13:2|Net un2_s_3_0 appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"c:\isplever_classic2_0\proyectos\contar\codificador.vhd":13:1:13:2|Net N_14_0 appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"c:\isplever_classic2_0\proyectos\contar\codificador.vhd":13:1:13:2|Net N_20_0 appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"c:\isplever_classic2_0\proyectos\contar\codificador.vhd":17:19:17:31|Net N_16_0 appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"c:\isplever_classic2_0\proyectos\contar\codificador.vhd":17:19:17:31|Net un9_s appears to be an unidentified clock source. Assuming default frequency. 

@@ -1,0 +1,2 @@
+@W: CL159 :"C:\isplever_classic2_0\proyectos\contar\contar.vhd":8:1:8:5|Input direc is unused
+

@@ -1,0 +1,78 @@
+#$ TOOL ispLEVER Classic 2.0.00.17.20.15
+#$ DATE Mon May 13 10:35:10 2019
+#$ MODULE decodificador
+#$ PINS 12 n_3_ display_7_ n_2_ n_1_ n_0_ display_6_ display_5_ display_4_ display_3_ display_2_ display_1_ display_0_
+
+.model decodificador
+.inputs n_3_.BLIF n_2_.BLIF n_1_.BLIF n_0_.BLIF
+.outputs display_7_ display_6_ display_5_ display_4_ display_3_ display_2_ \
+display_1_ display_0_
+.names n_3_.BLIF n_2_.BLIF n_1_.BLIF n_0_.BLIF display_7_
+100- 1
+01-1 1
+-11- 1
+0-1- 1
+-0-0 1
+1--0 1
+0100 0
+1011 0
+0001 0
+1101 0
+.names n_3_.BLIF n_2_.BLIF n_1_.BLIF n_0_.BLIF display_6_
+00-- 1
+1-01 1
+0-00 1
+0-11 1
+-0-0 1
+0101 0
+1-11 0
+-110 0
+11-0 0
+.names n_3_.BLIF n_2_.BLIF n_1_.BLIF n_0_.BLIF display_5_
+-00- 1
+-0-1 1
+10-- 1
+01-- 1
+--01 1
+0010 0
+111- 0
+11-0 0
+.names n_3_.BLIF n_2_.BLIF n_1_.BLIF n_0_.BLIF display_4_
+-110 1
+00-0 1
+-011 1
+1-0- 1
+-101 1
+1010 0
+0100 0
+0001 0
+-111 0
+.names n_3_.BLIF n_2_.BLIF n_1_.BLIF n_0_.BLIF display_3_
+1-1- 1
+11-- 1
+-0-0 1
+--10 1
+010- 0
+-001 0
+0--1 0
+.names n_3_.BLIF n_2_.BLIF n_1_.BLIF n_0_.BLIF display_2_
+010- 1
+1-1- 1
+10-- 1
+--00 1
+-1-0 1
+1101 0
+001- 0
+0-11 0
+00-1 0
+.names n_3_.BLIF n_2_.BLIF n_1_.BLIF n_0_.BLIF display_1_
+01-0 1
+-101 1
+1-1- 1
+10-- 1
+-01- 1
+1100 0
+0111 0
+000- 0
+.names display_0_
+.end

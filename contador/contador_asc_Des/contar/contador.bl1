@@ -1,0 +1,139 @@
+#$ TOOL ispLEVER Classic 2.0.00.17.20.15
+#$ DATE Mon May 27 08:52:10 2019
+#$ MODULE contador
+#$ PINS 10 cnt_out_6_ clk direc dos cnt_out_5_ cnt_out_4_ cnt_out_3_ cnt_out_2_ cnt_out_1_ cnt_out_0_
+#$ NODES 4 cnt_tmp_0_ cnt_tmp_1_ cnt_tmp_2_ cnt_tmp_3_
+
+.model contador
+.inputs clk.BLIF direc.BLIF cnt_tmp_0_.BLIF cnt_tmp_1_.BLIF cnt_tmp_2_.BLIF \
+cnt_tmp_3_.BLIF
+.outputs cnt_out_6_ dos cnt_out_5_ cnt_out_4_ cnt_out_3_ cnt_out_2_ cnt_out_1_ \
+cnt_out_0_ cnt_tmp_0_.D cnt_tmp_0_.C cnt_tmp_1_.D cnt_tmp_1_.C cnt_tmp_2_.D \
+cnt_tmp_2_.C cnt_tmp_3_.D cnt_tmp_3_.C
+.names direc.BLIF cnt_tmp_0_.BLIF cnt_tmp_1_.BLIF cnt_tmp_1_.D
+100 1
+010 1
+001 1
+111 1
+000 0
+110 0
+101 0
+011 0
+.names direc.BLIF cnt_tmp_0_.BLIF cnt_tmp_1_.BLIF cnt_tmp_2_.BLIF cnt_tmp_2_.D
+-101 1
+1-11 1
+00-1 1
+1000 1
+0110 1
+-100 0
+1-10 0
+00-0 0
+1001 0
+0111 0
+.names direc.BLIF cnt_tmp_0_.BLIF cnt_tmp_1_.BLIF cnt_tmp_2_.BLIF \
+cnt_tmp_3_.BLIF cnt_tmp_3_.D
+--101 1
+-0-11 1
+0-0-1 1
+11--1 1
+10000 1
+01110 1
+--100 0
+-0-10 0
+0-0-0 0
+11--0 0
+10001 0
+01111 0
+.names cnt_tmp_0_.BLIF cnt_tmp_1_.BLIF cnt_tmp_2_.BLIF cnt_tmp_3_.BLIF \
+cnt_out_6_
+0-0- 1
+1-1- 1
+-1-0 1
+-0-1 1
+1000 0
+0010 0
+1101 0
+0111 0
+.names cnt_tmp_1_.BLIF cnt_tmp_2_.BLIF cnt_tmp_3_.BLIF dos
+-11 1
+1-1 1
+00- 0
+--0 0
+.names cnt_tmp_0_.BLIF cnt_tmp_1_.BLIF cnt_tmp_2_.BLIF cnt_tmp_3_.BLIF \
+cnt_out_5_
+00-- 1
+11-0 1
+-0-1 1
+--0- 1
+0--1 1
+1010 0
+0110 0
+1111 0
+.names cnt_tmp_0_.BLIF cnt_tmp_1_.BLIF cnt_tmp_2_.BLIF cnt_tmp_3_.BLIF \
+cnt_out_4_
+--10 1
+-1-1 1
+-00- 1
+1--- 1
+0100 0
+0011 0
+.names cnt_tmp_0_.BLIF cnt_tmp_1_.BLIF cnt_tmp_2_.BLIF cnt_tmp_3_.BLIF \
+cnt_out_3_
+101- 1
+1-11 1
+-100 1
+01-0 1
+0-0- 1
+-0-1 1
+1000 0
+0010 0
+1101 0
+0111 0
+1110 0
+.names cnt_tmp_0_.BLIF cnt_tmp_1_.BLIF cnt_tmp_2_.BLIF cnt_tmp_3_.BLIF \
+cnt_out_2_
+01-0 1
+00-1 1
+0-0- 1
+-010 0
+-111 0
+1--- 0
+.names cnt_tmp_0_.BLIF cnt_tmp_1_.BLIF cnt_tmp_2_.BLIF cnt_tmp_3_.BLIF \
+cnt_out_1_
+000- 1
+0-10 1
+0-01 1
+-010 1
+-001 1
+-111 1
+-011 0
+110- 0
+-100 0
+1-00 0
+11-0 0
+.names cnt_tmp_0_.BLIF cnt_tmp_1_.BLIF cnt_tmp_2_.BLIF cnt_tmp_3_.BLIF \
+cnt_out_0_
+0-1- 1
+-100 1
+-01- 1
+-0-1 1
+--11 1
+1110 0
+-000 0
+-101 0
+.names cnt_tmp_0_.BLIF cnt_tmp_0_.D
+0 1
+1 0
+.names clk.BLIF cnt_tmp_0_.C
+1 1
+0 0
+.names clk.BLIF cnt_tmp_1_.C
+1 1
+0 0
+.names clk.BLIF cnt_tmp_2_.C
+1 1
+0 0
+.names clk.BLIF cnt_tmp_3_.C
+1 1
+0 0
+.end

@@ -1,0 +1,45 @@
+Section Type   Array Num   Name                     Real Name          Base     Number     Increment
+// ------------------------------------------------------------------------------------------
+      Port          1      display(6:0)                  display                  6          7            -1
+End
+Section Member   Rename                   Array-Notation          Array Number     Index
+// -------------------------------------------------------------------------------------
+        Port      display_6_                  display[6]                       1            0            
+        Port      display_5_                  display[5]                       1            1            
+        Port      display_4_                  display[4]                       1            2            
+        Port      display_3_                  display[3]                       1            3            
+        Port      display_2_                  display[2]                       1            4            
+        Port      display_1_                  display[1]                       1            5            
+        Port      display_0_                  display[0]                       1            6            
+End
+Section Cross Reference File
+Design 'display' created Sat Dec 08 14:05:23 2018
+   Type              New Name                               Original Name
+// ----------------------------------------------------------------------
+   Inst             display_0_                                display[0]
+   Inst             display_1_                                display[1]
+   Inst             display_2_                                display[2]
+   Inst             display_3_                                display[3]
+   Inst             display_4_                                display[4]
+   Inst             display_5_                                display[5]
+   Inst             display_6_                                display[6]
+   Net                 vcc_n_n                                       VCC
+   Net                 gnd_n_n                                       GND
+   Net            display_0__n                                display[0]
+   Net            display_1__n                                display[1]
+   Net            display_2__n                                display[2]
+   Net            display_3__n                                display[3]
+   Net            display_4__n                                display[4]
+   Net            display_5__n                                display[5]
+End
+Section Type      Name
+// ----------------------------------------------------------------------
+        Input     numero
+        Output     display_6_
+        Output     display_5_
+        Output     display_4_
+        Output     display_3_
+        Output     display_2_
+        Output     display_1_
+        Output     display_0_
+End

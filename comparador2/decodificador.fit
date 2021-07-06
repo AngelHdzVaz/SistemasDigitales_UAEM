@@ -1,0 +1,5 @@
+$DEVICE         p22v10g    fit decodificador.tt3
+$PINS   12  display_0_:23   display_1_:14   display_2_:22   display_3_:15   display_4_:21   display_5_:16   display_6_:20   
+display_7_:17   n_0_:4   n_1_:3   n_2_:2   n_3_:1   
+--------------------------------------------------------------
+

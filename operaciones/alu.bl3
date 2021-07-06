@@ -1,0 +1,64 @@
+#$ TOOL ispLEVER Classic 2.0.00.17.20.15
+#$ DATE Mon May 20 12:52:54 2019
+#$ MODULE gal1
+#$ PINS 17 A_3_ B_3_ S_2_ L_3_ SEL2_1_ A_2_ A_1_ A_0_ B_2_ B_1_ B_0_ S_1_ S_0_ L_2_ L_1_ L_0_ SEL2_0_
+
+.model gal1
+.inputs A_3_.BLIF B_3_.BLIF S_2_.BLIF A_2_.BLIF A_1_.BLIF A_0_.BLIF B_2_.BLIF \
+B_1_.BLIF B_0_.BLIF S_1_.BLIF S_0_.BLIF
+.outputs L_3_ SEL2_1_ L_2_ L_1_ L_0_ SEL2_0_
+.names A_3_.BLIF B_3_.BLIF S_2_.BLIF S_1_.BLIF S_0_.BLIF L_3_
+0-011 1
+100-0 1
+010-0 1
+-0011 1
+1100- 1
+11-1- 0
+00--0 0
+-0-01 0
+0--01 0
+--1-- 0
+.names S_2_.BLIF S_1_.BLIF S_0_.BLIF SEL2_1_
+111 1
+-0- 0
+0-- 0
+--0 0
+.names S_2_.BLIF A_2_.BLIF B_2_.BLIF S_1_.BLIF S_0_.BLIF L_2_
+00-11 1
+010-0 1
+001-0 1
+0-011 1
+0110- 1
+-111- 0
+-00-0 0
+--001 0
+-0-01 0
+1---- 0
+.names S_2_.BLIF A_1_.BLIF B_1_.BLIF S_1_.BLIF S_0_.BLIF L_1_
+00-11 1
+010-0 1
+001-0 1
+0-011 1
+0110- 1
+-111- 0
+-00-0 0
+--001 0
+-0-01 0
+1---- 0
+.names S_2_.BLIF A_0_.BLIF B_0_.BLIF S_1_.BLIF S_0_.BLIF L_0_
+00-11 1
+010-0 1
+001-0 1
+0-011 1
+0110- 1
+-111- 0
+-00-0 0
+--001 0
+-0-01 0
+1---- 0
+.names S_2_.BLIF S_1_.BLIF S_0_.BLIF SEL2_0_
+110 1
+-0- 0
+0-- 0
+--1 0
+.end

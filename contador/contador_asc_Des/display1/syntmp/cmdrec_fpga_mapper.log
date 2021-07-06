@@ -1,0 +1,10 @@
+C:\ispLEVER_Classic2_0\synpbase\bin64\m_cpld.exe  -prodtype  synplify_pro  -encrypt  -pro  -rundir  C:\isplever_classic2_0\proyectos\display1  -part ispGAL22LV10  -package LJ  -grade -4   -areadelay 0 -minc -RWCheckOnRam 1 -summaryfile C:\isplever_classic2_0\proyectos\display1\synlog\report\displays_fpga_mapper.xml -top_level_module  displays  -multisrs  -oedif  C:\isplever_classic2_0\proyectos\display1\displays.edi  -freq 1.000  C:\isplever_classic2_0\proyectos\display1\synwork\displays_mult.srs  -devicelib  C:\ispLEVER_Classic2_0\synpbase\lib\cpld\lattice.v  -ologparam  C:\isplever_classic2_0\proyectos\display1\syntmp\displays.plg  -osyn  C:\isplever_classic2_0\proyectos\display1\displays.srm  -prjdir  c:\isplever_classic2_0\proyectos\display1\  -prjname  displays  -log  C:\isplever_classic2_0\proyectos\display1\synlog\displays_fpga_mapper.srr 
+rc:0 success:1
+C:\isplever_classic2_0\proyectos\display1\displays.edi|o|1544299273|24421
+C:\isplever_classic2_0\proyectos\display1\synwork\displays_mult.srs|i|1544299272|2307
+C:\ispLEVER_Classic2_0\synpbase\lib\cpld\lattice.v|i|1401285984|210986
+C:\isplever_classic2_0\proyectos\display1\syntmp\displays.plg|o|1544299273|0
+C:\isplever_classic2_0\proyectos\display1\displays.srm|o|1544299273|8790
+C:\isplever_classic2_0\proyectos\display1\synlog\displays_fpga_mapper.srr|o|1544299273|1114
+C:\ispLEVER_Classic2_0\synpbase\bin\m_cpld.exe|i|1399390884|7067648
+C:\ispLEVER_Classic2_0\synpbase\bin64\m_cpld.exe|i|1399393722|8049664

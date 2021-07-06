@@ -1,0 +1,131 @@
+Section Type   Array Num   Name                     Real Name          Base     Number     Increment
+// -------------------------------------------------------------------------------------------------
+      Port          1      num(3:0)                      num                  3          4            -1
+      Port          2      salida(6:0)                   salida                  6          7            -1
+End
+Section Member   Rename                   Array-Notation          Array Number     Index
+// -------------------------------------------------------------------------------------
+        Port      num_3_                      num[3]                       1            0            
+        Port      num_2_                      num[2]                       1            1            
+        Port      num_1_                      num[1]                       1            2            
+        Port      num_0_                      num[0]                       1            3            
+        Port      salida_6_                   salida[6]                       2            0            
+        Port      salida_5_                   salida[5]                       2            1            
+        Port      salida_4_                   salida[4]                       2            2            
+        Port      salida_3_                   salida[3]                       2            3            
+        Port      salida_2_                   salida[2]                       2            4            
+        Port      salida_1_                   salida[1]                       2            5            
+        Port      salida_0_                   salida[0]                       2            6            
+End
+Section Cross Reference File
+Design 'displays' created Sat Dec 08 14:01:16 2018
+   Type              New Name                               Original Name
+// ----------------------------------------------------------------------
+   Inst                 num_0_                                    num[0]
+   Inst                 num_1_                                    num[1]
+   Inst                 num_2_                                    num[2]
+   Inst                 num_3_                                    num[3]
+   Inst              salida_0_                                 salida[0]
+   Inst              salida_1_                                 salida[1]
+   Inst              salida_2_                                 salida[2]
+   Inst              salida_3_                                 salida[3]
+   Inst              salida_4_                                 salida[4]
+   Inst              salida_5_                                 salida[5]
+   Inst              salida_6_                                 salida[6]
+   Inst   salida_1_3__salida_1_0_a4_5_              salida_1_3_.salida_1_0_a4[5]
+   Inst   salida_1_3__un9_salida_i                  salida_1_3_.un9_salida_i
+   Inst   salida_1_3__salida_1_0_i_5_               salida_1_3_.salida_1_0_i[5]
+   Inst   salida_1_3__salida_1_i_1_6_               salida_1_3_.salida_1_i_1[6]
+   Inst   salida_1_3__salida_1_i_6_                 salida_1_3_.salida_1_i[6]
+   Inst   salida_1_3__salida_1_0_a3_0_1_0_          salida_1_3_.salida_1_0_a3_0_1[0]
+   Inst   salida_1_3__salida_1_0_a3_0_2_0_          salida_1_3_.salida_1_0_a3_0_2[0]
+   Inst   salida_1_3__salida_1_0_a3_0_0_            salida_1_3_.salida_1_0_a3_0[0]
+   Inst   salida_1_3__un3_salida_1                  salida_1_3_.un3_salida_1
+   Inst   salida_1_3__un3_salida                    salida_1_3_.un3_salida
+   Inst   salida_1_3__un9_salida_1                  salida_1_3_.un9_salida_1
+   Inst   salida_1_3__un9_salida_2                  salida_1_3_.un9_salida_2
+   Inst   salida_1_3__un9_salida                    salida_1_3_.un9_salida
+   Inst   salida_1_3__un33_salida_1                 salida_1_3_.un33_salida_1
+   Inst   salida_1_3__un33_salida                   salida_1_3_.un33_salida
+   Inst   salida_1_3__salida_1_0_a4_1_5_            salida_1_3_.salida_1_0_a4_1[5]
+   Inst   salida_1_3__un33_salida_3_i               salida_1_3_.un33_salida_3_i
+   Inst   salida_1_3__un33_salida_i                 salida_1_3_.un33_salida_i
+   Inst     salida_1_3__N_24_i                        salida_1_3_.N_24_i
+   Inst   salida_1_3__N_22_1_i                      salida_1_3_.N_22_1_i
+   Inst     salida_1_3__N_11_i                        salida_1_3_.N_11_i
+   Inst     salida_1_3__N_10_i                        salida_1_3_.N_10_i
+   Inst   salida_1_3__salida_1_0_o2_i_0_            salida_1_3_.salida_1_0_o2_i[0]
+   Inst   salida_1_3__un3_salida_i                  salida_1_3_.un3_salida_i
+   Inst   salida_1_3__salida_1_0_i_0_               salida_1_3_.salida_1_0_i[0]
+   Inst   salida_1_3__salida_1_0_o4_i_5_            salida_1_3_.salida_1_0_o4_i[5]
+   Inst      salida_1_3__N_8_i                         salida_1_3_.N_8_i
+   Inst   salida_1_3__salida_1_0_a2_1_0_0_          salida_1_3_.salida_1_0_a2_1_0[0]
+   Inst   salida_1_3__un11_salida_2                 salida_1_3_.un11_salida_2
+   Inst   salida_1_3__num_i_3_                      salida_1_3_.num_i[3]
+   Inst   salida_1_3__un3_salida_2                  salida_1_3_.un3_salida_2
+   Inst   salida_1_3__num_i_0_                      salida_1_3_.num_i[0]
+   Inst   salida_1_3__num_i_2_                      salida_1_3_.num_i[2]
+   Inst         salida_1_3__m1                            salida_1_3_.m1
+   Inst   salida_1_3__salida_1_i_a4_6_              salida_1_3_.salida_1_i_a4[6]
+   Inst    salida_1_3__N_6_i_i                       salida_1_3_.N_6_i_i
+   Inst   salida_1_3__salida_1_i_a4_0_6_            salida_1_3_.salida_1_i_a4_0[6]
+   Inst   salida_1_3__salida_1_0_5_                 salida_1_3_.salida_1_0[5]
+   Inst   salida_1_3__salida_1_0_o4_5_              salida_1_3_.salida_1_0_o4[5]
+   Inst   salida_1_3__i1_mux_i                      salida_1_3_.i1_mux_i
+   Inst         salida_1_3__m4                            salida_1_3_.m4
+   Inst       salida_1_3__m3_r                          salida_1_3_.m3.r
+   Inst       salida_1_3__m3_m                          salida_1_3_.m3.m
+   Inst       salida_1_3__m3_n                          salida_1_3_.m3.n
+   Inst       salida_1_3__m3_p                          salida_1_3_.m3.p
+   Inst   salida_1_3__salida_1_0_a3_0_              salida_1_3_.salida_1_0_a3[0]
+   Inst   salida_1_3__salida_1_0_0_                 salida_1_3_.salida_1_0[0]
+   Inst   salida_1_3__salida_1_0_o2_0_              salida_1_3_.salida_1_0_o2[0]
+   Inst   salida_1_3__un3_salida_2_i                salida_1_3_.un3_salida_2_i
+   Inst   salida_1_3__un11_salida_2_i               salida_1_3_.un11_salida_2_i
+   Inst   salida_1_3__num_i_1_                      salida_1_3_.num_i[1]
+   Net                 gnd_n_n                                       GND
+   Net           salida_1_5__n                               salida_1[5]
+   Net           salida_1_3__n                               salida_1[3]
+   Net           salida_1_0__n                               salida_1[0]
+   Net           salida_1_1__n                               salida_1[1]
+   Net    salida_1_3__i1_mux_n                        salida_1_3_.i1_mux
+   Net              num_i_2__n                                  num_i[2]
+   Net              num_i_0__n                                  num_i[0]
+   Net              num_i_3__n                                  num_i[3]
+   Net              num_i_1__n                                  num_i[1]
+   Net    salida_1_3__i1_mux_i_n                      salida_1_3_.i1_mux_i
+   Net              num_c_0__n                                  num_c[0]
+   Net                num_0__n                                    num[0]
+   Net              num_c_1__n                                  num_c[1]
+   Net                num_1__n                                    num[1]
+   Net              num_c_2__n                                  num_c[2]
+   Net                num_2__n                                    num[2]
+   Net              num_c_3__n                                  num_c[3]
+   Net             salida_0__n                                 salida[0]
+   Net             salida_1__n                                 salida[1]
+   Net             salida_2__n                                 salida[2]
+   Net             salida_3__n                                 salida[3]
+   Net             salida_4__n                                 salida[4]
+   Net             salida_5__n                                 salida[5]
+   Net         salida_1_0_1__n                             salida_1_0[1]
+   Net         salida_1_0_0__n                             salida_1_0[0]
+   Net         salida_1_0_5__n                             salida_1_0[5]
+   Net    salida_1_3__m3_un3_n                        salida_1_3_.m3.un3
+   Net    salida_1_3__m3_un1_n                        salida_1_3_.m3.un1
+   Net    salida_1_3__m3_un0_n                        salida_1_3_.m3.un0
+End
+Section Type      Name
+// ----------------------------------------------------------------------
+        Input     num_3_
+        Input     num_2_
+        Input     num_1_
+        Input     num_0_
+        Output     salida_6_
+        Output     dis2
+        Output     salida_5_
+        Output     salida_4_
+        Output     salida_3_
+        Output     salida_2_
+        Output     salida_1_
+        Output     salida_0_
+End

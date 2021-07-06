@@ -1,0 +1,171 @@
+#$ TOOL ispLEVER Classic 2.0.00.17.20.15
+#$ DATE Sat Dec 08 14:43:57 2018
+#$ MODULE cont_updown
+#$ PINS 8 Q_3_ ck clear Cup Cdown Q_2_ Q_1_ Q_0_
+#$ NODES 9 t_0_reg t_1_reg t_2_reg t_3_reg un1_t_1_sqmuxa_1_2__n N_10 t_0_sqmuxa_i un1_t_1_sqmuxa_1_0_3__n un1_t_1_2__n
+
+.model cont_updown
+.inputs ck.BLIF clear.BLIF Cup.BLIF Cdown.BLIF t_0_reg.BLIF t_1_reg.BLIF t_2_reg.BLIF \
+t_3_reg.BLIF un1_t_1_sqmuxa_1_2__n.BLIF N_10.BLIF t_0_sqmuxa_i.BLIF \
+un1_t_1_sqmuxa_1_0_3__n.BLIF un1_t_1_2__n.BLIF
+.outputs Q_3_ Q_2_ Q_1_ Q_0_ t_0_reg.D t_0_reg.C t_0_reg.AR t_1_reg.D \
+t_1_reg.C t_1_reg.AR t_2_reg.D t_2_reg.C t_2_reg.AR t_3_reg.D t_3_reg.C \
+t_3_reg.AR un1_t_1_sqmuxa_1_2__n N_10 t_0_sqmuxa_i un1_t_1_sqmuxa_1_0_3__n \
+un1_t_1_2__n
+.names t_0_reg.BLIF t_0_sqmuxa_i.BLIF un1_t_1_sqmuxa_1_0_3__n.BLIF t_0_reg.D
+010 1
+111 1
+1-0 0
+0-1 0
+-0- 0
+.names Cup.BLIF Cdown.BLIF t_0_reg.BLIF t_1_reg.BLIF t_2_reg.BLIF t_3_reg.BLIF \
+un1_t_1_sqmuxa_1_2__n.BLIF t_0_sqmuxa_i.BLIF un1_t_1_sqmuxa_1_0_3__n.BLIF \
+t_1_reg.D
+010000-1- 1
+--11--110 1
+--10--010 1
+--01--01- 1
+--00--11- 1
+---1--011 1
+---0--111 1
+--01--1-- 0
+--00-10-- 0
+--001-0-- 0
+-000--0-- 0
+1-00--0-- 0
+--11--0-0 0
+--10--1-0 0
+---1--1-1 0
+--10--0-1 0
+-------0- 0
+.names Cup.BLIF Cdown.BLIF t_0_reg.BLIF t_1_reg.BLIF t_2_reg.BLIF t_3_reg.BLIF \
+un1_t_1_sqmuxa_1_2__n.BLIF t_0_sqmuxa_i.BLIF un1_t_1_2__n.BLIF t_2_reg.D
+010000-1- 1
+------110 1
+------011 1
+-----10-0 0
+----1-0-0 0
+---1--0-0 0
+--1---0-0 0
+-0----0-0 0
+1-----0-0 0
+-----11-1 0
+----1-1-1 0
+---1--1-1 0
+--1---1-1 0
+-0----1-1 0
+1-----1-1 0
+-------0- 0
+.names Cup.BLIF Cdown.BLIF t_0_reg.BLIF t_1_reg.BLIF t_2_reg.BLIF t_3_reg.BLIF \
+un1_t_1_sqmuxa_1_2__n.BLIF N_10.BLIF t_0_sqmuxa_i.BLIF t_3_reg.D
+010000--1 1
+---1-11-1 1
+----111-1 1
+---000101 1
+-----0011 1
+-----1001 1
+-----1111 1
+---00110- 0
+--1--000- 0
+-0---000- 0
+1----000- 0
+--1--011- 0
+-0---011- 0
+1----011- 0
+-----101- 0
+----10-0- 0
+---1-0-0- 0
+----101-- 0
+---1-01-- 0
+--------0 0
+.names Cup.BLIF Cdown.BLIF t_0_reg.BLIF t_1_reg.BLIF t_2_reg.BLIF t_3_reg.BLIF \
+un1_t_1_sqmuxa_1_2__n
+01--1- 1
+01-1-- 1
+011--- 1
+01---1 1
+--0000 0
+-0---- 0
+1----- 0
+.names t_0_reg.BLIF t_1_reg.BLIF t_2_reg.BLIF un1_t_1_sqmuxa_1_2__n.BLIF \
+un1_t_1_sqmuxa_1_0_3__n.BLIF N_10
+111-0 1
+1--10 1
+--00- 0
+-0-0- 0
+0---- 0
+----1 0
+.names Cup.BLIF Cdown.BLIF t_0_reg.BLIF t_1_reg.BLIF t_2_reg.BLIF t_3_reg.BLIF \
+t_0_sqmuxa_i
+----0- 1
+---0-- 1
+--0--- 1
+-1---- 1
+0----- 1
+-----0 1
+101111 0
+.names Cup.BLIF Cdown.BLIF t_0_reg.BLIF t_1_reg.BLIF t_2_reg.BLIF t_3_reg.BLIF \
+un1_t_1_sqmuxa_1_0_3__n
+-01111 1
+00---- 1
+11---- 1
+01---- 0
+10--0- 0
+10-0-- 0
+100--- 0
+10---0 0
+.names t_0_reg.BLIF t_1_reg.BLIF t_2_reg.BLIF un1_t_1_sqmuxa_1_2__n.BLIF \
+un1_t_1_sqmuxa_1_0_3__n.BLIF un1_t_1_2__n
+-101- 1
+1-010 1
+110-0 1
+0-10- 1
+001-- 1
+-010- 1
+--101 1
+-01-1 1
+-111- 0
+1-110 0
+111-0 0
+0-00- 0
+000-- 0
+-000- 0
+--001 0
+-00-1 0
+.names t_3_reg.BLIF Q_3_
+1 1
+0 0
+.names t_2_reg.BLIF Q_2_
+1 1
+0 0
+.names t_1_reg.BLIF Q_1_
+1 1
+0 0
+.names t_0_reg.BLIF Q_0_
+1 1
+0 0
+.names ck.BLIF t_0_reg.C
+1 1
+0 0
+.names clear.BLIF t_0_reg.AR
+1 1
+0 0
+.names ck.BLIF t_1_reg.C
+1 1
+0 0
+.names clear.BLIF t_1_reg.AR
+1 1
+0 0
+.names ck.BLIF t_2_reg.C
+1 1
+0 0
+.names clear.BLIF t_2_reg.AR
+1 1
+0 0
+.names ck.BLIF t_3_reg.C
+1 1
+0 0
+.names clear.BLIF t_3_reg.AR
+1 1
+0 0
+.end

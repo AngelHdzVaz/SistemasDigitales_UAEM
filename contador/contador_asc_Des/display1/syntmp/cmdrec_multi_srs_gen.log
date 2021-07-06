@@ -1,0 +1,7 @@
+C:\ispLEVER_Classic2_0\synpbase\bin64\syn_nfilter.exe  -link  -top  displays  -multisrs  C:\isplever_classic2_0\proyectos\display1\synwork\displays_comp.srs  -osyn  C:\isplever_classic2_0\proyectos\display1\synwork\displays_mult.srs  -log  C:\isplever_classic2_0\proyectos\display1\synlog\displays_multi_srs_gen.srr 
+rc:0 success:1
+C:\isplever_classic2_0\proyectos\display1\synwork\displays_comp.srs|i|1544299271|1996
+C:\isplever_classic2_0\proyectos\display1\synwork\displays_mult.srs|o|1544299272|2307
+C:\isplever_classic2_0\proyectos\display1\synlog\displays_multi_srs_gen.srr|o|1544299272|472
+C:\ispLEVER_Classic2_0\synpbase\bin\syn_nfilter.exe|i|1401249136|2741760
+C:\ispLEVER_Classic2_0\synpbase\bin64\syn_nfilter.exe|i|1401249332|6337536

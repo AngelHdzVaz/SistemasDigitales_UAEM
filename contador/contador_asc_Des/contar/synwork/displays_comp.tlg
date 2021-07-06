@@ -1,0 +1,3 @@
+@N: CD630 :"C:\isplever_classic2_0\proyectos\contar\codificador.vhd":6:7:6:14|Synthesizing work.displays.display1 
+Post processing for work.displays.display1
+@W: CL111 :"C:\isplever_classic2_0\proyectos\contar\codificador.vhd":13:1:13:2|All reachable assignments to s(2) assign '0'; register removed by optimization

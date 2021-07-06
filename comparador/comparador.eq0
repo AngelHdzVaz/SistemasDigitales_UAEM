@@ -1,0 +1,282 @@
+EDIF2BLIF version IspLever 1.0  Linked Equations File
+Copyright(C), 1992-2015, Lattice Semiconductor Corp.
+All Rights Reserved.
+
+Design comparador created Thu May 09 17:47:37 2019
+
+
+ P-Terms   Fan-in  Fan-out  Type  Name (attributes)
+---------  ------  -------  ----  -----------------
+   1/1        1        1    Pin   display_7_ 
+   1/1        1        1    Pin   display_6_ 
+   1/1        1        1    Pin   display_5_ 
+   1/1        1        1    Pin   display_4_ 
+   1/1        1        1    Pin   display_3_ 
+   1/1        1        1    Pin   display_2_ 
+   1/1        1        1    Pin   display_1_ 
+   1/1        1        1    Pin   display_0_ 
+   0          0        1    Node  gnd_n_n 
+   1          1        1    Node  un1_display 
+   1          1        1    Node  display_1 
+   1          2        1    Node  un1_n1 
+   2          2        1    Node  N_1 
+   2          2        1    Node  N_2 
+   2          2        1    Node  N_3 
+   2          2        1    Node  N_4 
+   1          2        1    Node  N_26 
+   1          1        1    Node  N_11 
+   1          2        1    Node  N_13 
+   1          2        1    Node  N_30 
+   1          1        1    Node  N_29 
+   1          2        1    Node  N_28 
+   1          1        1    Node  N_27 
+   1          2        1    Node  N_6 
+   1          2        1    Node  N_17 
+   1          1        1    Node  N_7 
+   1          1        1    Node  N_16 
+   1          2        1    Node  N_8 
+   1          2        1    Node  N_15 
+   1          1        1    Node  N_9 
+   1          1        1    Node  N_14 
+   1          2        1    Node  N_10 
+   1          1        1    Node  un1_n1_i 
+   1          1        1    Node  n2_i_3__n 
+   1          1        1    Node  n2_i_2__n 
+   1          1        1    Node  n2_i_1__n 
+   1          1        1    Node  N_8_i 
+   1          1        1    Node  N_6_i 
+   1          1        1    Node  n2_i_0__n 
+   1          1        1    Node  n1_i_0__n 
+   1          1        1    Node  N_10_i 
+   1          1        1    Node  N_1_i 
+   1          1        1    Node  N_2_i 
+   1          1        1    Node  N_3_i 
+   1          1        1    Node  N_4_i 
+   1/1        1        1    Node  n1_c_0__n 
+   1/1        1        1    Node  n1_c_1__n 
+   1/1        1        1    Node  n1_c_2__n 
+   1/1        1        1    Node  n1_c_3__n 
+   1/1        1        1    Node  n2_c_0__n 
+   1/1        1        1    Node  n2_c_1__n 
+   1/1        1        1    Node  n2_c_2__n 
+   1/1        1        1    Node  n2_c_3__n 
+   1          1        1    Node  n1_c_i_3__n 
+   1          2        1    Node  N_7_i 
+   1          1        1    Node  n1_c_i_2__n 
+   1          2        1    Node  N_9_i 
+   1          1        1    Node  n1_c_i_1__n 
+   1          2        1    Node  N_11_i 
+   1          1        1    Node  N_13_i 
+   1          2        1    Node  N_14_0 
+   1          1        1    Node  N_15_i 
+   1          2        1    Node  N_16_0 
+   1          1        1    Node  N_17_i 
+   1          2        1    Node  display_1_i 
+   1          1        1    Node  N_26_i 
+   1          2        1    Node  N_27_0 
+   1          1        1    Node  N_28_i 
+   1          2        1    Node  N_29_0 
+   1          1        1    Node  N_30_i 
+   1          2        1    Node  un1_display_0 
+   1          2        1    Node  N_26_1 
+   1          2        1    Node  N_13_1 
+   1          2        1    Node  un1_n1_1 
+   1          2        1    Node  un1_n1_2 
+=========
+  78/16         Best P-Term Total: 78
+                       Total Pins: 16
+                      Total Nodes: 67
+            Average P-Term/Output: 1
+
+
+Equations:
+
+display_7_ = (un1_display);
+
+display_6_ = (un1_n1_i);
+
+display_5_ = (display_1);
+
+display_4_ = (display_1_i);
+
+display_3_ = (un1_display);
+
+display_2_ = (gnd_n_n);
+
+display_1_ = (display_1_i);
+
+display_0_ = (gnd_n_n);
+
+gnd_n_n = (0);
+
+un1_display = (!un1_display_0);
+
+display_1 = (!display_1_i);
+
+un1_n1 = (un1_n1_1 & un1_n1_2);
+
+N_1 = (!n1_c_0__n & n2_c_0__n
+     # n1_c_0__n & !n2_c_0__n);
+
+N_2 = (!n1_c_1__n & n2_c_1__n
+     # n1_c_1__n & !n2_c_1__n);
+
+N_3 = (!n1_c_2__n & n2_c_2__n
+     # n1_c_2__n & !n2_c_2__n);
+
+N_4 = (!n1_c_3__n & n2_c_3__n
+     # n1_c_3__n & !n2_c_3__n);
+
+N_26 = (N_26_1 & n2_c_0__n);
+
+N_11 = (!N_11_i);
+
+N_13 = (N_13_1 & n2_i_0__n);
+
+N_30 = (N_6_i & N_29);
+
+N_29 = (!N_29_0);
+
+N_28 = (N_8_i & N_27);
+
+N_27 = (!N_27_0);
+
+N_6 = (n1_c_3__n & n2_i_3__n);
+
+N_17 = (N_7 & N_16);
+
+N_7 = (!N_7_i);
+
+N_16 = (!N_16_0);
+
+N_8 = (n1_c_2__n & n2_i_2__n);
+
+N_15 = (N_9 & N_14);
+
+N_9 = (!N_9_i);
+
+N_14 = (!N_14_0);
+
+N_10 = (n1_c_1__n & n2_i_1__n);
+
+un1_n1_i = (!un1_n1);
+
+n2_i_3__n = (!n2_c_3__n);
+
+n2_i_2__n = (!n2_c_2__n);
+
+n2_i_1__n = (!n2_c_1__n);
+
+N_8_i = (!N_8);
+
+N_6_i = (!N_6);
+
+n2_i_0__n = (!n2_c_0__n);
+
+n1_i_0__n = (!n1_c_0__n);
+
+N_10_i = (!N_10);
+
+N_1_i = (!N_1);
+
+N_2_i = (!N_2);
+
+N_3_i = (!N_3);
+
+N_4_i = (!N_4);
+
+n1_c_0__n = (n1_0_);
+
+n1_c_1__n = (n1_1_);
+
+n1_c_2__n = (n1_2_);
+
+n1_c_3__n = (n1_3_);
+
+n2_c_0__n = (n2_0_);
+
+n2_c_1__n = (n2_1_);
+
+n2_c_2__n = (n2_2_);
+
+n2_c_3__n = (n2_3_);
+
+n1_c_i_3__n = (!n1_c_3__n);
+
+N_7_i = (n1_c_i_3__n & n2_c_3__n);
+
+n1_c_i_2__n = (!n1_c_2__n);
+
+N_9_i = (n1_c_i_2__n & n2_c_2__n);
+
+n1_c_i_1__n = (!n1_c_1__n);
+
+N_11_i = (n1_c_i_1__n & n2_c_1__n);
+
+N_13_i = (!N_13);
+
+N_14_0 = (N_10_i & N_13_i);
+
+N_15_i = (!N_15);
+
+N_16_0 = (N_8_i & N_15_i);
+
+N_17_i = (!N_17);
+
+display_1_i = (N_6_i & N_17_i);
+
+N_26_i = (!N_26);
+
+N_27_0 = (N_11 & N_26_i);
+
+N_28_i = (!N_28);
+
+N_29_0 = (N_9 & N_28_i);
+
+N_30_i = (!N_30);
+
+un1_display_0 = (N_7 & N_30_i);
+
+N_26_1 = (N_10_i & n1_i_0__n);
+
+N_13_1 = (N_11 & n1_c_0__n);
+
+un1_n1_1 = (N_1_i & N_2_i);
+
+un1_n1_2 = (N_3_i & N_4_i);
+
+
+Reverse-Polarity Equations:
+
+!display_7_ = (!un1_display);
+
+!display_6_ = (!un1_n1_i);
+
+!display_5_ = (!display_1);
+
+!display_4_ = (!display_1_i);
+
+!display_3_ = (!un1_display);
+
+!display_2_ = (!gnd_n_n);
+
+!display_1_ = (!display_1_i);
+
+!display_0_ = (!gnd_n_n);
+
+!n1_c_0__n = (!n1_0_);
+
+!n1_c_1__n = (!n1_1_);
+
+!n1_c_2__n = (!n1_2_);
+
+!n1_c_3__n = (!n1_3_);
+
+!n2_c_0__n = (!n2_0_);
+
+!n2_c_1__n = (!n2_1_);
+
+!n2_c_2__n = (!n2_2_);
+
+!n2_c_3__n = (!n2_3_);
+

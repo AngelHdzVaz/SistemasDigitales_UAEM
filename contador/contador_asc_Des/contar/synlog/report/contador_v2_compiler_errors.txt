@@ -1,0 +1,2 @@
+@E: CL123 :"C:\isplever_classic2_0\proyectos\contar\contar.vhd":21:8:21:9|Logic for cnt_tmp_4(3 downto 0) does not match a standard flip-flop
+

@@ -1,0 +1,10 @@
+C:\ispLEVER_Classic2_0\synpbase\bin64\m_cpld.exe  -prodtype  synplify_pro  -encrypt  -pro  -rundir  "C:\users\usuario\desktop\escuela 2019\sistemas\programas\contador\contador_asc_des\contar"  -part ispGAL22LV10  -package LJ  -grade -4   -areadelay 0 -minc -RWCheckOnRam 1 -summaryfile "C:\users\usuario\desktop\escuela 2019\sistemas\programas\contador\contador_asc_des\contar\synlog\report\contador_fpga_mapper.xml" -top_level_module  contador  -multisrs  -oedif  "C:\users\usuario\desktop\escuela 2019\sistemas\programas\contador\contador_asc_des\contar\contador.edi"  -freq 1.000  "C:\users\usuario\desktop\escuela 2019\sistemas\programas\contador\contador_asc_des\contar\synwork\contador_mult.srs"  -devicelib  C:\ispLEVER_Classic2_0\synpbase\lib\cpld\lattice.v  -ologparam  "C:\users\usuario\desktop\escuela 2019\sistemas\programas\contador\contador_asc_des\contar\syntmp\contador.plg"  -osyn  "C:\users\usuario\desktop\escuela 2019\sistemas\programas\contador\contador_asc_des\contar\contador.srm"  -prjdir  "c:\users\usuario\desktop\escuela 2019\sistemas\programas\contador\contador_asc_des\contar\"  -prjname  contador  -log  "C:\users\usuario\desktop\escuela 2019\sistemas\programas\contador\contador_asc_des\contar\synlog\contador_fpga_mapper.srr" 
+rc:0 success:1
+C:\users\usuario\desktop\escuela 2019\sistemas\programas\contador\contador_asc_des\contar\contador.edi|o|1558965125|35253
+C:\users\usuario\desktop\escuela 2019\sistemas\programas\contador\contador_asc_des\contar\synwork\contador_mult.srs|i|1558965124|1864
+C:\ispLEVER_Classic2_0\synpbase\lib\cpld\lattice.v|i|1401285984|210986
+"C:\users\usuario\desktop\escuela 2019\sistemas\programas\contador\contador_asc_des\contar\syntmp\contador.plg"|o|0|0
+C:\users\usuario\desktop\escuela 2019\sistemas\programas\contador\contador_asc_des\contar\contador.srm|o|1558965125|14909
+C:\users\usuario\desktop\escuela 2019\sistemas\programas\contador\contador_asc_des\contar\synlog\contador_fpga_mapper.srr|o|1558965125|1315
+C:\ispLEVER_Classic2_0\synpbase\bin\m_cpld.exe|i|1399390884|7067648
+C:\ispLEVER_Classic2_0\synpbase\bin64\m_cpld.exe|i|1399393722|8049664

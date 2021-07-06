@@ -1,0 +1,182 @@
+Section Type   Array Num   Name                     Real Name          Base     Number     Increment
+// ------------------------------------------------------------------------------------------
+      Port          1      cnt_out(6:0)                  cnt_out                  6          7            -1
+End
+Section Member   Rename                   Array-Notation          Array Number     Index
+// -------------------------------------------------------------------------------------
+        Port      cnt_out_6_                  cnt_out[6]                       1            0            
+        Port      cnt_out_5_                  cnt_out[5]                       1            1            
+        Port      cnt_out_4_                  cnt_out[4]                       1            2            
+        Port      cnt_out_3_                  cnt_out[3]                       1            3            
+        Port      cnt_out_2_                  cnt_out[2]                       1            4            
+        Port      cnt_out_1_                  cnt_out[1]                       1            5            
+        Port      cnt_out_0_                  cnt_out[0]                       1            6            
+End
+Section Cross Reference File
+Design 'contador' created Mon May 27 08:52:10 2019
+   Type              New Name                               Original Name
+// ----------------------------------------------------------------------
+   Inst             cnt_tmp_0_                                cnt_tmp[0]
+   Inst             cnt_tmp_1_                                cnt_tmp[1]
+   Inst             cnt_tmp_2_                                cnt_tmp[2]
+   Inst             cnt_tmp_3_                                cnt_tmp[3]
+   Inst             cnt_out_0_                                cnt_out[0]
+   Inst             cnt_out_1_                                cnt_out[1]
+   Inst             cnt_out_2_                                cnt_out[2]
+   Inst             cnt_out_3_                                cnt_out[3]
+   Inst             cnt_out_4_                                cnt_out[4]
+   Inst             cnt_out_5_                                cnt_out[5]
+   Inst             cnt_out_6_                                cnt_out[6]
+   Inst   cnt_out_1_6_0__G_25_1                     cnt_out_1_6_0_.G_25_1
+   Inst    cnt_out_1_6_0__G_25                       cnt_out_1_6_0_.G_25
+   Inst   cnt_out_1_6_0__G_29_1                     cnt_out_1_6_0_.G_29_1
+   Inst    cnt_out_1_6_0__G_29                       cnt_out_1_6_0_.G_29
+   Inst   cnt_out_1_6_0__G_11_i                     cnt_out_1_6_0_.G_11_i
+   Inst   cnt_out_1_6_0__G_17_i                     cnt_out_1_6_0_.G_17_i
+   Inst   cnt_out_1_6_0__G_19_i                     cnt_out_1_6_0_.G_19_i
+   Inst   cnt_out_1_6_0__N_33_i                     cnt_out_1_6_0_.N_33_i
+   Inst   cnt_out_1_6_0__N_36_i                     cnt_out_1_6_0_.N_36_i
+   Inst   cnt_out_1_6_0__G_27_i                     cnt_out_1_6_0_.G_27_i
+   Inst   cnt_out_1_6_0__N_30_i                     cnt_out_1_6_0_.N_30_i
+   Inst    cnt_out_1_6_0__G_19                       cnt_out_1_6_0_.G_19
+   Inst    cnt_out_1_6_0__G_18                       cnt_out_1_6_0_.G_18
+   Inst    cnt_out_1_6_0__G_17                       cnt_out_1_6_0_.G_17
+   Inst    cnt_out_1_6_0__G_16                       cnt_out_1_6_0_.G_16
+   Inst    cnt_out_1_6_0__G_12                       cnt_out_1_6_0_.G_12
+   Inst    cnt_out_1_6_0__G_11                       cnt_out_1_6_0_.G_11
+   Inst   cnt_out_1_6_0__N_6_i                      cnt_out_1_6_0_.N_6_i
+   Inst   cnt_out_1_6_0__N_10_i                     cnt_out_1_6_0_.N_10_i
+   Inst   cnt_out_1_6_0__N_13_i                     cnt_out_1_6_0_.N_13_i
+   Inst   cnt_out_1_6_0__N_14_i                     cnt_out_1_6_0_.N_14_i
+   Inst   cnt_out_1_6_0__N_17_i                     cnt_out_1_6_0_.N_17_i
+   Inst    cnt_out_1_6_0__m9_r                       cnt_out_1_6_0_.m9.r
+   Inst    cnt_out_1_6_0__m9_m                       cnt_out_1_6_0_.m9.m
+   Inst    cnt_out_1_6_0__m9_n                       cnt_out_1_6_0_.m9.n
+   Inst    cnt_out_1_6_0__m9_p                       cnt_out_1_6_0_.m9.p
+   Inst   cnt_out_1_6_0__N_48_i                     cnt_out_1_6_0_.N_48_i
+   Inst     cnt_out_1_6_0__m10                        cnt_out_1_6_0_.m10
+   Inst     cnt_out_1_6_0__m11                        cnt_out_1_6_0_.m11
+   Inst   cnt_out_1_6_0__m12_r                      cnt_out_1_6_0_.m12.r
+   Inst   cnt_out_1_6_0__m12_m                      cnt_out_1_6_0_.m12.m
+   Inst   cnt_out_1_6_0__m12_n                      cnt_out_1_6_0_.m12.n
+   Inst   cnt_out_1_6_0__m12_p                      cnt_out_1_6_0_.m12.p
+   Inst           cnt_tmp_i_0_                              cnt_tmp_i[0]
+   Inst     cnt_out_1_6_0__m13                        cnt_out_1_6_0_.m13
+   Inst     cnt_out_1_6_0__m14                        cnt_out_1_6_0_.m14
+   Inst   cnt_out_1_6_0__N_15_i                     cnt_out_1_6_0_.N_15_i
+   Inst   cnt_out_1_6_0__N_11_i                     cnt_out_1_6_0_.N_11_i
+   Inst   cnt_out_1_6_0__m15_r                      cnt_out_1_6_0_.m15.r
+   Inst   cnt_out_1_6_0__m15_m                      cnt_out_1_6_0_.m15.m
+   Inst   cnt_out_1_6_0__m15_n                      cnt_out_1_6_0_.m15.n
+   Inst   cnt_out_1_6_0__m15_p                      cnt_out_1_6_0_.m15.p
+   Inst   cnt_out_1_6_0__m16_r                      cnt_out_1_6_0_.m16.r
+   Inst   cnt_out_1_6_0__m16_m                      cnt_out_1_6_0_.m16.m
+   Inst   cnt_out_1_6_0__m16_n                      cnt_out_1_6_0_.m16.n
+   Inst   cnt_out_1_6_0__m16_p                      cnt_out_1_6_0_.m16.p
+   Inst      cnt_out_1_6_0__m1                         cnt_out_1_6_0_.m1
+   Inst    cnt_out_1_6_0__G_27                       cnt_out_1_6_0_.G_27
+   Inst    cnt_out_1_6_0__G_26                       cnt_out_1_6_0_.G_26
+   Inst           cnt_tmp_i_2_                              cnt_tmp_i[2]
+   Inst      cnt_out_1_6_0__m2                         cnt_out_1_6_0_.m2
+   Inst           cnt_tmp_i_3_                              cnt_tmp_i[3]
+   Inst      cnt_out_1_6_0__m3                         cnt_out_1_6_0_.m3
+   Inst    cnt_out_1_6_0__m4_r                       cnt_out_1_6_0_.m4.r
+   Inst    cnt_out_1_6_0__m4_m                       cnt_out_1_6_0_.m4.m
+   Inst    cnt_out_1_6_0__m4_n                       cnt_out_1_6_0_.m4.n
+   Inst    cnt_out_1_6_0__m4_p                       cnt_out_1_6_0_.m4.p
+   Inst    cnt_out_1_6_0__m5_r                       cnt_out_1_6_0_.m5.r
+   Inst    cnt_out_1_6_0__m5_m                       cnt_out_1_6_0_.m5.m
+   Inst    cnt_out_1_6_0__m5_n                       cnt_out_1_6_0_.m5.n
+   Inst    cnt_out_1_6_0__m5_p                       cnt_out_1_6_0_.m5.p
+   Inst           cnt_tmp_i_1_                              cnt_tmp_i[1]
+   Inst      cnt_out_1_6_0__m6                         cnt_out_1_6_0_.m6
+   Inst    cnt_out_1_6_0__m7_r                       cnt_out_1_6_0_.m7.r
+   Inst    cnt_out_1_6_0__m7_m                       cnt_out_1_6_0_.m7.m
+   Inst    cnt_out_1_6_0__m7_n                       cnt_out_1_6_0_.m7.n
+   Inst    cnt_out_1_6_0__m7_p                       cnt_out_1_6_0_.m7.p
+   Inst   cnt_out_1_6_0__N_7_i                      cnt_out_1_6_0_.N_7_i
+   Inst    cnt_out_1_6_0__m8_r                       cnt_out_1_6_0_.m8.r
+   Inst    cnt_out_1_6_0__m8_m                       cnt_out_1_6_0_.m8.m
+   Inst    cnt_out_1_6_0__m8_n                       cnt_out_1_6_0_.m8.n
+   Inst    cnt_out_1_6_0__m8_p                       cnt_out_1_6_0_.m8.p
+   Net            cnt_tmp_0__n                                cnt_tmp[0]
+   Net            cnt_tmp_1__n                                cnt_tmp[1]
+   Net            cnt_tmp_2__n                                cnt_tmp[2]
+   Net            cnt_tmp_3__n                                cnt_tmp[3]
+   Net          cnt_tmp_3_1__n                              cnt_tmp_3[1]
+   Net          cnt_tmp_3_2__n                              cnt_tmp_3[2]
+   Net          cnt_tmp_3_3__n                              cnt_tmp_3[3]
+   Net    cnt_out_1_6_0__n_6_n                        cnt_out_1_6_0_.N_6
+   Net    cnt_out_1_6_0__n_10_n                       cnt_out_1_6_0_.N_10
+   Net          cnt_out_1_2__n                              cnt_out_1[2]
+   Net    cnt_out_1_6_0__n_13_n                       cnt_out_1_6_0_.N_13
+   Net    cnt_out_1_6_0__n_14_n                       cnt_out_1_6_0_.N_14
+   Net          cnt_out_1_5__n                              cnt_out_1[5]
+   Net    cnt_out_1_6_0__n_17_n                       cnt_out_1_6_0_.N_17
+   Net    cnt_out_1_6_0__n_3_n                        cnt_out_1_6_0_.N_3
+   Net    cnt_out_1_6_0__n_4_n                        cnt_out_1_6_0_.N_4
+   Net    cnt_out_1_6_0__n_5_n                        cnt_out_1_6_0_.N_5
+   Net    cnt_out_1_6_0__n_7_n                        cnt_out_1_6_0_.N_7
+   Net    cnt_out_1_6_0__n_8_n                        cnt_out_1_6_0_.N_8
+   Net    cnt_out_1_6_0__n_9_n                        cnt_out_1_6_0_.N_9
+   Net    cnt_out_1_6_0__n_11_n                       cnt_out_1_6_0_.N_11
+   Net    cnt_out_1_6_0__n_15_n                       cnt_out_1_6_0_.N_15
+   Net    cnt_out_1_6_0__n_6_i_n                      cnt_out_1_6_0_.N_6_i
+   Net    cnt_out_1_6_0__n_10_i_n                     cnt_out_1_6_0_.N_10_i
+   Net    cnt_out_1_6_0__n_13_i_n                     cnt_out_1_6_0_.N_13_i
+   Net    cnt_out_1_6_0__n_14_i_n                     cnt_out_1_6_0_.N_14_i
+   Net    cnt_out_1_6_0__n_17_i_n                     cnt_out_1_6_0_.N_17_i
+   Net    cnt_out_1_6_0__n_15_i_n                     cnt_out_1_6_0_.N_15_i
+   Net    cnt_out_1_6_0__n_11_i_n                     cnt_out_1_6_0_.N_11_i
+   Net          cnt_tmp_i_0__n                              cnt_tmp_i[0]
+   Net    cnt_out_1_6_0__n_7_i_n                      cnt_out_1_6_0_.N_7_i
+   Net          cnt_tmp_i_1__n                              cnt_tmp_i[1]
+   Net          cnt_tmp_i_3__n                              cnt_tmp_i[3]
+   Net          cnt_tmp_i_2__n                              cnt_tmp_i[2]
+   Net            cnt_out_0__n                                cnt_out[0]
+   Net            cnt_out_1__n                                cnt_out[1]
+   Net            cnt_out_2__n                                cnt_out[2]
+   Net            cnt_out_3__n                                cnt_out[3]
+   Net            cnt_out_4__n                                cnt_out[4]
+   Net            cnt_out_5__n                                cnt_out[5]
+   Net        cnt_tmp_3_1_2__n                            cnt_tmp_3_1[2]
+   Net        cnt_tmp_3_1_1__n                            cnt_tmp_3_1[1]
+   Net        cnt_tmp_3_1_3__n                            cnt_tmp_3_1[3]
+   Net    cnt_out_1_6_0__m9_un3_n                     cnt_out_1_6_0_.m9.un3
+   Net    cnt_out_1_6_0__m9_un1_n                     cnt_out_1_6_0_.m9.un1
+   Net    cnt_out_1_6_0__m9_un0_n                     cnt_out_1_6_0_.m9.un0
+   Net    cnt_out_1_6_0__m12_un3_n                    cnt_out_1_6_0_.m12.un3
+   Net    cnt_out_1_6_0__m12_un1_n                    cnt_out_1_6_0_.m12.un1
+   Net    cnt_out_1_6_0__m12_un0_n                    cnt_out_1_6_0_.m12.un0
+   Net    cnt_out_1_6_0__m15_un3_n                    cnt_out_1_6_0_.m15.un3
+   Net    cnt_out_1_6_0__m15_un1_n                    cnt_out_1_6_0_.m15.un1
+   Net    cnt_out_1_6_0__m15_un0_n                    cnt_out_1_6_0_.m15.un0
+   Net    cnt_out_1_6_0__m16_un3_n                    cnt_out_1_6_0_.m16.un3
+   Net    cnt_out_1_6_0__m16_un1_n                    cnt_out_1_6_0_.m16.un1
+   Net    cnt_out_1_6_0__m16_un0_n                    cnt_out_1_6_0_.m16.un0
+   Net    cnt_out_1_6_0__m4_un3_n                     cnt_out_1_6_0_.m4.un3
+   Net    cnt_out_1_6_0__m4_un1_n                     cnt_out_1_6_0_.m4.un1
+   Net    cnt_out_1_6_0__m4_un0_n                     cnt_out_1_6_0_.m4.un0
+   Net    cnt_out_1_6_0__m5_un3_n                     cnt_out_1_6_0_.m5.un3
+   Net    cnt_out_1_6_0__m5_un1_n                     cnt_out_1_6_0_.m5.un1
+   Net    cnt_out_1_6_0__m5_un0_n                     cnt_out_1_6_0_.m5.un0
+   Net    cnt_out_1_6_0__m7_un3_n                     cnt_out_1_6_0_.m7.un3
+   Net    cnt_out_1_6_0__m7_un1_n                     cnt_out_1_6_0_.m7.un1
+   Net    cnt_out_1_6_0__m7_un0_n                     cnt_out_1_6_0_.m7.un0
+   Net    cnt_out_1_6_0__m8_un3_n                     cnt_out_1_6_0_.m8.un3
+   Net    cnt_out_1_6_0__m8_un1_n                     cnt_out_1_6_0_.m8.un1
+   Net    cnt_out_1_6_0__m8_un0_n                     cnt_out_1_6_0_.m8.un0
+End
+Section Type      Name
+// ----------------------------------------------------------------------
+        Input     clk
+        Input     direc
+        Output     cnt_out_6_
+        Output     dos
+        Output     cnt_out_5_
+        Output     cnt_out_4_
+        Output     cnt_out_3_
+        Output     cnt_out_2_
+        Output     cnt_out_1_
+        Output     cnt_out_0_
+End

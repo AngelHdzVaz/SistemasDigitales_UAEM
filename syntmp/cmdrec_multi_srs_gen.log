@@ -1,0 +1,7 @@
+C:\ispLEVER_Classic2_0\synpbase\bin64\syn_nfilter.exe  -link  -top  ALU3  -multisrs  "C:\users\usuario\desktop\escuela 2019\sistemas\programas\synwork\ALU3_comp.srs"  -osyn  "C:\users\usuario\desktop\escuela 2019\sistemas\programas\synwork\ALU3_mult.srs"  -log  "C:\users\usuario\desktop\escuela 2019\sistemas\programas\synlog\ALU3_multi_srs_gen.srr" 
+rc:0 success:1
+C:\users\usuario\desktop\escuela 2019\sistemas\programas\synwork\ALU3_comp.srs|i|1558375192|1765
+C:\users\usuario\desktop\escuela 2019\sistemas\programas\synwork\ALU3_mult.srs|o|1558375194|1950
+C:\users\usuario\desktop\escuela 2019\sistemas\programas\synlog\ALU3_multi_srs_gen.srr|o|1558375194|376
+C:\ispLEVER_Classic2_0\synpbase\bin\syn_nfilter.exe|i|1401249136|2741760
+C:\ispLEVER_Classic2_0\synpbase\bin64\syn_nfilter.exe|i|1401249332|6337536

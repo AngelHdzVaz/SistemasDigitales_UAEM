@@ -1,0 +1,2 @@
+@E: CD297 :"C:\isplever_classic2_0\proyectos\display1\display.vhd":14:6:14:7|Width mismatch, location has width 1, value 4
+

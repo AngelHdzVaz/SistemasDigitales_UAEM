@@ -1,0 +1,43 @@
+#$ DATE Sat Dec 08 12:47:15 2018
+#$ TOOL EDIF2BLIF version IspLever 1.0 
+#$ MODULE contador_v2
+#$ PINS 6 cnt_out_3_ clk areset cnt_out_2_ cnt_out_1_ cnt_out_0_
+#$ NODES 7 N_6 N_8 areset_c cnt_outlat_0_reg cnt_outlat_1_reg cnt_outlat_2_reg cnt_outlat_3_reg 
+.model contador_v2
+.inputs areset.BLIF N_6.BLIF N_8.BLIF areset_c.BLIF cnt_outlat_0_reg.BLIF cnt_outlat_1_reg.BLIF cnt_outlat_2_reg.BLIF cnt_outlat_3_reg.BLIF  
+.outputs cnt_out_3_ cnt_out_2_ cnt_out_1_ cnt_out_0_ cnt_outlat_0_reg.D cnt_outlat_0_reg.LH cnt_outlat_1_reg.D cnt_outlat_1_reg.LH cnt_outlat_2_reg.D cnt_outlat_2_reg.LH cnt_outlat_3_reg.D \
+  cnt_outlat_3_reg.LH N_6 N_8 areset_c
+.names  areset.BLIF areset_c
+1 1
+.names  cnt_outlat_0_reg.BLIF cnt_out_0_
+1 1
+.names  cnt_outlat_1_reg.BLIF cnt_out_1_
+1 1
+.names  cnt_outlat_2_reg.BLIF cnt_out_2_
+1 1
+.names  cnt_outlat_3_reg.BLIF cnt_out_3_
+1 1
+.names  cnt_outlat_0_reg.BLIF cnt_outlat_0_reg.D
+0 1
+.names  cnt_outlat_0_reg.BLIF cnt_outlat_1_reg.BLIF N_6
+11 1
+.names  N_6.BLIF cnt_outlat_2_reg.BLIF N_8
+11 1
+.names  cnt_outlat_0_reg.BLIF cnt_outlat_1_reg.BLIF cnt_outlat_1_reg.D
+01 1
+10 1
+.names  N_6.BLIF cnt_outlat_2_reg.BLIF cnt_outlat_2_reg.D
+01 1
+10 1
+.names  N_8.BLIF cnt_outlat_3_reg.BLIF cnt_outlat_3_reg.D
+01 1
+10 1
+.names  areset_c.BLIF cnt_outlat_0_reg.LH
+1 1
+.names  areset_c.BLIF cnt_outlat_1_reg.LH
+1 1
+.names  areset_c.BLIF cnt_outlat_2_reg.LH
+1 1
+.names  areset_c.BLIF cnt_outlat_3_reg.LH
+1 1
+.end

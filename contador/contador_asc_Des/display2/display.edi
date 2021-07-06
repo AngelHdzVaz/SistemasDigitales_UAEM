@@ -1,0 +1,115 @@
+(edif display
+  (edifVersion 2 0 0)
+  (edifLevel 0)
+  (keywordMap (keywordLevel 0))
+  (status
+    (written
+      (timeStamp 2018 12 8 14 5 19)
+      (author "Synopsys, Inc.")
+      (program "Synplify Pro" (version "I-2014.03LC , mapper maplat, Build 923R"))
+     )
+   )
+  (external mach
+    (edifLevel 0)
+    (technology (numberDefinition ))
+    (cell IBUF (cellType GENERIC)
+       (view prim (viewType NETLIST)
+         (interface
+           (port O (direction OUTPUT))
+           (port I0 (direction INPUT))
+         )
+       )
+    )
+    (cell INV (cellType GENERIC)
+       (view prim (viewType NETLIST)
+         (interface
+           (port O (direction OUTPUT))
+           (port I0 (direction INPUT))
+         )
+       )
+    )
+    (cell OBUF (cellType GENERIC)
+       (view prim (viewType NETLIST)
+         (interface
+           (port O (direction OUTPUT))
+           (port I0 (direction INPUT))
+         )
+       )
+    )
+  )
+  (library work
+    (edifLevel 0)
+    (technology (numberDefinition ))
+    (cell display (cellType GENERIC)
+       (view displa2 (viewType NETLIST)
+         (interface
+           (port (array (rename display "display(6:0)") 7) (direction OUTPUT))
+           (port numero (direction INPUT))
+         )
+         (contents
+          (instance numero (viewRef prim (cellRef IBUF (libraryRef mach)))          )
+          (instance (rename display_0 "display[0]") (viewRef prim (cellRef OBUF (libraryRef mach)))          )
+          (instance (rename display_1 "display[1]") (viewRef prim (cellRef OBUF (libraryRef mach)))          )
+          (instance (rename display_2 "display[2]") (viewRef prim (cellRef OBUF (libraryRef mach)))          )
+          (instance (rename display_3 "display[3]") (viewRef prim (cellRef OBUF (libraryRef mach)))          )
+          (instance (rename display_4 "display[4]") (viewRef prim (cellRef OBUF (libraryRef mach)))          )
+          (instance (rename display_5 "display[5]") (viewRef prim (cellRef OBUF (libraryRef mach)))          )
+          (instance (rename display_6 "display[6]") (viewRef prim (cellRef OBUF (libraryRef mach)))          )
+          (instance numero_i (viewRef prim (cellRef INV (libraryRef mach)))          )
+          (net VCC (joined
+           (portRef I0 (instanceRef display_1))
+           (portRef I0 (instanceRef display_2))
+          ))
+          (net GND (joined
+           (portRef I0 (instanceRef display_6))
+          ))
+          (net numero_i (joined
+           (portRef O (instanceRef numero_i))
+           (portRef I0 (instanceRef display_0))
+           (portRef I0 (instanceRef display_3))
+           (portRef I0 (instanceRef display_4))
+           (portRef I0 (instanceRef display_5))
+          ))
+          (net numero_c (joined
+           (portRef O (instanceRef numero))
+           (portRef I0 (instanceRef numero_i))
+          ))
+          (net numero (joined
+           (portRef numero)
+           (portRef I0 (instanceRef numero))
+          ))
+          (net (rename display_0 "display[0]") (joined
+           (portRef O (instanceRef display_0))
+           (portRef (member display 6))
+          ))
+          (net (rename display_1 "display[1]") (joined
+           (portRef O (instanceRef display_1))
+           (portRef (member display 5))
+          ))
+          (net (rename display_2 "display[2]") (joined
+           (portRef O (instanceRef display_2))
+           (portRef (member display 4))
+          ))
+          (net (rename display_3 "display[3]") (joined
+           (portRef O (instanceRef display_3))
+           (portRef (member display 3))
+          ))
+          (net (rename display_4 "display[4]") (joined
+           (portRef O (instanceRef display_4))
+           (portRef (member display 2))
+          ))
+          (net (rename display_5 "display[5]") (joined
+           (portRef O (instanceRef display_5))
+           (portRef (member display 1))
+          ))
+          (net (rename display_6 "display[6]") (joined
+           (portRef O (instanceRef display_6))
+           (portRef (member display 0))
+          ))
+         )
+        (property orig_inst_of (string "display"))
+       )
+    )
+  )
+  (design display (cellRef display (libraryRef work)))
+)

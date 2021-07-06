@@ -1,0 +1,534 @@
+Section Type   Array Num   Name                     Real Name          Base     Number     Increment
+// -------------------------------------------------------------------------------------------------
+      Port          1      A(3:0)                        A                  3          4            -1
+      Port          2      B(3:0)                        B                  3          4            -1
+      Port          3      S(1:0)                        S                  1          2            -1
+      Port          4      L(7:0)                        L                  7          8            -1
+End
+Section Member   Rename                   Array-Notation          Array Number     Index
+// -------------------------------------------------------------------------------------
+        Port      L_7_                        L[7]                       4            0            
+        Port      L_6_                        L[6]                       4            1            
+        Port      L_5_                        L[5]                       4            2            
+        Port      L_4_                        L[4]                       4            3            
+        Port      L_3_                        L[3]                       4            4            
+        Port      L_2_                        L[2]                       4            5            
+        Port      L_1_                        L[1]                       4            6            
+        Port      L_0_                        L[0]                       4            7            
+        Port      A_3_                        A[3]                       1            0            
+        Port      A_2_                        A[2]                       1            1            
+        Port      A_1_                        A[1]                       1            2            
+        Port      A_0_                        A[0]                       1            3            
+        Port      B_3_                        B[3]                       2            0            
+        Port      B_2_                        B[2]                       2            1            
+        Port      B_1_                        B[1]                       2            2            
+        Port      B_0_                        B[0]                       2            3            
+        Port      S_1_                        S[1]                       3            0            
+        Port      S_0_                        S[0]                       3            1            
+End
+Section Cross Reference File
+Design 'alu3' created Fri May 17 09:37:26 2019
+   Type              New Name                               Original Name
+// ----------------------------------------------------------------------
+   Inst             s3_s3_i_2_                                s3.s3_i[2]
+   Inst       s3_L_3_i_a3_1_2_                          s3.L_3_i_a3_1[2]
+   Inst             s3_s3_i_3_                                s3.s3_i[3]
+   Inst       s3_L_3_i_a3_1_3_                          s3.L_3_i_a3_1[3]
+   Inst                s3_G_10                                   s3.G_10
+   Inst                s3_G_32                                   s3.G_32
+   Inst                 s3_G_2                                    s3.G_2
+   Inst             s3_a3_b_3_                                s3.a3_b[3]
+   Inst             s3_a2_b_0_                                s3.a2_b[0]
+   Inst                   L_0_                                      L[0]
+   Inst             s3_a1_b_1_                                s3.a1_b[1]
+   Inst                   L_1_                                      L[1]
+   Inst             s3_a1_b_0_                                s3.a1_b[0]
+   Inst                   L_2_                                      L[2]
+   Inst              s3_N_31_i                                 s3.N_31_i
+   Inst                   L_3_                                      L[3]
+   Inst              s3_N_35_i                                 s3.N_35_i
+   Inst                   L_4_                                      L[4]
+   Inst         s3_G_12_0_a2_0                            s3.G_12_0_a2_0
+   Inst                   L_5_                                      L[5]
+   Inst         s3_G_15_0_a2_0                            s3.G_15_0_a2_0
+   Inst                   L_6_                                      L[6]
+   Inst         s3_G_16_0_a2_0                            s3.G_16_0_a2_0
+   Inst                   L_7_                                      L[7]
+   Inst              s3_S_i_0_                                 s3.S_i[0]
+   Inst                   A_0_                                      A[0]
+   Inst         s3_L_3_i_a2_3_                            s3.L_3_i_a2[3]
+   Inst                   A_1_                                      A[1]
+   Inst       s3_L_3_i_m3_3__r                          s3.L_3_i_m3_3_.r
+   Inst                   A_2_                                      A[2]
+   Inst       s3_L_3_i_m3_3__m                          s3.L_3_i_m3_3_.m
+   Inst                   A_3_                                      A[3]
+   Inst       s3_L_3_i_m3_3__n                          s3.L_3_i_m3_3_.n
+   Inst                   B_0_                                      B[0]
+   Inst       s3_L_3_i_m3_3__p                          s3.L_3_i_m3_3_.p
+   Inst                   B_1_                                      B[1]
+   Inst       s3_L_3_i_m3_2__r                          s3.L_3_i_m3_2_.r
+   Inst                   B_2_                                      B[2]
+   Inst       s3_L_3_i_m3_2__m                          s3.L_3_i_m3_2_.m
+   Inst                   B_3_                                      B[3]
+   Inst       s3_L_3_i_m3_2__n                          s3.L_3_i_m3_2_.n
+   Inst                   S_0_                                      S[0]
+   Inst       s3_L_3_i_m3_2__p                          s3.L_3_i_m3_2_.p
+   Inst                   S_1_                                      S[1]
+   Inst       s3_L_3_i_m3_1__r                          s3.L_3_i_m3_1_.r
+   Inst                s3_G_15                                   s3.G_15
+   Inst       s3_L_3_i_m3_1__m                          s3.L_3_i_m3_1_.m
+   Inst               s3_G_8_1                                  s3.G_8_1
+   Inst       s3_L_3_i_m3_1__n                          s3.L_3_i_m3_1_.n
+   Inst                 s3_G_8                                    s3.G_8
+   Inst       s3_L_3_i_m3_1__p                          s3.L_3_i_m3_1_.p
+   Inst              s3_G_47_1                                 s3.G_47_1
+   Inst              s3_S_i_1_                                 s3.S_i[1]
+   Inst              s3_G_47_2                                 s3.G_47_2
+   Inst        s3_un1_s_4_0_o3                           s3.un1_s_4_0_o3
+   Inst                s3_G_47                                   s3.G_47
+   Inst            s3_L_3_i_0_                               s3.L_3_i[0]
+   Inst              s3_G_45_1                                 s3.G_45_1
+   Inst               s3_N_6_i                                  s3.N_6_i
+   Inst                s3_G_45                                   s3.G_45
+   Inst       s3_L_3_i_a3_0_0_                          s3.L_3_i_a3_0[0]
+   Inst              s3_G_44_1                                 s3.G_44_1
+   Inst              s3_B_i_0_                                 s3.B_i[0]
+   Inst              s3_G_44_2                                 s3.G_44_2
+   Inst                s3_G_26                                   s3.G_26
+   Inst                s3_G_44                                   s3.G_44
+   Inst                s3_G_27                                   s3.G_27
+   Inst              s3_G_31_1                                 s3.G_31_1
+   Inst              s3_B_i_1_                                 s3.B_i[1]
+   Inst                s3_G_31                                   s3.G_31
+   Inst                s3_G_28                                   s3.G_28
+   Inst              s3_G_29_1                                 s3.G_29_1
+   Inst              s3_G_29_0                                 s3.G_29_0
+   Inst                s3_G_29                                   s3.G_29
+   Inst              s3_B_i_2_                                 s3.B_i[2]
+   Inst              s3_G_22_1                                 s3.G_22_1
+   Inst                s3_G_30                                   s3.G_30
+   Inst                s3_G_22                                   s3.G_22
+   Inst                s3_G_33                                   s3.G_33
+   Inst              s3_G_15_1                                 s3.G_15_1
+   Inst                s3_G_41                                   s3.G_41
+   Inst              s3_G_53_2                                 s3.G_53_2
+   Inst                s3_G_42                                   s3.G_42
+   Inst              s3_G_53_3                                 s3.G_53_3
+   Inst                s3_G_61                                   s3.G_61
+   Inst                s3_G_53                                   s3.G_53
+   Inst                s3_G_69                                   s3.G_69
+   Inst              s3_G_48_1                                 s3.G_48_1
+   Inst                s3_G_70                                   s3.G_70
+   Inst              s3_G_48_2                                 s3.G_48_2
+   Inst              s3_N_33_i                                 s3.N_33_i
+   Inst              s3_G_48_3                                 s3.G_48_3
+   Inst                s3_G_21                                   s3.G_21
+   Inst              s3_G_48_4                                 s3.G_48_4
+   Inst             s3_a1_b_2_                                s3.a1_b[2]
+   Inst                s3_G_48                                   s3.G_48
+   Inst             s3_a1_b_3_                                s3.a1_b[3]
+   Inst              s3_G_37_1                                 s3.G_37_1
+   Inst             s3_a2_b_1_                                s3.a2_b[1]
+   Inst              s3_G_37_2                                 s3.G_37_2
+   Inst             s3_a2_b_2_                                s3.a2_b[2]
+   Inst              s3_G_37_3                                 s3.G_37_3
+   Inst             s3_a2_b_3_                                s3.a2_b[3]
+   Inst              s3_G_37_4                                 s3.G_37_4
+   Inst             s3_a3_b_0_                                s3.a3_b[0]
+   Inst                s3_G_37                                   s3.G_37
+   Inst             s3_a3_b_1_                                s3.a3_b[1]
+   Inst              s3_G_52_1                                 s3.G_52_1
+   Inst             s3_a3_b_2_                                s3.a3_b[2]
+   Inst                s3_G_52                                   s3.G_52
+   Inst               s3_G_4_0                                  s3.G_4_0
+   Inst               s3_G_6_0                                  s3.G_6_0
+   Inst               s3_G_8_0                                  s3.G_8_0
+   Inst              s3_G_13_0                                 s3.G_13_0
+   Inst              s3_G_14_0                                 s3.G_14_0
+   Inst              s3_G_18_1                                 s3.G_18_1
+   Inst                s3_G_25                                   s3.G_25
+   Inst                s3_G_18                                   s3.G_18
+   Inst                 A_i_0_                                    A_i[0]
+   Inst              s3_G_11_1                                 s3.G_11_1
+   Inst              s3_N_19_i                                 s3.N_19_i
+   Inst                s3_G_11                                   s3.G_11
+   Inst             s3_N_106_i                                s3.N_106_i
+   Inst               s3_G_4_1                                  s3.G_4_1
+   Inst              s3_N_20_i                                 s3.N_20_i
+   Inst                 s3_G_4                                    s3.G_4
+   Inst             s3_N_103_i                                s3.N_103_i
+   Inst              s3_G_34_1                                 s3.G_34_1
+   Inst              s3_N_21_i                                 s3.N_21_i
+   Inst                s3_G_34                                   s3.G_34
+   Inst             s3_N_100_i                                s3.N_100_i
+   Inst              s3_G_56_1                                 s3.G_56_1
+   Inst                 s3_G_5                                    s3.G_5
+   Inst                s3_G_56                                   s3.G_56
+   Inst                 s3_G_6                                    s3.G_6
+   Inst              s3_G_53_1                                 s3.G_53_1
+   Inst                 s3_G_7                                    s3.G_7
+   Inst            L_3_i_a3_3_                               L_3_i_a3[3]
+   Inst                s3_G_12                                   s3.G_12
+   Inst                s3_G_13                                   s3.G_13
+   Inst                s3_G_14                                   s3.G_14
+   Inst                s3_G_19                                   s3.G_19
+   Inst                s3_G_20                                   s3.G_20
+   Inst        L_3_i_a3_3_1_2_                           L_3_i_a3_3_1[2]
+   Inst          L_3_i_a3_3_2_                             L_3_i_a3_3[2]
+   Inst        L_3_i_a3_2_1_2_                           L_3_i_a3_2_1[2]
+   Inst          L_3_i_a3_2_2_                             L_3_i_a3_2[2]
+   Inst        L_3_i_a3_0_1_2_                           L_3_i_a3_0_1[2]
+   Inst          L_3_i_a3_0_2_                             L_3_i_a3_0[2]
+   Inst          L_3_i_a3_1_2_                             L_3_i_a3_1[2]
+   Inst            L_3_i_a3_2_                               L_3_i_a3[2]
+   Inst        L_3_i_a3_3_1_3_                           L_3_i_a3_3_1[3]
+   Inst          L_3_i_a3_3_3_                             L_3_i_a3_3[3]
+   Inst        L_3_i_a3_2_1_3_                           L_3_i_a3_2_1[3]
+   Inst          L_3_i_a3_2_3_                             L_3_i_a3_2[3]
+   Inst        L_3_i_a3_0_1_3_                           L_3_i_a3_0_1[3]
+   Inst          L_3_i_a3_0_3_                             L_3_i_a3_0[3]
+   Inst          L_3_i_a3_1_3_                             L_3_i_a3_1[3]
+   Inst          s3_L_3_i_2_1_                             s3.L_3_i_2[1]
+   Inst          s3_L_3_i_3_1_                             s3.L_3_i_3[1]
+   Inst            s3_L_3_i_1_                               s3.L_3_i[1]
+   Inst              s3_G_59_1                                 s3.G_59_1
+   Inst                s3_G_59                                   s3.G_59
+   Inst            s3_G_31_0_1                               s3.G_31_0_1
+   Inst              s3_G_31_0                                 s3.G_31_0
+   Inst        L_3_i_a3_3_1_1_                           L_3_i_a3_3_1[1]
+   Inst          L_3_i_a3_3_1_                             L_3_i_a3_3[1]
+   Inst        L_3_i_a3_2_1_1_                           L_3_i_a3_2_1[1]
+   Inst          L_3_i_a3_2_1_                             L_3_i_a3_2[1]
+   Inst        L_3_i_a3_0_1_1_                           L_3_i_a3_0_1[1]
+   Inst          L_3_i_a3_0_1_                             L_3_i_a3_0[1]
+   Inst          L_3_i_a3_1_1_                             L_3_i_a3_1[1]
+   Inst            L_3_i_a3_1_                               L_3_i_a3[1]
+   Inst              s3_N_14_i                                 s3.N_14_i
+   Inst              s3_G_15_i                                 s3.G_15_i
+   Inst               s3_N_5_i                                  s3.N_5_i
+   Inst             s3_N_6_i_0                                s3.N_6_i_0
+   Inst               s3_N_7_i                                  s3.N_7_i
+   Inst               s3_G_8_i                                  s3.G_8_i
+   Inst          s3_L_3_i_1_3_                             s3.L_3_i_1[3]
+   Inst          s3_L_3_i_2_3_                             s3.L_3_i_2[3]
+   Inst          s3_L_3_i_3_3_                             s3.L_3_i_3[3]
+   Inst            s3_L_3_i_3_                               s3.L_3_i[3]
+   Inst          s3_L_3_i_1_2_                             s3.L_3_i_1[2]
+   Inst          s3_L_3_i_2_2_                             s3.L_3_i_2[2]
+   Inst          s3_L_3_i_3_2_                             s3.L_3_i_3[2]
+   Inst            s3_L_3_i_2_                               s3.L_3_i[2]
+   Inst          s3_L_3_i_1_1_                             s3.L_3_i_1[1]
+   Inst              s3_N_49_i                                 s3.N_49_i
+   Inst              s3_N_51_i                                 s3.N_51_i
+   Inst              s3_N_52_i                                 s3.N_52_i
+   Inst              s3_N_53_i                                 s3.N_53_i
+   Inst              s3_G_47_i                                 s3.G_47_i
+   Inst            s3_N_31_i_0                               s3.N_31_i_0
+   Inst            s3_N_33_i_0                               s3.N_33_i_0
+   Inst            s3_N_34_i_0                               s3.N_34_i_0
+   Inst              s3_G_31_i                                 s3.G_31_i
+   Inst            s3_N_19_i_0                               s3.N_19_i_0
+   Inst            s3_N_20_i_0                               s3.N_20_i_0
+   Inst            s3_N_21_i_0                               s3.N_21_i_0
+   Inst              s3_G_22_i                                 s3.G_22_i
+   Inst              s3_N_12_i                                 s3.N_12_i
+   Inst            s3_N_13_i_0                               s3.N_13_i_0
+   Inst              s3_N_68_i                                 s3.N_68_i
+   Inst            s3_N_37_i_0                               s3.N_37_i_0
+   Inst              s3_N_39_i                                 s3.N_39_i
+   Inst           s3_a2_b_i_2_                              s3.a2_b_i[2]
+   Inst              s3_N_13_i                                 s3.N_13_i
+   Inst            s3_N_45_i_0                               s3.N_45_i_0
+   Inst              s3_N_56_i                                 s3.N_56_i
+   Inst              s3_N_57_i                                 s3.N_57_i
+   Inst              s3_G_52_i                                 s3.G_52_i
+   Inst              s3_N_45_i                                 s3.N_45_i
+   Inst              s3_G_42_i                                 s3.G_42_i
+   Inst               A_c_i_2_                                  A_c_i[2]
+   Inst              s3_G_30_i                                 s3.G_30_i
+   Inst               A_c_i_1_                                  A_c_i[1]
+   Inst              s3_G_28_i                                 s3.G_28_i
+   Inst              s3_G_26_i                                 s3.G_26_i
+   Inst           s3_a1_b_i_1_                              s3.a1_b_i[1]
+   Inst            s3_N_16_i_0                               s3.N_16_i_0
+   Inst            s3_G_14_0_i                               s3.G_14_0_i
+   Inst             s3_G_6_0_i                                s3.G_6_0_i
+   Inst             s3_G_4_0_i                                s3.G_4_0_i
+   Inst              s3_N_66_i                                 s3.N_66_i
+   Inst             s3_N_114_i                                s3.N_114_i
+   Inst             s3_N_109_i                                s3.N_109_i
+   Inst              s3_N_26_i                                 s3.N_26_i
+   Inst              s3_N_74_i                                 s3.N_74_i
+   Inst              s3_G_70_i                                 s3.G_70_i
+   Inst              s3_N_11_i                                 s3.N_11_i
+   Inst              s3_G_39_i                                 s3.G_39_i
+   Inst            s3_N_17_i_0                               s3.N_17_i_0
+   Inst            s3_N_18_i_0                               s3.N_18_i_0
+   Inst            s3_G_41_0_i                               s3.G_41_0_i
+   Inst           s3_a3_b_i_3_                              s3.a3_b_i[3]
+   Inst              s3_G_43_i                                 s3.G_43_i
+   Inst              s3_N_47_i                                 s3.N_47_i
+   Inst              s3_N_59_i                                 s3.N_59_i
+   Inst              s3_G_55_i                                 s3.G_55_i
+   Inst             s3_N_117_i                                s3.N_117_i
+   Inst              s3_N_41_i                                 s3.N_41_i
+   Inst      s3_un1_s_4_0_o3_i                         s3.un1_s_4_0_o3_i
+   Inst               s3_N_2_i                                  s3.N_2_i
+   Inst           s3_a0_b_i_2_                              s3.a0_b_i[2]
+   Inst            s3_G_26_0_i                               s3.G_26_0_i
+   Inst               s3_N_9_i                                  s3.N_9_i
+   Inst               s3_N_4_i                                  s3.N_4_i
+   Inst            s3_G_28_0_i                               s3.G_28_0_i
+   Inst              s3_N_29_i                                 s3.N_29_i
+   Inst              s3_N_37_i                                 s3.N_37_i
+   Inst              s3_G_36_i                                 s3.G_36_i
+   Inst              s3_N_16_i                                 s3.N_16_i
+   Inst                 s3_L_5                                    s3.L_5
+   Inst                 s3_L_4                                    s3.L_4
+   Inst                s3_G_39                                   s3.G_39
+   Inst                s3_G_38                                   s3.G_38
+   Inst                s3_G_36                                   s3.G_36
+   Inst                s3_G_35                                   s3.G_35
+   Inst              s3_G_30_0                                 s3.G_30_0
+   Inst              s3_G_28_0                                 s3.G_28_0
+   Inst              s3_G_27_0                                 s3.G_27_0
+   Inst              s3_G_26_0                                 s3.G_26_0
+   Inst              s3_G_25_0                                 s3.G_25_0
+   Inst                s3_G_23                                   s3.G_23
+   Inst                s3_G_17                                   s3.G_17
+   Inst              s3_G_10_0                                 s3.G_10_0
+   Inst               s3_G_3_0                                  s3.G_3_0
+   Inst                 s3_L_7                                    s3.L_7
+   Inst                 s3_L_6                                    s3.L_6
+   Inst             s3_a0_b_3_                                s3.a0_b[3]
+   Inst             s3_a0_b_2_                                s3.a0_b[2]
+   Inst             s3_a0_b_1_                                s3.a0_b[1]
+   Inst             s3_a0_b_0_                                s3.a0_b[0]
+   Inst                s3_G_16                                   s3.G_16
+   Inst                 s3_G_9                                    s3.G_9
+   Inst                s3_G_55                                   s3.G_55
+   Inst                s3_G_54                                   s3.G_54
+   Inst                s3_G_51                                   s3.G_51
+   Inst                s3_G_50                                   s3.G_50
+   Inst                s3_G_46                                   s3.G_46
+   Inst                s3_G_43                                   s3.G_43
+   Inst              s3_G_42_0                                 s3.G_42_0
+   Inst              s3_G_41_0                                 s3.G_41_0
+   Inst                s3_G_40                                   s3.G_40
+   Inst             s3_s1_i_0_                                s3.s1_i[0]
+   Inst         s3_L_3_i_a3_0_                            s3.L_3_i_a3[0]
+   Inst             s3_s3_i_1_                                s3.s3_i[1]
+   Inst       s3_L_3_i_a3_1_1_                          s3.L_3_i_a3_1[1]
+   Net               s3_0_7__n                                   s3_0[7]
+   Net             s3_n_31_i_n                                 s3.N_31_i
+   Net             s3_n_33_i_n                                 s3.N_33_i
+   Net             s3_n_34_i_n                                 s3.N_34_i
+   Net             s3_n_35_0_n                                 s3.N_35_0
+   Net                 s3_2__n                                     s3[2]
+   Net             s3_n_19_i_n                                 s3.N_19_i
+   Net                 s3_3__n                                     s3[3]
+   Net             s3_n_20_i_n                                 s3.N_20_i
+   Net                 s3_4__n                                     s3[4]
+   Net             s3_n_21_i_n                                 s3.N_21_i
+   Net                 s3_5__n                                     s3[5]
+   Net             s3_n_22_i_n                                 s3.N_22_i
+   Net                 s3_6__n                                     s3[6]
+   Net             s3_n_12_i_n                                 s3.N_12_i
+   Net                 s3_7__n                                     s3[7]
+   Net             s3_n_13_i_n                                 s3.N_13_i
+   Net             s3_n_14_i_n                                 s3.N_14_i
+   Net             s3_n_15_0_n                                 s3.N_15_0
+   Net              s3_n_5_i_n                                  s3.N_5_i
+   Net              s3_n_6_i_n                                  s3.N_6_i
+   Net              s3_n_7_i_n                                  s3.N_7_i
+   Net              s3_n_8_0_n                                  s3.N_8_0
+   Net             s3_n_18_1_n                                 s3.N_18_1
+   Net            s3_a0_b_2__n                                s3.a0_b[2]
+   Net             s3_n_11_1_n                                 s3.N_11_1
+   Net            s3_a0_b_3__n                                s3.a0_b[3]
+   Net              s3_n_4_1_n                                  s3.N_4_1
+   Net            s3_a1_b_2__n                                s3.a1_b[2]
+   Net               s3_1_2__n                                   s3_1[2]
+   Net            s3_a1_b_3__n                                s3.a1_b[3]
+   Net               s3_1_6__n                                   s3_1[6]
+   Net            s3_a2_b_1__n                                s3.a2_b[1]
+   Net               s3_1_5__n                                   s3_1[5]
+   Net            s3_a2_b_2__n                                s3.a2_b[2]
+   Net               s3_2_5__n                                   s3_2[5]
+   Net            s3_a2_b_3__n                                s3.a2_b[3]
+   Net               s3_3_5__n                                   s3_3[5]
+   Net            s3_a3_b_0__n                                s3.a3_b[0]
+   Net               s3_1_4__n                                   s3_1[4]
+   Net            s3_a3_b_1__n                                s3.a3_b[1]
+   Net               s3_2_4__n                                   s3_2[4]
+   Net            s3_a3_b_2__n                                s3.a3_b[2]
+   Net               s3_3_4__n                                   s3_3[4]
+   Net            s3_a3_b_3__n                                s3.a3_b[3]
+   Net               s3_4_4__n                                   s3_4[4]
+   Net                s3_n_2_n                                    s3.N_2
+   Net               s3_1_3__n                                   s3_1[3]
+   Net                s3_n_3_n                                    s3.N_3
+   Net               s3_2_3__n                                   s3_2[3]
+   Net                s3_n_4_n                                    s3.N_4
+   Net               s3_3_3__n                                   s3_3[3]
+   Net                s3_n_5_n                                    s3.N_5
+   Net               s3_4_3__n                                   s3_4[3]
+   Net                s3_n_6_n                                    s3.N_6
+   Net           s3_n_58_0_1_n                               s3.N_58_0_1
+   Net                s3_n_7_n                                    s3.N_7
+   Net             s3_0_1_7__n                                 s3_0_1[7]
+   Net                s3_n_8_n                                    s3.N_8
+   Net             s3_0_2_7__n                                 s3_0_2[7]
+   Net               s3_n_10_n                                   s3.N_10
+   Net             s3_n_52_1_n                                 s3.N_52_1
+   Net               s3_n_11_n                                   s3.N_11
+   Net             s3_n_51_1_n                                 s3.N_51_1
+   Net               s3_n_12_n                                   s3.N_12
+   Net             s3_n_51_2_n                                 s3.N_51_2
+   Net               s3_n_13_n                                   s3.N_13
+   Net           s3_n_35_0_1_n                               s3.N_35_0_1
+   Net               s3_n_14_n                                   s3.N_14
+   Net             s3_n_33_1_n                                 s3.N_33_1
+   Net               s3_n_15_n                                   s3.N_15
+   Net           s3_n_22_i_1_n                               s3.N_22_i_1
+   Net               s3_n_17_n                                   s3.N_17
+   Net           s3_n_15_0_1_n                               s3.N_15_0_1
+   Net               s3_n_18_n                                   s3.N_18
+   Net            s3_n_8_0_1_n                                s3.N_8_0_1
+   Net               s3_n_19_n                                   s3.N_19
+   Net    s3_l_3_i_m3_3__un3_n                        s3.L_3_i_m3_3_.un3
+   Net               s3_n_20_n                                   s3.N_20
+   Net    s3_l_3_i_m3_3__un1_n                        s3.L_3_i_m3_3_.un1
+   Net               s3_n_21_n                                   s3.N_21
+   Net    s3_l_3_i_m3_3__un0_n                        s3.L_3_i_m3_3_.un0
+   Net               s3_n_22_n                                   s3.N_22
+   Net    s3_l_3_i_m3_2__un3_n                        s3.L_3_i_m3_2_.un3
+   Net               s3_n_27_n                                   s3.N_27
+   Net    s3_l_3_i_m3_2__un1_n                        s3.L_3_i_m3_2_.un1
+   Net               s3_n_30_n                                   s3.N_30
+   Net    s3_l_3_i_m3_2__un0_n                        s3.L_3_i_m3_2_.un0
+   Net               s3_n_31_n                                   s3.N_31
+   Net    s3_l_3_i_m3_1__un3_n                        s3.L_3_i_m3_1_.un3
+   Net               s3_n_32_n                                   s3.N_32
+   Net    s3_l_3_i_m3_1__un1_n                        s3.L_3_i_m3_1_.un1
+   Net               s3_n_33_n                                   s3.N_33
+   Net    s3_l_3_i_m3_1__un0_n                        s3.L_3_i_m3_1_.un0
+   Net               s3_n_34_n                                   s3.N_34
+   Net               s3_n_35_n                                   s3.N_35
+   Net               s3_n_38_n                                   s3.N_38
+   Net               s3_n_45_n                                   s3.N_45
+   Net               s3_n_46_n                                   s3.N_46
+   Net               s3_n_48_n                                   s3.N_48
+   Net               s3_n_49_n                                   s3.N_49
+   Net               s3_n_50_n                                   s3.N_50
+   Net               s3_n_51_n                                   s3.N_51
+   Net               s3_n_52_n                                   s3.N_52
+   Net               s3_n_53_n                                   s3.N_53
+   Net               s3_n_56_n                                   s3.N_56
+   Net               s3_n_57_n                                   s3.N_57
+   Net               s3_n_58_n                                   s3.N_58
+   Net               s3_n_60_n                                   s3.N_60
+   Net                 s1_0__n                                     s1[0]
+   Net                 s3_1__n                                     s3[1]
+   Net            s3_a0_b_1__n                                s3.a0_b[1]
+   Net            s3_a1_b_0__n                                s3.a1_b[0]
+   Net            s3_a1_b_1__n                                s3.a1_b[1]
+   Net            s3_a2_b_0__n                                s3.a2_b[0]
+   Net               s3_n_16_n                                   s3.N_16
+   Net                s3_n_9_n                                    s3.N_9
+   Net               s3_n_47_n                                   s3.N_47
+   Net               s3_n_59_n                                   s3.N_59
+   Net               s3_n_29_n                                   s3.N_29
+   Net               s3_n_37_n                                   s3.N_37
+   Net               s3_i_3__n                                   s3_i[3]
+   Net               s3_i_2__n                                   s3_i[2]
+   Net               s3_i_1__n                                   s3_i[1]
+   Net               s1_i_0__n                                   s1_i[0]
+   Net                s_i_1__n                                    S_i[1]
+   Net                s_i_0__n                                    S_i[0]
+   Net                b_i_2__n                                    B_i[2]
+   Net                b_i_1__n                                    B_i[1]
+   Net                b_i_0__n                                    B_i[0]
+   Net                a_i_0__n                                    A_i[0]
+   Net                  l_0__n                                      L[0]
+   Net                  l_1__n                                      L[1]
+   Net                  l_2__n                                      L[2]
+   Net                  l_3__n                                      L[3]
+   Net                l_c_4__n                                    L_c[4]
+   Net                  l_4__n                                      L[4]
+   Net                l_c_5__n                                    L_c[5]
+   Net                  l_5__n                                      L[5]
+   Net                l_c_6__n                                    L_c[6]
+   Net                  l_6__n                                      L[6]
+   Net                l_c_7__n                                    L_c[7]
+   Net                a_c_0__n                                    A_c[0]
+   Net                  a_0__n                                      A[0]
+   Net                a_c_1__n                                    A_c[1]
+   Net                  a_1__n                                      A[1]
+   Net                a_c_2__n                                    A_c[2]
+   Net                  a_2__n                                      A[2]
+   Net                a_c_3__n                                    A_c[3]
+   Net                b_c_0__n                                    B_c[0]
+   Net                  b_0__n                                      B[0]
+   Net                b_c_1__n                                    B_c[1]
+   Net                  b_1__n                                      B[1]
+   Net                b_c_2__n                                    B_c[2]
+   Net                  b_2__n                                      B[2]
+   Net                b_c_3__n                                    B_c[3]
+   Net                s_c_0__n                                    S_c[0]
+   Net                  s_0__n                                      S[0]
+   Net                s_c_1__n                                    S_c[1]
+   Net              s3_n_2_i_n                                  s3.N_2_i
+   Net          s3_a0_b_i_2__n                              s3.a0_b_i[2]
+   Net             s3_n_30_0_n                                 s3.N_30_0
+   Net              s3_n_9_i_n                                  s3.N_9_i
+   Net              s3_n_4_i_n                                  s3.N_4_i
+   Net             s3_n_32_0_n                                 s3.N_32_0
+   Net             s3_n_29_i_n                                 s3.N_29_i
+   Net             s3_n_37_i_n                                 s3.N_37_i
+   Net             s3_n_38_0_n                                 s3.N_38_0
+   Net             s3_n_16_i_n                                 s3.N_16_i
+   Net             s3_n_11_i_n                                 s3.N_11_i
+   Net             s3_n_46_0_n                                 s3.N_46_0
+   Net             s3_n_17_i_n                                 s3.N_17_i
+   Net             s3_n_18_i_n                                 s3.N_18_i
+   Net             s3_n_48_0_n                                 s3.N_48_0
+   Net          s3_a3_b_i_3__n                              s3.a3_b_i[3]
+   Net             s3_n_50_0_n                                 s3.N_50_0
+   Net             s3_n_47_i_n                                 s3.N_47_i
+   Net             s3_n_59_i_n                                 s3.N_59_i
+   Net             s3_n_60_0_n                                 s3.N_60_0
+   Net              a_c_i_2__n                                  A_c_i[2]
+   Net              a_c_i_1__n                                  A_c_i[1]
+   Net          s3_a1_b_i_1__n                              s3.a1_b_i[1]
+   Net          s3_a2_b_i_2__n                              s3.a2_b_i[2]
+   Net             s3_n_45_i_n                                 s3.N_45_i
+   Net             s3_n_56_i_n                                 s3.N_56_i
+   Net             s3_n_57_i_n                                 s3.N_57_i
+   Net             s3_n_58_0_n                                 s3.N_58_0
+   Net             s3_n_49_i_n                                 s3.N_49_i
+   Net             s3_n_51_i_n                                 s3.N_51_i
+   Net             s3_n_52_i_n                                 s3.N_52_i
+   Net             s3_n_53_i_n                                 s3.N_53_i
+End
+Section Type      Name
+// ----------------------------------------------------------------------
+        Input     A_3_
+        Input     B_3_
+        Input     S_1_
+        Input     A_2_
+        Input     A_1_
+        Input     A_0_
+        Input     B_2_
+        Input     B_1_
+        Input     B_0_
+        Input     S_0_
+        Output     L_7_
+        Output     L_6_
+        Output     L_5_
+        Output     L_4_
+        Output     L_3_
+        Output     L_2_
+        Output     L_1_
+        Output     L_0_
+End

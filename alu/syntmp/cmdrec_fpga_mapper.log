@@ -1,0 +1,10 @@
+C:\ispLEVER_Classic2_0\synpbase\bin64\m_cpld.exe  -prodtype  synplify_pro  -encrypt  -pro  -rundir  "C:\users\usuario\desktop\escuela 2019\sistemas\alu"  -part ispGAL22LV10  -package LJ  -grade -4   -areadelay 0 -minc -RWCheckOnRam 1 -summaryfile "C:\users\usuario\desktop\escuela 2019\sistemas\alu\synlog\report\alu3_fpga_mapper.xml" -top_level_module  alu3  -multisrs  -oedif  "C:\users\usuario\desktop\escuela 2019\sistemas\alu\alu3.edi"  -freq 1.000  "C:\users\usuario\desktop\escuela 2019\sistemas\alu\synwork\alu3_mult.srs"  -devicelib  C:\ispLEVER_Classic2_0\synpbase\lib\cpld\lattice.v  -ologparam  "C:\users\usuario\desktop\escuela 2019\sistemas\alu\syntmp\alu3.plg"  -osyn  "C:\users\usuario\desktop\escuela 2019\sistemas\alu\alu3.srm"  -prjdir  "c:\users\usuario\desktop\escuela 2019\sistemas\alu\"  -prjname  alu3  -log  "C:\users\usuario\desktop\escuela 2019\sistemas\alu\synlog\alu3_fpga_mapper.srr" 
+rc:0 success:1
+C:\users\usuario\desktop\escuela 2019\sistemas\alu\alu3.edi|o|1558103842|98804
+C:\users\usuario\desktop\escuela 2019\sistemas\alu\synwork\alu3_mult.srs|i|1558103842|1986
+C:\ispLEVER_Classic2_0\synpbase\lib\cpld\lattice.v|i|1401285984|210986
+"C:\users\usuario\desktop\escuela 2019\sistemas\alu\syntmp\alu3.plg"|o|0|0
+C:\users\usuario\desktop\escuela 2019\sistemas\alu\alu3.srm|o|1558103842|28113
+C:\users\usuario\desktop\escuela 2019\sistemas\alu\synlog\alu3_fpga_mapper.srr|o|1558103842|1120
+C:\ispLEVER_Classic2_0\synpbase\bin\m_cpld.exe|i|1399390884|7067648
+C:\ispLEVER_Classic2_0\synpbase\bin64\m_cpld.exe|i|1399393722|8049664

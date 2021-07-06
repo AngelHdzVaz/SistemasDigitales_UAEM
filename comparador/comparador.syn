@@ -1,0 +1,11 @@
+JDF B
+// Created by Version 2.0 
+PROJECT comparador
+DESIGN comparador Normal
+DEVKIT GAL22V10D-25LP
+ENTRY Pure VHDL
+MODULE comparador.vhd
+MODSTYLE comparador Normal
+SYNTHESIS_TOOL Synplify
+SIMULATOR_TOOL ActiveHDL
+TOPMODULE comparador

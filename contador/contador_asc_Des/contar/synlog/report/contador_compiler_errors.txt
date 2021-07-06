@@ -1,0 +1,3 @@
+@E: CD415 :"C:\isplever_classic2_0\proyectos\contar\contar.vhd":25:12:25:13|Expecting keyword process
+@E|Parse errors encountered - exiting
+

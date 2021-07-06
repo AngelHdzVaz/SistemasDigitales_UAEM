@@ -1,0 +1,4 @@
+@N: CD630 :"C:\isplever_classic2_0\proyectos\contar\contar.vhd":5:7:5:17|Synthesizing work.contador_v2.behavioral 
+Post processing for work.contador_v2.behavioral
+@W: CL117 :"C:\isplever_classic2_0\proyectos\contar\contar.vhd":18:8:18:9|Latch generated from process for signal cnt_tmp(3 downto 0); possible missing assignment in an if or case statement.
+@W: CL159 :"C:\isplever_classic2_0\proyectos\contar\contar.vhd":7:8:7:10|Input clk is unused

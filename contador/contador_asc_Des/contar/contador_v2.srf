@@ -1,0 +1,40 @@
+#Build: Synplify Pro I-2014.03LC , Build 063R, May 27 2014
+#install: C:\ispLEVER_Classic2_0\synpbase
+#OS: Windows 7 6.2
+#Hostname: EMANUEL
+
+#Implementation: contar
+
+$ Start of Compile
+#Sat Dec 08 12:47:08 2018
+
+Synopsys VHDL Compiler, version comp201403rcp1, Build 060R, built May 27 2014
+@N|Running in 64-bit mode
+Copyright (C) 1994-2014 Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use, reproduction, or distribution of this software is strictly prohibited.
+
+@N: CD720 :"C:\ispLEVER_Classic2_0\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ns
+@N:"C:\isplever_classic2_0\proyectos\contar\contar.vhd":5:7:5:17|Top entity is set to contador_v2.
+File C:\isplever_classic2_0\proyectos\contar\contar.vhd changed - recompiling
+VHDL syntax check successful!
+@N: CD630 :"C:\isplever_classic2_0\proyectos\contar\contar.vhd":5:7:5:17|Synthesizing work.contador_v2.behavioral 
+Post processing for work.contador_v2.behavioral
+@W: CL117 :"C:\isplever_classic2_0\proyectos\contar\contar.vhd":18:8:18:9|Latch generated from process for signal cnt_tmp(3 downto 0); possible missing assignment in an if or case statement.
+@W: CL159 :"C:\isplever_classic2_0\proyectos\contar\contar.vhd":7:8:7:10|Input clk is unused
+@END
+
+At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 68MB peak: 69MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Sat Dec 08 12:47:08 2018
+
+###########################################################]
+Synopsys Netlist Linker, version comp201403rcp1, Build 060R, built May 27 2014
+@N|Running in 64-bit mode
+File C:\isplever_classic2_0\proyectos\contar\synwork\contador_v2_comp.srs changed - recompiling
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Sat Dec 08 12:47:10 2018
+
+###########################################################]

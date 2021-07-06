@@ -1,0 +1,43 @@
+#$ DATE Sat Dec 08 11:12:10 2018
+#$ TOOL EDIF2BLIF version IspLever 1.0 
+#$ MODULE contador_v1
+#$ PINS 5 cnt_out_3_ clk cnt_out_2_ cnt_out_1_ cnt_out_0_
+#$ NODES 7 cnt_tmp_0_reg cnt_tmp_1_reg cnt_tmp_2_reg cnt_tmp_3_reg cnt_tmp_c2 cnt_tmp_c1 clk_c 
+.model contador_v1
+.inputs clk.BLIF cnt_tmp_0_reg.BLIF cnt_tmp_1_reg.BLIF cnt_tmp_2_reg.BLIF cnt_tmp_3_reg.BLIF cnt_tmp_c2.BLIF cnt_tmp_c1.BLIF clk_c.BLIF  
+.outputs cnt_out_3_ cnt_out_2_ cnt_out_1_ cnt_out_0_ cnt_tmp_0_reg.D cnt_tmp_0_reg.C cnt_tmp_1_reg.D cnt_tmp_1_reg.C cnt_tmp_2_reg.D cnt_tmp_2_reg.C cnt_tmp_3_reg.D \
+  cnt_tmp_3_reg.C cnt_tmp_c2 cnt_tmp_c1 clk_c
+.names  clk.BLIF clk_c
+1 1
+.names  cnt_tmp_0_reg.BLIF cnt_out_0_
+1 1
+.names  cnt_tmp_1_reg.BLIF cnt_out_1_
+1 1
+.names  cnt_tmp_2_reg.BLIF cnt_out_2_
+1 1
+.names  cnt_tmp_3_reg.BLIF cnt_out_3_
+1 1
+.names  cnt_tmp_0_reg.BLIF cnt_tmp_0_reg.D
+0 1
+.names  cnt_tmp_3_reg.BLIF cnt_tmp_c2.BLIF cnt_tmp_3_reg.D
+01 1
+10 1
+.names  cnt_tmp_2_reg.BLIF cnt_tmp_c1.BLIF cnt_tmp_2_reg.D
+01 1
+10 1
+.names  cnt_tmp_0_reg.BLIF cnt_tmp_1_reg.BLIF cnt_tmp_1_reg.D
+01 1
+10 1
+.names  cnt_tmp_2_reg.BLIF cnt_tmp_c1.BLIF cnt_tmp_c2
+11 1
+.names  cnt_tmp_0_reg.BLIF cnt_tmp_1_reg.BLIF cnt_tmp_c1
+11 1
+.names  clk_c.BLIF cnt_tmp_0_reg.C
+1 1
+.names  clk_c.BLIF cnt_tmp_1_reg.C
+1 1
+.names  clk_c.BLIF cnt_tmp_2_reg.C
+1 1
+.names  clk_c.BLIF cnt_tmp_3_reg.C
+1 1
+.end

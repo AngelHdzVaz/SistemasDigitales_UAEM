@@ -1,0 +1,15 @@
+#$ TOOL ispLEVER Classic 2.0.00.17.20.15
+#$ DATE Sat Dec 08 14:05:23 2018
+#$ MODULE display
+#$ PINS 8 display_6_ numero display_5_ display_4_ display_3_ display_2_ display_1_ display_0_
+.type fr
+.i 1
+.o 7
+.ilb numero
+.ob display_6_ display_5_ display_4_ display_3_ display_2_ display_1_ display_0_
+.p 4
+- ~~~~11~
+0 ~111~~1
+- 0~~~~~~
+1 ~000~~0
+.end

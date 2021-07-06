@@ -1,0 +1,90 @@
+Section Type   Array Num   Name                     Real Name          Base     Number     Increment
+// -------------------------------------------------------------------------------------------------
+      Port          1      numero(3:0)                   numero                  3          4            -1
+      Port          2      s(7:0)                        s                  7          8            -1
+End
+Section Member   Rename                   Array-Notation          Array Number     Index
+// -------------------------------------------------------------------------------------
+        Port      numero_3_                   numero[3]                       1            0            
+        Port      numero_2_                   numero[2]                       1            1            
+        Port      numero_1_                   numero[1]                       1            2            
+        Port      numero_0_                   numero[0]                       1            3            
+        Port      s_7_                        s[7]                       2            0            
+        Port      s_6_                        s[6]                       2            1            
+        Port      s_5_                        s[5]                       2            2            
+        Port      s_4_                        s[4]                       2            3            
+        Port      s_3_                        s[3]                       2            4            
+        Port      s_2_                        s[2]                       2            5            
+        Port      s_1_                        s[1]                       2            6            
+        Port      s_0_                        s[0]                       2            7            
+End
+Section Cross Reference File
+Design 'displays' created Sat Dec 08 13:18:42 2018
+   Type              New Name                               Original Name
+// ----------------------------------------------------------------------
+   Inst              numero_0_                                 numero[0]
+   Inst              numero_1_                                 numero[1]
+   Inst              numero_2_                                 numero[2]
+   Inst              numero_3_                                 numero[3]
+   Inst                   s_0_                                      s[0]
+   Inst                   s_1_                                      s[1]
+   Inst                   s_2_                                      s[2]
+   Inst                   s_3_                                      s[3]
+   Inst                   s_4_                                      s[4]
+   Inst                   s_5_                                      s[5]
+   Inst                   s_6_                                      s[6]
+   Inst                   s_7_                                      s[7]
+   Inst                 s_1_7_                                    s_1[7]
+   Inst                 s_1_5_                                    s_1[5]
+   Inst                 s_1_1_                                    s_1[1]
+   Inst                 s_1_6_                                    s_1[6]
+   Inst                 s_1_3_                                    s_1[3]
+   Inst                 s_1_0_                                    s_1[0]
+   Inst            numero_i_0_                               numero_i[0]
+   Inst            numero_i_1_                               numero_i[1]
+   Inst            numero_i_3_                               numero_i[3]
+   Inst                 s_1_4_                                    s_1[4]
+   Inst            numero_i_2_                               numero_i[2]
+   Net                s_1_0__n                                    s_1[0]
+   Net                s_1_1__n                                    s_1[1]
+   Net                 gnd_n_n                                       GND
+   Net                s_1_3__n                                    s_1[3]
+   Net                s_1_4__n                                    s_1[4]
+   Net                s_1_5__n                                    s_1[5]
+   Net                s_1_6__n                                    s_1[6]
+   Net                s_1_7__n                                    s_1[7]
+   Net                 vcc_n_n                                       VCC
+   Net           numero_i_3__n                               numero_i[3]
+   Net           numero_i_1__n                               numero_i[1]
+   Net           numero_i_0__n                               numero_i[0]
+   Net           numero_i_2__n                               numero_i[2]
+   Net           numero_c_0__n                               numero_c[0]
+   Net             numero_0__n                                 numero[0]
+   Net           numero_c_1__n                               numero_c[1]
+   Net             numero_1__n                                 numero[1]
+   Net           numero_c_2__n                               numero_c[2]
+   Net             numero_2__n                                 numero[2]
+   Net           numero_c_3__n                               numero_c[3]
+   Net                  s_0__n                                      s[0]
+   Net                  s_1__n                                      s[1]
+   Net                  s_2__n                                      s[2]
+   Net                  s_3__n                                      s[3]
+   Net                  s_4__n                                      s[4]
+   Net                  s_5__n                                      s[5]
+   Net                  s_6__n                                      s[6]
+End
+Section Type      Name
+// ----------------------------------------------------------------------
+        Input     numero_3_
+        Input     numero_2_
+        Input     numero_1_
+        Input     numero_0_
+        Output     s_7_
+        Output     s_6_
+        Output     s_5_
+        Output     s_4_
+        Output     s_3_
+        Output     s_2_
+        Output     s_1_
+        Output     s_0_
+End

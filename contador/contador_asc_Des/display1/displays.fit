@@ -1,0 +1,5 @@
+$DEVICE         p22v10g    fit    displays.tt3
+$PINS   12  salida_0_:23   salida_1_:14   salida_2_:22   salida_3_:15   salida_4_:21   salida_5_:16   dis2:20   
+salida_6_:17   num_0_:4   num_1_:3   num_2_:2   num_3_:1   
+--------------------------------------------------------------
+

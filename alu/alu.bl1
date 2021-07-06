@@ -1,0 +1,50 @@
+#$ TOOL ispLEVER Classic 2.0.00.17.20.15
+#$ DATE Fri May 17 09:00:49 2019
+#$ MODULE alu
+#$ PINS 14 L_3_ A_3_ B_3_ S_1_ L_2_ L_1_ L_0_ A_2_ A_1_ A_0_ B_2_ B_1_ B_0_ S_0_
+
+.model alu
+.inputs A_3_.BLIF B_3_.BLIF S_1_.BLIF A_2_.BLIF A_1_.BLIF A_0_.BLIF B_2_.BLIF \
+B_1_.BLIF B_0_.BLIF S_0_.BLIF
+.outputs L_3_ L_2_ L_1_ L_0_
+.names A_3_.BLIF B_3_.BLIF S_1_.BLIF S_0_.BLIF L_3_
+0-11 1
+10-0 1
+01-0 1
+-011 1
+110- 1
+111- 0
+00-0 0
+-001 0
+0-01 0
+.names S_1_.BLIF A_2_.BLIF B_2_.BLIF S_0_.BLIF L_2_
+10-1 1
+-100 1
+-010 1
+1-01 1
+011- 1
+111- 0
+-000 0
+0-01 0
+00-1 0
+.names S_1_.BLIF A_1_.BLIF B_1_.BLIF S_0_.BLIF L_1_
+10-1 1
+-100 1
+-010 1
+1-01 1
+011- 1
+111- 0
+-000 0
+0-01 0
+00-1 0
+.names S_1_.BLIF A_0_.BLIF B_0_.BLIF S_0_.BLIF L_0_
+10-1 1
+-100 1
+-010 1
+1-01 1
+011- 1
+111- 0
+-000 0
+0-01 0
+00-1 0
+.end

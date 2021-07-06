@@ -1,0 +1,103 @@
+Section Type   Array Num   Name                     Real Name          Base     Number     Increment
+// -------------------------------------------------------------------------------------------------
+      Port          1      n1(3:0)                       n1                  3          4            -1
+      Port          2      n2(3:0)                       n2                  3          4            -1
+      Port          3      display(7:0)                  display                  7          8            -1
+End
+Section Member   Rename                   Array-Notation          Array Number     Index
+// -------------------------------------------------------------------------------------
+        Port      n1_3_                       n1[3]                       1            0            
+        Port      n1_2_                       n1[2]                       1            1            
+        Port      n1_1_                       n1[1]                       1            2            
+        Port      n1_0_                       n1[0]                       1            3            
+        Port      n2_3_                       n2[3]                       2            0            
+        Port      n2_2_                       n2[2]                       2            1            
+        Port      n2_1_                       n2[1]                       2            2            
+        Port      n2_0_                       n2[0]                       2            3            
+        Port      display_7_                  display[7]                       3            0            
+        Port      display_6_                  display[6]                       3            1            
+        Port      display_5_                  display[5]                       3            2            
+        Port      display_4_                  display[4]                       3            3            
+        Port      display_3_                  display[3]                       3            4            
+        Port      display_2_                  display[2]                       3            5            
+        Port      display_1_                  display[1]                       3            6            
+        Port      display_0_                  display[0]                       3            7            
+End
+Section Cross Reference File
+Design 'comparador' created Thu May 09 17:47:37 2019
+   Type              New Name                               Original Name
+// ----------------------------------------------------------------------
+   Inst                  n1_0_                                     n1[0]
+   Inst                  n1_1_                                     n1[1]
+   Inst                  n1_2_                                     n1[2]
+   Inst                  n1_3_                                     n1[3]
+   Inst                  n2_0_                                     n2[0]
+   Inst                  n2_1_                                     n2[1]
+   Inst                  n2_2_                                     n2[2]
+   Inst                  n2_3_                                     n2[3]
+   Inst             display_0_                                display[0]
+   Inst             display_1_                                display[1]
+   Inst             display_2_                                display[2]
+   Inst             display_3_                                display[3]
+   Inst             display_4_                                display[4]
+   Inst             display_5_                                display[5]
+   Inst             display_6_                                display[6]
+   Inst             display_7_                                display[7]
+   Inst              n1_c_i_3_                                 n1_c_i[3]
+   Inst              n1_c_i_2_                                 n1_c_i[2]
+   Inst              n1_c_i_1_                                 n1_c_i[1]
+   Inst                n2_i_3_                                   n2_i[3]
+   Inst                n2_i_1_                                   n2_i[1]
+   Inst                n2_i_2_                                   n2_i[2]
+   Inst                n1_i_0_                                   n1_i[0]
+   Inst                n2_i_0_                                   n2_i[0]
+   Net                 gnd_n_n                                       GND
+   Net               n2_i_3__n                                   n2_i[3]
+   Net               n2_i_2__n                                   n2_i[2]
+   Net               n2_i_1__n                                   n2_i[1]
+   Net               n2_i_0__n                                   n2_i[0]
+   Net               n1_i_0__n                                   n1_i[0]
+   Net               n1_c_0__n                                   n1_c[0]
+   Net                 n1_0__n                                     n1[0]
+   Net               n1_c_1__n                                   n1_c[1]
+   Net                 n1_1__n                                     n1[1]
+   Net               n1_c_2__n                                   n1_c[2]
+   Net                 n1_2__n                                     n1[2]
+   Net               n1_c_3__n                                   n1_c[3]
+   Net               n2_c_0__n                                   n2_c[0]
+   Net                 n2_0__n                                     n2[0]
+   Net               n2_c_1__n                                   n2_c[1]
+   Net                 n2_1__n                                     n2[1]
+   Net               n2_c_2__n                                   n2_c[2]
+   Net                 n2_2__n                                     n2[2]
+   Net               n2_c_3__n                                   n2_c[3]
+   Net            display_0__n                                display[0]
+   Net            display_1__n                                display[1]
+   Net            display_2__n                                display[2]
+   Net            display_3__n                                display[3]
+   Net            display_4__n                                display[4]
+   Net            display_5__n                                display[5]
+   Net            display_6__n                                display[6]
+   Net             n1_c_i_3__n                                 n1_c_i[3]
+   Net             n1_c_i_2__n                                 n1_c_i[2]
+   Net             n1_c_i_1__n                                 n1_c_i[1]
+End
+Section Type      Name
+// ----------------------------------------------------------------------
+        Input     n1_3_
+        Input     n2_3_
+        Input     n1_2_
+        Input     n1_1_
+        Input     n1_0_
+        Input     n2_2_
+        Input     n2_1_
+        Input     n2_0_
+        Output     display_7_
+        Output     display_6_
+        Output     display_5_
+        Output     display_4_
+        Output     display_3_
+        Output     display_2_
+        Output     display_1_
+        Output     display_0_
+End

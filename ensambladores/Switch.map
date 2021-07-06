@@ -1,0 +1,54 @@
+MPLINK 4.49, Linker
+Linker Map File - Created Wed Sep 27 10:43:41 2017
+
+                                 Section Info
+                  Section       Type    Address   Location Size(Bytes)
+                ---------  ---------  ---------  ---------  ---------
+             RESET_VECTOR       code   0x000000    program   0x000004
+                   .cinit    romdata   0x000002    program   0x000004
+                MAIN_PROG       code   0x000004    program   0x00005e
+.config_2007_16F887TMPO.O       code   0x002007    program   0x000002
+.config_2008_16F887TMPO.O       code   0x002008    program   0x000002
+
+
+
+                              Program Memory Usage 
+                               Start         End      
+                           ---------   ---------      
+                            0x000000    0x000032      
+                            0x002007    0x002008      
+            53 out of 8455 program addresses used, program memory utilization is 0%
+
+
+
+                              Symbols - Sorted by Name
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                  TABLA_1   0x000022    program     static C:\Program Files\Microchip\MPASM Suite\Template\Object\16F887TMPO.ASM
+                 Tiempo_0   0x000019    program     static C:\Program Files\Microchip\MPASM Suite\Template\Object\16F887TMPO.ASM
+          _MAIN_PROG_0016   0x00001a    program     static C:\Program Files\Microchip\MPASM Suite\Template\Object\16F887TMPO.ASM
+          _MAIN_PROG_0018   0x00001c    program     static C:\Program Files\Microchip\MPASM Suite\Template\Object\16F887TMPO.ASM
+          _MAIN_PROG_001B   0x00001f    program     static C:\Program Files\Microchip\MPASM Suite\Template\Object\16F887TMPO.ASM
+          _MAIN_PROG_001C   0x000020    program     static C:\Program Files\Microchip\MPASM Suite\Template\Object\16F887TMPO.ASM
+          _MAIN_PROG_001D   0x000021    program     static C:\Program Files\Microchip\MPASM Suite\Template\Object\16F887TMPO.ASM
+                     otra   0x00000d    program     static C:\Program Files\Microchip\MPASM Suite\Template\Object\16F887TMPO.ASM
+                    start   0x000004    program     static C:\Program Files\Microchip\MPASM Suite\Template\Object\16F887TMPO.ASM
+                   tiempo   0x000013    program     static C:\Program Files\Microchip\MPASM Suite\Template\Object\16F887TMPO.ASM
+
+
+
+                              Symbols - Sorted by Address
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                    start   0x000004    program     static C:\Program Files\Microchip\MPASM Suite\Template\Object\16F887TMPO.ASM
+                     otra   0x00000d    program     static C:\Program Files\Microchip\MPASM Suite\Template\Object\16F887TMPO.ASM
+                   tiempo   0x000013    program     static C:\Program Files\Microchip\MPASM Suite\Template\Object\16F887TMPO.ASM
+                 Tiempo_0   0x000019    program     static C:\Program Files\Microchip\MPASM Suite\Template\Object\16F887TMPO.ASM
+          _MAIN_PROG_0016   0x00001a    program     static C:\Program Files\Microchip\MPASM Suite\Template\Object\16F887TMPO.ASM
+          _MAIN_PROG_0018   0x00001c    program     static C:\Program Files\Microchip\MPASM Suite\Template\Object\16F887TMPO.ASM
+          _MAIN_PROG_001B   0x00001f    program     static C:\Program Files\Microchip\MPASM Suite\Template\Object\16F887TMPO.ASM
+          _MAIN_PROG_001C   0x000020    program     static C:\Program Files\Microchip\MPASM Suite\Template\Object\16F887TMPO.ASM
+          _MAIN_PROG_001D   0x000021    program     static C:\Program Files\Microchip\MPASM Suite\Template\Object\16F887TMPO.ASM
+                  TABLA_1   0x000022    program     static C:\Program Files\Microchip\MPASM Suite\Template\Object\16F887TMPO.ASM
+
+

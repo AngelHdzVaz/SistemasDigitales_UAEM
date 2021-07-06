@@ -1,0 +1,90 @@
+Section Type   Array Num   Name                     Real Name          Base     Number     Increment
+// ------------------------------------------------------------------------------------------
+      Port          1      Q(3:0)                        Q                  3          4            -1
+End
+Section Member   Rename                   Array-Notation          Array Number     Index
+// -------------------------------------------------------------------------------------
+        Port      Q_3_                        Q[3]                       1            0            
+        Port      Q_2_                        Q[2]                       1            1            
+        Port      Q_1_                        Q[1]                       1            2            
+        Port      Q_0_                        Q[0]                       1            3            
+End
+Section Cross Reference File
+Design 'cont_updown' created Sat Dec 08 14:43:57 2018
+   Type              New Name                               Original Name
+// ----------------------------------------------------------------------
+   Inst                   t_0_                                      t[0]
+   Inst                   t_1_                                      t[1]
+   Inst                   t_2_                                      t[2]
+   Inst                   t_3_                                      t[3]
+   Inst                   Q_0_                                      Q[0]
+   Inst                   Q_1_                                      Q[1]
+   Inst                   Q_2_                                      Q[2]
+   Inst                   Q_3_                                      Q[3]
+   Inst   un1_t_1_sqmuxa_1_i_3_                     un1_t_1_sqmuxa_1_i[3]
+   Inst             un1_t_i_1_                                un1_t_i[1]
+   Inst            t_8_f1_i_1_                               t_8_f1_i[1]
+   Inst             un1_t_i_2_                                un1_t_i[2]
+   Inst            t_8_f1_i_2_                               t_8_f1_i[2]
+   Inst             un1_t_i_3_                                un1_t_i[3]
+   Inst            t_8_f1_i_3_                               t_8_f1_i[3]
+   Inst   un1_t_1_sqmuxa_1_i_2_                     un1_t_1_sqmuxa_1_i[2]
+   Inst                 t_i_3_                                    t_i[3]
+   Inst              t_8_f0_3_                                 t_8_f0[3]
+   Inst              t_8_f1_3_                                 t_8_f1[3]
+   Inst              t_8_f0_2_                                 t_8_f0[2]
+   Inst              t_8_f1_2_                                 t_8_f1[2]
+   Inst              t_8_f0_1_                                 t_8_f0[1]
+   Inst              t_8_f1_1_                                 t_8_f1[1]
+   Inst              t_8_f0_0_                                 t_8_f0[0]
+   Inst    un1_t_1_sqmuxa_1_3_                       un1_t_1_sqmuxa_1[3]
+   Inst                 t_i_1_                                    t_i[1]
+   Inst                 t_i_0_                                    t_i[0]
+   Inst                 t_i_2_                                    t_i[2]
+   Net                  t_0__n                                      t[0]
+   Net                  t_1__n                                      t[1]
+   Net                  t_2__n                                      t[2]
+   Net                  t_3__n                                      t[3]
+   Net    un1_t_1_sqmuxa_1_2__n                       un1_t_1_sqmuxa_1[2]
+   Net                t_8_0__n                                    t_8[0]
+   Net                t_8_1__n                                    t_8[1]
+   Net                t_8_2__n                                    t_8[2]
+   Net                t_8_3__n                                    t_8[3]
+   Net              un1_t_1__n                                  un1_t[1]
+   Net              un1_t_2__n                                  un1_t[2]
+   Net              un1_t_3__n                                  un1_t[3]
+   Net    un1_t_1_sqmuxa_1_3__n                       un1_t_1_sqmuxa_1[3]
+   Net              un1_t_0__n                                  un1_t[0]
+   Net             t_8_f1_3__n                                 t_8_f1[3]
+   Net             t_8_f1_2__n                                 t_8_f1[2]
+   Net             t_8_f1_1__n                                 t_8_f1[1]
+   Net                t_i_2__n                                    t_i[2]
+   Net                t_i_3__n                                    t_i[3]
+   Net                t_i_1__n                                    t_i[1]
+   Net                t_i_0__n                                    t_i[0]
+   Net                  q_0__n                                      Q[0]
+   Net                  q_1__n                                      Q[1]
+   Net                  q_2__n                                      Q[2]
+   Net    un1_t_1_sqmuxa_1_0_3__n                     un1_t_1_sqmuxa_1_0[3]
+   Net            un1_t_i_1__n                                un1_t_i[1]
+   Net           t_8_f1_0_1__n                               t_8_f1_0[1]
+   Net            un1_t_i_2__n                                un1_t_i[2]
+   Net           t_8_f1_0_2__n                               t_8_f1_0[2]
+   Net            un1_t_i_3__n                                un1_t_i[3]
+   Net           t_8_f1_0_3__n                               t_8_f1_0[3]
+   Net    un1_t_1_sqmuxa_1_i_2__n                     un1_t_1_sqmuxa_1_i[2]
+   Net            un1_t_1_3__n                                un1_t_1[3]
+   Net            un1_t_1_2__n                                un1_t_1[2]
+   Net            un1_t_1_1__n                                un1_t_1[1]
+End
+Section Type      Name
+// ----------------------------------------------------------------------
+        Input     ck
+        Input     clear
+        Input     Cup
+        Input     Cdown
+        Output     Q_3_
+        Output     Q_2_
+        Output     Q_1_
+        Output     Q_0_
+End

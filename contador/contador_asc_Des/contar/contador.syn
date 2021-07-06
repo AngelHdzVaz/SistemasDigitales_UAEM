@@ -1,0 +1,11 @@
+JDF B
+// Created by Version 2.0 
+PROJECT contador
+DESIGN contador Normal
+DEVKIT GAL22V10D-25LP
+ENTRY Pure VHDL
+MODULE contar.vhd
+MODSTYLE contador Normal
+SYNTHESIS_TOOL Synplify
+SIMULATOR_TOOL ActiveHDL
+TOPMODULE contador

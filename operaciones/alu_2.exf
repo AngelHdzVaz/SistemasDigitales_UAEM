@@ -1,0 +1,125 @@
+Section Type   Array Num   Name                     Real Name          Base     Number     Increment
+// -------------------------------------------------------------------------------------------------
+      Port          1      A(3:0)                        A                  3          4            -1
+      Port          2      B(3:0)                        B                  3          4            -1
+      Port          3      S(2:0)                        S                  2          3            -1
+      Port          4      L(3:0)                        L                  3          4            -1
+End
+Section Member   Rename                   Array-Notation          Array Number     Index
+// -------------------------------------------------------------------------------------
+        Port      A_3_                        A[3]                       1            0            
+        Port      A_2_                        A[2]                       1            1            
+        Port      A_1_                        A[1]                       1            2            
+        Port      A_0_                        A[0]                       1            3            
+        Port      B_3_                        B[3]                       2            0            
+        Port      B_2_                        B[2]                       2            1            
+        Port      B_1_                        B[1]                       2            2            
+        Port      B_0_                        B[0]                       2            3            
+        Port      S_2_                        S[2]                       3            0            
+        Port      S_1_                        S[1]                       3            1            
+        Port      S_0_                        S[0]                       3            2            
+        Port      L_3_                        L[3]                       4            0            
+        Port      L_2_                        L[2]                       4            1            
+        Port      L_1_                        L[1]                       4            2            
+        Port      L_0_                        L[0]                       4            3            
+End
+Section Cross Reference File
+Design 'ALU_2' created Mon May 20 12:47:39 2019
+   Type              New Name                               Original Name
+// ----------------------------------------------------------------------
+   Inst                   A_0_                                      A[0]
+   Inst                   A_1_                                      A[1]
+   Inst                   A_2_                                      A[2]
+   Inst                   A_3_                                      A[3]
+   Inst                   B_0_                                      B[0]
+   Inst                   B_1_                                      B[1]
+   Inst                   B_2_                                      B[2]
+   Inst                   B_3_                                      B[3]
+   Inst                   S_0_                                      S[0]
+   Inst                   S_1_                                      S[1]
+   Inst                   S_2_                                      S[2]
+   Inst                   L_0_                                      L[0]
+   Inst                   L_1_                                      L[1]
+   Inst                   L_2_                                      L[2]
+   Inst                   L_3_                                      L[3]
+   Inst               A_c_i_0_                                  A_c_i[0]
+   Inst           un1_b_1_i_3_                              un1_b_1_i[3]
+   Inst           un1_b_1_i_2_                              un1_b_1_i[2]
+   Inst               A_c_i_1_                                  A_c_i[1]
+   Inst           un1_b_1_i_1_                              un1_b_1_i[1]
+   Inst               A_c_i_2_                                  A_c_i[2]
+   Inst                Land_3_                                   Land[3]
+   Inst                Land_2_                                   Land[2]
+   Inst                Land_1_                                   Land[1]
+   Inst                Land_0_                                   Land[0]
+   Inst                 S_i_1_                                    S_i[1]
+   Inst             un1_b_1_1_                                un1_b_1[1]
+   Inst             un1_b_1_2_                                un1_b_1[2]
+   Inst             un1_b_1_3_                                un1_b_1[3]
+   Inst                 B_i_0_                                    B_i[0]
+   Net              un1_a_1__n                                  un1_a[1]
+   Net              un1_a_2__n                                  un1_a[2]
+   Net              un1_a_3__n                                  un1_a[3]
+   Net            un1_b_1_1__n                                un1_b_1[1]
+   Net            un1_b_1_2__n                                un1_b_1[2]
+   Net            un1_b_1_3__n                                un1_b_1[3]
+   Net              un1_a_0__n                                  un1_a[0]
+   Net                s_i_1__n                                    S_i[1]
+   Net                b_i_0__n                                    B_i[0]
+   Net                a_c_0__n                                    A_c[0]
+   Net                  a_0__n                                      A[0]
+   Net                a_c_1__n                                    A_c[1]
+   Net                  a_1__n                                      A[1]
+   Net                a_c_2__n                                    A_c[2]
+   Net                  a_2__n                                      A[2]
+   Net                a_c_3__n                                    A_c[3]
+   Net                b_c_0__n                                    B_c[0]
+   Net                  b_0__n                                      B[0]
+   Net                b_c_1__n                                    B_c[1]
+   Net                  b_1__n                                      B[1]
+   Net                b_c_2__n                                    B_c[2]
+   Net                  b_2__n                                      B[2]
+   Net                b_c_3__n                                    B_c[3]
+   Net                s_c_0__n                                    S_c[0]
+   Net                  s_0__n                                      S[0]
+   Net                s_c_1__n                                    S_c[1]
+   Net                  s_1__n                                      S[1]
+   Net                s_c_2__n                                    S_c[2]
+   Net                l_c_0__n                                    L_c[0]
+   Net                  l_0__n                                      L[0]
+   Net                l_c_1__n                                    L_c[1]
+   Net                  l_1__n                                      L[1]
+   Net                l_c_2__n                                    L_c[2]
+   Net                  l_2__n                                      L[2]
+   Net                l_c_3__n                                    L_c[3]
+   Net              a_c_i_0__n                                  A_c_i[0]
+   Net          un1_b_1_i_3__n                              un1_b_1_i[3]
+   Net          un1_b_1_i_2__n                              un1_b_1_i[2]
+   Net              a_c_i_1__n                                  A_c_i[1]
+   Net          un1_b_1_i_1__n                              un1_b_1_i[1]
+   Net              a_c_i_2__n                                  A_c_i[2]
+   Net            un1_a_1_3__n                                un1_a_1[3]
+   Net            un1_a_2_3__n                                un1_a_2[3]
+   Net            un1_a_1_2__n                                un1_a_1[2]
+   Net            un1_a_2_2__n                                un1_a_2[2]
+   Net            un1_a_1_1__n                                un1_a_1[1]
+   Net            un1_a_2_1__n                                un1_a_2[1]
+End
+Section Type      Name
+// ----------------------------------------------------------------------
+        Input     A_3_
+        Input     B_3_
+        Input     S_2_
+        Input     A_2_
+        Input     A_1_
+        Input     A_0_
+        Input     B_2_
+        Input     B_1_
+        Input     B_0_
+        Input     S_1_
+        Input     S_0_
+        Output     L_3_
+        Output     L_2_
+        Output     L_1_
+        Output     L_0_
+End

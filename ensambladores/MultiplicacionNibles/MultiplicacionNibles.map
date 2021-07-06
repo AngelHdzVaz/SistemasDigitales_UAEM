@@ -1,0 +1,73 @@
+MPLINK 4.46, Linker
+Linker Map File - Created Wed May 10 20:47:18 2017
+
+                                 Section Info
+                  Section       Type    Address   Location Size(Bytes)
+                ---------  ---------  ---------  ---------  ---------
+                   .org_0       code   0x000000    program   0x000000
+                   .org_1       code   0x000000    program   0x000114
+.config_2007_MULTIPLICACIONNIBLES.O       code   0x002007    program   0x000002
+.config_2008_MULTIPLICACIONNIBLES.O       code   0x002008    program   0x000002
+
+
+
+                              Program Memory Usage 
+                               Start         End      
+                           ---------   ---------      
+                            0x000000    0x000089      
+                            0x002007    0x002008      
+            140 out of 8455 program addresses used, program memory utilization is 1%
+
+
+
+                              Symbols - Sorted by Name
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                   INICIO   0x000002    program     static C:\Users\José Roberto\Documents\Ensambladores\MultiplicacionNibles\MultiplicacionNibles.asm
+                    Mulx0   0x000026    program     static C:\Users\José Roberto\Documents\Ensambladores\MultiplicacionNibles\MultiplicacionNibles.asm
+                    Mulx1   0x000028    program     static C:\Users\José Roberto\Documents\Ensambladores\MultiplicacionNibles\MultiplicacionNibles.asm
+                   Mulx10   0x00004f    program     static C:\Users\José Roberto\Documents\Ensambladores\MultiplicacionNibles\MultiplicacionNibles.asm
+                   Mulx11   0x000056    program     static C:\Users\José Roberto\Documents\Ensambladores\MultiplicacionNibles\MultiplicacionNibles.asm
+                   Mulx12   0x00005e    program     static C:\Users\José Roberto\Documents\Ensambladores\MultiplicacionNibles\MultiplicacionNibles.asm
+                   Mulx13   0x000067    program     static C:\Users\José Roberto\Documents\Ensambladores\MultiplicacionNibles\MultiplicacionNibles.asm
+                   Mulx14   0x000071    program     static C:\Users\José Roberto\Documents\Ensambladores\MultiplicacionNibles\MultiplicacionNibles.asm
+                   Mulx15   0x00007c    program     static C:\Users\José Roberto\Documents\Ensambladores\MultiplicacionNibles\MultiplicacionNibles.asm
+                    Mulx2   0x00002a    program     static C:\Users\José Roberto\Documents\Ensambladores\MultiplicacionNibles\MultiplicacionNibles.asm
+                    Mulx3   0x00002c    program     static C:\Users\José Roberto\Documents\Ensambladores\MultiplicacionNibles\MultiplicacionNibles.asm
+                    Mulx4   0x000030    program     static C:\Users\José Roberto\Documents\Ensambladores\MultiplicacionNibles\MultiplicacionNibles.asm
+                    Mulx5   0x000033    program     static C:\Users\José Roberto\Documents\Ensambladores\MultiplicacionNibles\MultiplicacionNibles.asm
+                    Mulx6   0x000038    program     static C:\Users\José Roberto\Documents\Ensambladores\MultiplicacionNibles\MultiplicacionNibles.asm
+                    Mulx7   0x00003e    program     static C:\Users\José Roberto\Documents\Ensambladores\MultiplicacionNibles\MultiplicacionNibles.asm
+                    Mulx8   0x000045    program     static C:\Users\José Roberto\Documents\Ensambladores\MultiplicacionNibles\MultiplicacionNibles.asm
+                    Mulx9   0x000049    program     static C:\Users\José Roberto\Documents\Ensambladores\MultiplicacionNibles\MultiplicacionNibles.asm
+                PRINCIPAL   0x00000c    program     static C:\Users\José Roberto\Documents\Ensambladores\MultiplicacionNibles\MultiplicacionNibles.asm
+                   Salida   0x000088    program     static C:\Users\José Roberto\Documents\Ensambladores\MultiplicacionNibles\MultiplicacionNibles.asm
+                    TABLA   0x000016    program     static C:\Users\José Roberto\Documents\Ensambladores\MultiplicacionNibles\MultiplicacionNibles.asm
+
+
+
+                              Symbols - Sorted by Address
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                   INICIO   0x000002    program     static C:\Users\José Roberto\Documents\Ensambladores\MultiplicacionNibles\MultiplicacionNibles.asm
+                PRINCIPAL   0x00000c    program     static C:\Users\José Roberto\Documents\Ensambladores\MultiplicacionNibles\MultiplicacionNibles.asm
+                    TABLA   0x000016    program     static C:\Users\José Roberto\Documents\Ensambladores\MultiplicacionNibles\MultiplicacionNibles.asm
+                    Mulx0   0x000026    program     static C:\Users\José Roberto\Documents\Ensambladores\MultiplicacionNibles\MultiplicacionNibles.asm
+                    Mulx1   0x000028    program     static C:\Users\José Roberto\Documents\Ensambladores\MultiplicacionNibles\MultiplicacionNibles.asm
+                    Mulx2   0x00002a    program     static C:\Users\José Roberto\Documents\Ensambladores\MultiplicacionNibles\MultiplicacionNibles.asm
+                    Mulx3   0x00002c    program     static C:\Users\José Roberto\Documents\Ensambladores\MultiplicacionNibles\MultiplicacionNibles.asm
+                    Mulx4   0x000030    program     static C:\Users\José Roberto\Documents\Ensambladores\MultiplicacionNibles\MultiplicacionNibles.asm
+                    Mulx5   0x000033    program     static C:\Users\José Roberto\Documents\Ensambladores\MultiplicacionNibles\MultiplicacionNibles.asm
+                    Mulx6   0x000038    program     static C:\Users\José Roberto\Documents\Ensambladores\MultiplicacionNibles\MultiplicacionNibles.asm
+                    Mulx7   0x00003e    program     static C:\Users\José Roberto\Documents\Ensambladores\MultiplicacionNibles\MultiplicacionNibles.asm
+                    Mulx8   0x000045    program     static C:\Users\José Roberto\Documents\Ensambladores\MultiplicacionNibles\MultiplicacionNibles.asm
+                    Mulx9   0x000049    program     static C:\Users\José Roberto\Documents\Ensambladores\MultiplicacionNibles\MultiplicacionNibles.asm
+                   Mulx10   0x00004f    program     static C:\Users\José Roberto\Documents\Ensambladores\MultiplicacionNibles\MultiplicacionNibles.asm
+                   Mulx11   0x000056    program     static C:\Users\José Roberto\Documents\Ensambladores\MultiplicacionNibles\MultiplicacionNibles.asm
+                   Mulx12   0x00005e    program     static C:\Users\José Roberto\Documents\Ensambladores\MultiplicacionNibles\MultiplicacionNibles.asm
+                   Mulx13   0x000067    program     static C:\Users\José Roberto\Documents\Ensambladores\MultiplicacionNibles\MultiplicacionNibles.asm
+                   Mulx14   0x000071    program     static C:\Users\José Roberto\Documents\Ensambladores\MultiplicacionNibles\MultiplicacionNibles.asm
+                   Mulx15   0x00007c    program     static C:\Users\José Roberto\Documents\Ensambladores\MultiplicacionNibles\MultiplicacionNibles.asm
+                   Salida   0x000088    program     static C:\Users\José Roberto\Documents\Ensambladores\MultiplicacionNibles\MultiplicacionNibles.asm
+
+

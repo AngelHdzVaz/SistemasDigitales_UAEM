@@ -1,0 +1,7 @@
+C:\ispLEVER_Classic2_0\synpbase\bin64\syn_nfilter.exe  -link  -top  contador  -multisrs  "C:\users\usuario\desktop\escuela 2019\sistemas\programas\contador\contador_asc_des\contar\synwork\contador_comp.srs"  -osyn  "C:\users\usuario\desktop\escuela 2019\sistemas\programas\contador\contador_asc_des\contar\synwork\contador_mult.srs"  -log  "C:\users\usuario\desktop\escuela 2019\sistemas\programas\contador\contador_asc_des\contar\synlog\contador_multi_srs_gen.srr" 
+rc:0 success:1
+C:\users\usuario\desktop\escuela 2019\sistemas\programas\contador\contador_asc_des\contar\synwork\contador_comp.srs|i|1558965122|1838
+C:\users\usuario\desktop\escuela 2019\sistemas\programas\contador\contador_asc_des\contar\synwork\contador_mult.srs|o|1558965124|1864
+C:\users\usuario\desktop\escuela 2019\sistemas\programas\contador\contador_asc_des\contar\synlog\contador_multi_srs_gen.srr|o|1558965124|470
+C:\ispLEVER_Classic2_0\synpbase\bin\syn_nfilter.exe|i|1401249136|2741760
+C:\ispLEVER_Classic2_0\synpbase\bin64\syn_nfilter.exe|i|1401249332|6337536

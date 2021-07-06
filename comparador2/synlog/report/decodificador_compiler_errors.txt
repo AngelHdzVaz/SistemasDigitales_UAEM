@@ -1,0 +1,4 @@
+@E: CS187 :"C:\users\emanu\onedrive\documentos\sistemas digitales\vhdl\comparador2\decodificador.vhd":7:41:7:41|Expecting )
+@E: CD213 :"C:\users\emanu\onedrive\documentos\sistemas digitales\vhdl\comparador2\decodificador.vhd":13:0:13:6|Undefined identifier
+@E|Parse errors encountered - exiting
+

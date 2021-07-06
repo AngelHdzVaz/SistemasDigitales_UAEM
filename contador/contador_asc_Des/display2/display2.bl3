@@ -1,0 +1,27 @@
+#$ TOOL ispLEVER Classic 2.0.00.17.20.15
+#$ DATE Sat Dec 08 14:05:23 2018
+#$ MODULE display
+#$ PINS 8 display_6_ numero display_5_ display_4_ display_3_ display_2_ display_1_ display_0_
+
+.model display
+.inputs numero.BLIF
+.outputs display_6_ display_5_ display_4_ display_3_ display_2_ display_1_ \
+display_0_
+.names display_6_
+.names numero.BLIF display_5_
+0 1
+1 0
+.names numero.BLIF display_4_
+0 1
+1 0
+.names numero.BLIF display_3_
+0 1
+1 0
+.names display_2_
+ 1
+.names display_1_
+ 1
+.names numero.BLIF display_0_
+0 1
+1 0
+.end

@@ -1,0 +1,63 @@
+#$ TOOL ispLEVER Classic 2.0.00.17.20.15
+#$ DATE Sat Dec 08 12:47:15 2018
+#$ MODULE contador_v2
+#$ PINS 6 cnt_out_3_ clk areset cnt_out_2_ cnt_out_1_ cnt_out_0_
+#$ NODES 4 cnt_outlat_0_reg cnt_outlat_1_reg cnt_outlat_2_reg cnt_outlat_3_reg
+
+.model contador_v2
+.inputs areset.BLIF cnt_outlat_0_reg.BLIF cnt_outlat_1_reg.BLIF cnt_outlat_2_reg.BLIF \
+cnt_outlat_3_reg.BLIF
+.outputs cnt_out_3_ cnt_out_2_ cnt_out_1_ cnt_out_0_ cnt_outlat_0_reg.D \
+cnt_outlat_0_reg.LH cnt_outlat_1_reg.D cnt_outlat_1_reg.LH cnt_outlat_2_reg.D \
+cnt_outlat_2_reg.LH cnt_outlat_3_reg.D cnt_outlat_3_reg.LH
+.names cnt_outlat_0_reg.BLIF cnt_outlat_0_reg.D
+0 1
+1 0
+.names cnt_outlat_0_reg.BLIF cnt_outlat_1_reg.BLIF cnt_outlat_1_reg.D
+10 1
+01 1
+00 0
+11 0
+.names cnt_outlat_0_reg.BLIF cnt_outlat_1_reg.BLIF cnt_outlat_2_reg.BLIF \
+cnt_outlat_2_reg.D
+110 1
+-01 1
+0-1 1
+111 0
+-00 0
+0-0 0
+.names cnt_outlat_0_reg.BLIF cnt_outlat_1_reg.BLIF cnt_outlat_2_reg.BLIF \
+cnt_outlat_3_reg.BLIF cnt_outlat_3_reg.D
+1110 1
+--01 1
+-0-1 1
+0--1 1
+1111 0
+--00 0
+-0-0 0
+0--0 0
+.names cnt_outlat_3_reg.BLIF cnt_out_3_
+1 1
+0 0
+.names cnt_outlat_2_reg.BLIF cnt_out_2_
+1 1
+0 0
+.names cnt_outlat_1_reg.BLIF cnt_out_1_
+1 1
+0 0
+.names cnt_outlat_0_reg.BLIF cnt_out_0_
+1 1
+0 0
+.names areset.BLIF cnt_outlat_0_reg.LH
+1 1
+0 0
+.names areset.BLIF cnt_outlat_1_reg.LH
+1 1
+0 0
+.names areset.BLIF cnt_outlat_2_reg.LH
+1 1
+0 0
+.names areset.BLIF cnt_outlat_3_reg.LH
+1 1
+0 0
+.end

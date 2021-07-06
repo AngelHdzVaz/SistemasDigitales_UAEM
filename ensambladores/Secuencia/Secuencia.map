@@ -1,0 +1,103 @@
+MPLINK 4.46, Linker
+Linker Map File - Created Mon May 08 09:40:46 2017
+
+                                 Section Info
+                  Section       Type    Address   Location Size(Bytes)
+                ---------  ---------  ---------  ---------  ---------
+                   .org_0       code   0x000000    program   0x000000
+                   .org_1       code   0x000000    program   0x0000c4
+ .config_2007_SECUENCIA.O       code   0x002007    program   0x000002
+ .config_2008_SECUENCIA.O       code   0x002008    program   0x000002
+
+
+
+                              Program Memory Usage 
+                               Start         End      
+                           ---------   ---------      
+                            0x000000    0x000061      
+                            0x002007    0x002008      
+            100 out of 8455 program addresses used, program memory utilization is 1%
+
+
+
+                              Symbols - Sorted by Name
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                   INICIO   0x000002    program     static C:\Users\José Roberto\Documents\Ensambladores\Secuencia\Secuencia.asm
+                PRINCIPAL   0x00000c    program     static C:\Users\José Roberto\Documents\Ensambladores\Secuencia\Secuencia.asm
+    R1Decima_BucleExterno   0x000058    program     static C:\Users\José Roberto\Documents\Ensambladores\Secuencia\RETARDOS.INC
+   R1Decima_BucleExterno2   0x000056    program     static C:\Users\José Roberto\Documents\Ensambladores\Secuencia\RETARDOS.INC
+    R1Decima_BucleInterno   0x00005a    program     static C:\Users\José Roberto\Documents\Ensambladores\Secuencia\RETARDOS.INC
+        R1ms_BucleExterno   0x000042    program     static C:\Users\José Roberto\Documents\Ensambladores\Secuencia\RETARDOS.INC
+        R1ms_BucleInterno   0x000044    program     static C:\Users\José Roberto\Documents\Ensambladores\Secuencia\RETARDOS.INC
+            RetardoMicros   0x00002e    program     static C:\Users\José Roberto\Documents\Ensambladores\Secuencia\RETARDOS.INC
+        Retardo_100micros   0x000028    program     static C:\Users\José Roberto\Documents\Ensambladores\Secuencia\RETARDOS.INC
+            Retardo_100ms   0x000034    program     static C:\Users\José Roberto\Documents\Ensambladores\Secuencia\RETARDOS.INC
+         Retardo_10micros   0x00001b    program     static C:\Users\José Roberto\Documents\Ensambladores\Secuencia\RETARDOS.INC
+             Retardo_10ms   0x00003a    program     static C:\Users\José Roberto\Documents\Ensambladores\Secuencia\RETARDOS.INC
+              Retardo_10s   0x00004c    program     static C:\Users\José Roberto\Documents\Ensambladores\Secuencia\RETARDOS.INC
+          Retardo_1Decima   0x000055    program     static C:\Users\José Roberto\Documents\Ensambladores\Secuencia\RETARDOS.INC
+              Retardo_1ms   0x000040    program     static C:\Users\José Roberto\Documents\Ensambladores\Secuencia\RETARDOS.INC
+               Retardo_1s   0x000052    program     static C:\Users\José Roberto\Documents\Ensambladores\Secuencia\RETARDOS.INC
+        Retardo_200micros   0x000025    program     static C:\Users\José Roberto\Documents\Ensambladores\Secuencia\RETARDOS.INC
+            Retardo_200ms   0x000032    program     static C:\Users\José Roberto\Documents\Ensambladores\Secuencia\RETARDOS.INC
+         Retardo_20micros   0x00002d    program     static C:\Users\José Roberto\Documents\Ensambladores\Secuencia\RETARDOS.INC
+             Retardo_20ms   0x000038    program     static C:\Users\José Roberto\Documents\Ensambladores\Secuencia\RETARDOS.INC
+              Retardo_20s   0x00004a    program     static C:\Users\José Roberto\Documents\Ensambladores\Secuencia\RETARDOS.INC
+              Retardo_2ms   0x00003e    program     static C:\Users\José Roberto\Documents\Ensambladores\Secuencia\RETARDOS.INC
+               Retardo_2s   0x000050    program     static C:\Users\José Roberto\Documents\Ensambladores\Secuencia\RETARDOS.INC
+          Retardo_4micros   0x000021    program     static C:\Users\José Roberto\Documents\Ensambladores\Secuencia\RETARDOS.INC
+        Retardo_500micros   0x000022    program     static C:\Users\José Roberto\Documents\Ensambladores\Secuencia\RETARDOS.INC
+            Retardo_500ms   0x000054    program     static C:\Users\José Roberto\Documents\Ensambladores\Secuencia\RETARDOS.INC
+         Retardo_50micros   0x00002a    program     static C:\Users\José Roberto\Documents\Ensambladores\Secuencia\RETARDOS.INC
+             Retardo_50ms   0x000036    program     static C:\Users\José Roberto\Documents\Ensambladores\Secuencia\RETARDOS.INC
+          Retardo_5micros   0x000020    program     static C:\Users\José Roberto\Documents\Ensambladores\Secuencia\RETARDOS.INC
+              Retardo_5ms   0x00003c    program     static C:\Users\José Roberto\Documents\Ensambladores\Secuencia\RETARDOS.INC
+               Retardo_5s   0x00004e    program     static C:\Users\José Roberto\Documents\Ensambladores\Secuencia\RETARDOS.INC
+              Retardos_ms   0x000041    program     static C:\Users\José Roberto\Documents\Ensambladores\Secuencia\RETARDOS.INC
+            Rmicros_Bucle   0x00002f    program     static C:\Users\José Roberto\Documents\Ensambladores\Secuencia\RETARDOS.INC
+              RotaDerecha   0x000016    program     static C:\Users\José Roberto\Documents\Ensambladores\Secuencia\Secuencia.asm
+            RotaIzquierda   0x000011    program     static C:\Users\José Roberto\Documents\Ensambladores\Secuencia\Secuencia.asm
+
+
+
+                              Symbols - Sorted by Address
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                   INICIO   0x000002    program     static C:\Users\José Roberto\Documents\Ensambladores\Secuencia\Secuencia.asm
+                PRINCIPAL   0x00000c    program     static C:\Users\José Roberto\Documents\Ensambladores\Secuencia\Secuencia.asm
+            RotaIzquierda   0x000011    program     static C:\Users\José Roberto\Documents\Ensambladores\Secuencia\Secuencia.asm
+              RotaDerecha   0x000016    program     static C:\Users\José Roberto\Documents\Ensambladores\Secuencia\Secuencia.asm
+         Retardo_10micros   0x00001b    program     static C:\Users\José Roberto\Documents\Ensambladores\Secuencia\RETARDOS.INC
+          Retardo_5micros   0x000020    program     static C:\Users\José Roberto\Documents\Ensambladores\Secuencia\RETARDOS.INC
+          Retardo_4micros   0x000021    program     static C:\Users\José Roberto\Documents\Ensambladores\Secuencia\RETARDOS.INC
+        Retardo_500micros   0x000022    program     static C:\Users\José Roberto\Documents\Ensambladores\Secuencia\RETARDOS.INC
+        Retardo_200micros   0x000025    program     static C:\Users\José Roberto\Documents\Ensambladores\Secuencia\RETARDOS.INC
+        Retardo_100micros   0x000028    program     static C:\Users\José Roberto\Documents\Ensambladores\Secuencia\RETARDOS.INC
+         Retardo_50micros   0x00002a    program     static C:\Users\José Roberto\Documents\Ensambladores\Secuencia\RETARDOS.INC
+         Retardo_20micros   0x00002d    program     static C:\Users\José Roberto\Documents\Ensambladores\Secuencia\RETARDOS.INC
+            RetardoMicros   0x00002e    program     static C:\Users\José Roberto\Documents\Ensambladores\Secuencia\RETARDOS.INC
+            Rmicros_Bucle   0x00002f    program     static C:\Users\José Roberto\Documents\Ensambladores\Secuencia\RETARDOS.INC
+            Retardo_200ms   0x000032    program     static C:\Users\José Roberto\Documents\Ensambladores\Secuencia\RETARDOS.INC
+            Retardo_100ms   0x000034    program     static C:\Users\José Roberto\Documents\Ensambladores\Secuencia\RETARDOS.INC
+             Retardo_50ms   0x000036    program     static C:\Users\José Roberto\Documents\Ensambladores\Secuencia\RETARDOS.INC
+             Retardo_20ms   0x000038    program     static C:\Users\José Roberto\Documents\Ensambladores\Secuencia\RETARDOS.INC
+             Retardo_10ms   0x00003a    program     static C:\Users\José Roberto\Documents\Ensambladores\Secuencia\RETARDOS.INC
+              Retardo_5ms   0x00003c    program     static C:\Users\José Roberto\Documents\Ensambladores\Secuencia\RETARDOS.INC
+              Retardo_2ms   0x00003e    program     static C:\Users\José Roberto\Documents\Ensambladores\Secuencia\RETARDOS.INC
+              Retardo_1ms   0x000040    program     static C:\Users\José Roberto\Documents\Ensambladores\Secuencia\RETARDOS.INC
+              Retardos_ms   0x000041    program     static C:\Users\José Roberto\Documents\Ensambladores\Secuencia\RETARDOS.INC
+        R1ms_BucleExterno   0x000042    program     static C:\Users\José Roberto\Documents\Ensambladores\Secuencia\RETARDOS.INC
+        R1ms_BucleInterno   0x000044    program     static C:\Users\José Roberto\Documents\Ensambladores\Secuencia\RETARDOS.INC
+              Retardo_20s   0x00004a    program     static C:\Users\José Roberto\Documents\Ensambladores\Secuencia\RETARDOS.INC
+              Retardo_10s   0x00004c    program     static C:\Users\José Roberto\Documents\Ensambladores\Secuencia\RETARDOS.INC
+               Retardo_5s   0x00004e    program     static C:\Users\José Roberto\Documents\Ensambladores\Secuencia\RETARDOS.INC
+               Retardo_2s   0x000050    program     static C:\Users\José Roberto\Documents\Ensambladores\Secuencia\RETARDOS.INC
+               Retardo_1s   0x000052    program     static C:\Users\José Roberto\Documents\Ensambladores\Secuencia\RETARDOS.INC
+            Retardo_500ms   0x000054    program     static C:\Users\José Roberto\Documents\Ensambladores\Secuencia\RETARDOS.INC
+          Retardo_1Decima   0x000055    program     static C:\Users\José Roberto\Documents\Ensambladores\Secuencia\RETARDOS.INC
+   R1Decima_BucleExterno2   0x000056    program     static C:\Users\José Roberto\Documents\Ensambladores\Secuencia\RETARDOS.INC
+    R1Decima_BucleExterno   0x000058    program     static C:\Users\José Roberto\Documents\Ensambladores\Secuencia\RETARDOS.INC
+    R1Decima_BucleInterno   0x00005a    program     static C:\Users\José Roberto\Documents\Ensambladores\Secuencia\RETARDOS.INC
+
+

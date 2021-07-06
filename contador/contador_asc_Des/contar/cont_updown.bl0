@@ -1,0 +1,202 @@
+#$ DATE Sat Dec 08 14:43:57 2018
+#$ TOOL EDIF2BLIF version IspLever 1.0 
+#$ MODULE cont_updown
+#$ PINS 8 Q_3_ ck clear Cup Cdown Q_2_ Q_1_ Q_0_
+#$ NODES 70 t_0_reg t_1_reg t_2_reg t_3_reg un1_t_1_sqmuxa_1_2__n N_4 N_7 N_8 N_9 N_10 \
+#  N_11 N_12 N_15 un1_t_1__n un1_t_2__n un1_t_3__n un1_t_1_sqmuxa_1_3__n N_14 un1_t_0__n un15_cup \
+#  un6_cup t_0_sqmuxa t_8_f1_3__n t_0_sqmuxa_1 t_8_f1_2__n t_8_f1_1__n un9_cup t_1_sqmuxa un1_cup Cdown_i \
+#  Cup_i un6_cup_i un15_cup_i t_0_sqmuxa_i t_i_2__n t_i_3__n t_i_1__n t_i_0__n ck_c clear_c \
+#  Cup_c Cdown_c un9_cup_i t_1_sqmuxa_i un1_t_1_sqmuxa_1_0_3__n t_0_sqmuxa_1_i un1_t_i_1__n t_8_f1_0_1__n un1_t_i_2__n t_8_f1_0_2__n \
+#  un1_t_i_3__n t_8_f1_0_3__n N_11_i N_14_i N_15_0 un1_t_1_sqmuxa_1_i_2__n N_9_0 N_7_0 N_8_i N_10_i \
+#  N_12_0 un15_cup_1 un15_cup_2 un6_cup_1 un6_cup_2 un1_t_1_3__n un1_t_1_2__n un1_t_1_1__n N_12_0_1 N_10_1 \
+#  
+.model cont_updown
+.inputs ck.BLIF clear.BLIF Cup.BLIF Cdown.BLIF t_0_reg.BLIF t_1_reg.BLIF t_2_reg.BLIF t_3_reg.BLIF un1_t_1_sqmuxa_1_2__n.BLIF \
+  N_4.BLIF N_7.BLIF N_8.BLIF N_9.BLIF N_10.BLIF N_11.BLIF N_12.BLIF N_15.BLIF un1_t_1__n.BLIF \
+  un1_t_2__n.BLIF un1_t_3__n.BLIF un1_t_1_sqmuxa_1_3__n.BLIF N_14.BLIF un1_t_0__n.BLIF un15_cup.BLIF un6_cup.BLIF t_0_sqmuxa.BLIF t_8_f1_3__n.BLIF \
+  t_0_sqmuxa_1.BLIF t_8_f1_2__n.BLIF t_8_f1_1__n.BLIF un9_cup.BLIF t_1_sqmuxa.BLIF un1_cup.BLIF Cdown_i.BLIF Cup_i.BLIF un6_cup_i.BLIF \
+  un15_cup_i.BLIF t_0_sqmuxa_i.BLIF t_i_2__n.BLIF t_i_3__n.BLIF t_i_1__n.BLIF t_i_0__n.BLIF ck_c.BLIF clear_c.BLIF Cup_c.BLIF \
+  Cdown_c.BLIF un9_cup_i.BLIF t_1_sqmuxa_i.BLIF un1_t_1_sqmuxa_1_0_3__n.BLIF t_0_sqmuxa_1_i.BLIF un1_t_i_1__n.BLIF t_8_f1_0_1__n.BLIF un1_t_i_2__n.BLIF t_8_f1_0_2__n.BLIF \
+  un1_t_i_3__n.BLIF t_8_f1_0_3__n.BLIF N_11_i.BLIF N_14_i.BLIF N_15_0.BLIF un1_t_1_sqmuxa_1_i_2__n.BLIF N_9_0.BLIF N_7_0.BLIF N_8_i.BLIF \
+  N_10_i.BLIF N_12_0.BLIF un15_cup_1.BLIF un15_cup_2.BLIF un6_cup_1.BLIF un6_cup_2.BLIF un1_t_1_3__n.BLIF un1_t_1_2__n.BLIF un1_t_1_1__n.BLIF \
+  N_12_0_1.BLIF N_10_1.BLIF  
+.outputs Q_3_ Q_2_ Q_1_ Q_0_ t_0_reg.D t_0_reg.C t_0_reg.AR t_1_reg.D t_1_reg.C t_1_reg.AR t_2_reg.D \
+  t_2_reg.C t_2_reg.AR t_3_reg.D t_3_reg.C t_3_reg.AR un1_t_1_sqmuxa_1_2__n N_4 N_7 N_8 N_9 N_10 \
+  N_11 N_12 N_15 un1_t_1__n un1_t_2__n un1_t_3__n un1_t_1_sqmuxa_1_3__n N_14 un1_t_0__n un15_cup un6_cup \
+  t_0_sqmuxa t_8_f1_3__n t_0_sqmuxa_1 t_8_f1_2__n t_8_f1_1__n un9_cup t_1_sqmuxa un1_cup Cdown_i Cup_i un6_cup_i \
+  un15_cup_i t_0_sqmuxa_i t_i_2__n t_i_3__n t_i_1__n t_i_0__n ck_c clear_c Cup_c Cdown_c un9_cup_i \
+  t_1_sqmuxa_i un1_t_1_sqmuxa_1_0_3__n t_0_sqmuxa_1_i un1_t_i_1__n t_8_f1_0_1__n un1_t_i_2__n t_8_f1_0_2__n un1_t_i_3__n t_8_f1_0_3__n N_11_i N_14_i \
+  N_15_0 un1_t_1_sqmuxa_1_i_2__n N_9_0 N_7_0 N_8_i N_10_i N_12_0 un15_cup_1 un15_cup_2 un6_cup_1 un6_cup_2 \
+  un1_t_1_3__n un1_t_1_2__n un1_t_1_1__n N_12_0_1 N_10_1
+.names  ck.BLIF ck_c
+1 1
+.names  clear.BLIF clear_c
+1 1
+.names  Cup.BLIF Cup_c
+1 1
+.names  Cdown.BLIF Cdown_c
+1 1
+.names  t_0_reg.BLIF Q_0_
+1 1
+.names  t_1_reg.BLIF Q_1_
+1 1
+.names  t_2_reg.BLIF Q_2_
+1 1
+.names  t_3_reg.BLIF Q_3_
+1 1
+.names  N_12_0_1.BLIF N_10_i.BLIF N_12_0
+11 1
+.names  N_9.BLIF N_4.BLIF N_10_1
+11 1
+.names  N_10_1.BLIF N_7.BLIF N_10
+11 1
+.names  N_10.BLIF N_10_i
+0 1
+.names  N_12_0.BLIF N_12
+0 1
+.names  t_i_0__n.BLIF t_i_1__n.BLIF un15_cup_1
+11 1
+.names  t_i_2__n.BLIF t_i_3__n.BLIF un15_cup_2
+11 1
+.names  un15_cup_1.BLIF un15_cup_2.BLIF un15_cup
+11 1
+.names  t_0_reg.BLIF t_1_reg.BLIF un6_cup_1
+11 1
+.names  t_2_reg.BLIF t_3_reg.BLIF un6_cup_2
+11 1
+.names  un6_cup_1.BLIF un6_cup_2.BLIF un6_cup
+11 1
+.names  N_12.BLIF t_3_reg.BLIF un1_t_1_3__n
+01 1
+10 1
+.names  un1_t_1_3__n.BLIF un1_t_1_sqmuxa_1_2__n.BLIF un1_t_3__n
+01 1
+10 1
+.names  N_15.BLIF t_2_reg.BLIF un1_t_1_2__n
+01 1
+10 1
+.names  un1_t_1_2__n.BLIF un1_t_1_sqmuxa_1_2__n.BLIF un1_t_2__n
+01 1
+10 1
+.names  N_4.BLIF t_1_reg.BLIF un1_t_1_1__n
+01 1
+10 1
+.names  un1_t_1_1__n.BLIF un1_t_1_sqmuxa_1_2__n.BLIF un1_t_1__n
+01 1
+10 1
+.names  N_11_i.BLIF N_8_i.BLIF N_12_0_1
+11 1
+.names  un1_t_1_sqmuxa_1_0_3__n.BLIF un1_t_1_sqmuxa_1_3__n
+0 1
+.names  t_0_sqmuxa_1.BLIF t_0_sqmuxa_1_i
+0 1
+.names  un1_t_1__n.BLIF un1_t_i_1__n
+0 1
+.names  t_8_f1_0_1__n.BLIF t_8_f1_1__n
+0 1
+.names  un1_t_2__n.BLIF un1_t_i_2__n
+0 1
+.names  t_8_f1_0_2__n.BLIF t_8_f1_2__n
+0 1
+.names  un1_t_3__n.BLIF un1_t_i_3__n
+0 1
+.names  t_8_f1_0_3__n.BLIF t_8_f1_3__n
+0 1
+.names  N_11.BLIF N_11_i
+0 1
+.names  N_14.BLIF N_14_i
+0 1
+.names  N_15_0.BLIF N_15
+0 1
+.names  un1_t_1_sqmuxa_1_2__n.BLIF un1_t_1_sqmuxa_1_i_2__n
+0 1
+.names  N_9_0.BLIF N_9
+0 1
+.names  N_7_0.BLIF N_7
+0 1
+.names  N_8.BLIF N_8_i
+0 1
+.names  un1_cup.BLIF un6_cup.BLIF t_0_sqmuxa
+11 1
+.names  Cup_c.BLIF Cup_i
+0 1
+.names  Cdown_c.BLIF Cup_i.BLIF un9_cup
+11 1
+.names  Cdown_c.BLIF Cdown_i
+0 1
+.names  Cdown_i.BLIF Cup_c.BLIF un1_cup
+11 1
+.names  un9_cup.BLIF un9_cup_i
+0 1
+.names  t_1_sqmuxa.BLIF t_1_sqmuxa_i
+0 1
+.names  t_3_reg.BLIF t_i_3__n
+0 1
+.names  t_0_sqmuxa_i.BLIF t_8_f1_3__n.BLIF t_3_reg.D
+11 1
+.names  t_0_sqmuxa_1_i.BLIF un1_t_i_3__n.BLIF t_8_f1_0_3__n
+11 1
+.names  t_0_sqmuxa_i.BLIF t_8_f1_2__n.BLIF t_2_reg.D
+11 1
+.names  t_0_sqmuxa_1_i.BLIF un1_t_i_2__n.BLIF t_8_f1_0_2__n
+11 1
+.names  t_0_sqmuxa_i.BLIF t_8_f1_1__n.BLIF t_1_reg.D
+11 1
+.names  t_0_sqmuxa_1_i.BLIF un1_t_i_1__n.BLIF t_8_f1_0_1__n
+11 1
+.names  t_0_sqmuxa.BLIF t_0_sqmuxa_i
+0 1
+.names  t_0_sqmuxa_i.BLIF un1_t_0__n.BLIF t_0_reg.D
+11 1
+.names  t_1_sqmuxa_i.BLIF un9_cup_i.BLIF un1_t_1_sqmuxa_1_0_3__n
+11 1
+.names  un15_cup.BLIF un15_cup_i
+0 1
+.names  un9_cup.BLIF un15_cup_i.BLIF un1_t_1_sqmuxa_1_2__n
+11 1
+.names  un9_cup.BLIF un15_cup.BLIF t_0_sqmuxa_1
+11 1
+.names  un6_cup.BLIF un6_cup_i
+0 1
+.names  un1_cup.BLIF un6_cup_i.BLIF t_1_sqmuxa
+11 1
+.names  t_0_reg.BLIF un1_t_1_sqmuxa_1_3__n.BLIF N_4
+11 1
+.names  t_1_reg.BLIF un1_t_1_sqmuxa_1_2__n.BLIF N_11
+11 1
+.names  t_i_1__n.BLIF un1_t_1_sqmuxa_1_i_2__n.BLIF N_7_0
+11 1
+.names  t_2_reg.BLIF un1_t_1_sqmuxa_1_2__n.BLIF N_8
+11 1
+.names  t_i_2__n.BLIF un1_t_1_sqmuxa_1_i_2__n.BLIF N_9_0
+11 1
+.names  N_4.BLIF N_7.BLIF N_14
+11 1
+.names  N_11_i.BLIF N_14_i.BLIF N_15_0
+11 1
+.names  t_0_reg.BLIF un1_t_1_sqmuxa_1_3__n.BLIF un1_t_0__n
+01 1
+10 1
+.names  t_1_reg.BLIF t_i_1__n
+0 1
+.names  t_0_reg.BLIF t_i_0__n
+0 1
+.names  t_2_reg.BLIF t_i_2__n
+0 1
+.names  ck_c.BLIF t_0_reg.C
+1 1
+.names  clear_c.BLIF t_0_reg.AR
+1 1
+.names  ck_c.BLIF t_1_reg.C
+1 1
+.names  clear_c.BLIF t_1_reg.AR
+1 1
+.names  ck_c.BLIF t_2_reg.C
+1 1
+.names  clear_c.BLIF t_2_reg.AR
+1 1
+.names  ck_c.BLIF t_3_reg.C
+1 1
+.names  clear_c.BLIF t_3_reg.AR
+1 1
+.end

@@ -1,0 +1,30 @@
+#$ DATE Sat Dec 08 14:05:23 2018
+#$ TOOL EDIF2BLIF version IspLever 1.0 
+#$ MODULE display
+#$ PINS 8 display_6_ numero display_5_ display_4_ display_3_ display_2_ display_1_ display_0_
+#$ NODES 4 vcc_n_n gnd_n_n numero_i numero_c 
+.model display
+.inputs numero.BLIF vcc_n_n.BLIF gnd_n_n.BLIF numero_i.BLIF numero_c.BLIF  
+.outputs display_6_ display_5_ display_4_ display_3_ display_2_ display_1_ display_0_ vcc_n_n gnd_n_n numero_i numero_c
+.names  numero.BLIF numero_c
+1 1
+.names  numero_i.BLIF display_0_
+1 1
+.names  vcc_n_n.BLIF display_1_
+1 1
+.names  vcc_n_n.BLIF display_2_
+1 1
+.names  numero_i.BLIF display_3_
+1 1
+.names  numero_i.BLIF display_4_
+1 1
+.names  numero_i.BLIF display_5_
+1 1
+.names  gnd_n_n.BLIF display_6_
+1 1
+.names  numero_c.BLIF numero_i
+0 1
+.names  vcc_n_n
+1
+.names  gnd_n_n
+.end

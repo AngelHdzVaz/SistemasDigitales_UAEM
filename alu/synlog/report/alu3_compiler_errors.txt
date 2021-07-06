@@ -1,0 +1,5 @@
+@E: CD213 :"C:\users\usuario\desktop\escuela 2019\sistemas\alu\alu3.vhd":17:0:17:1|Undefined identifier
+@E: CD213 :"C:\users\usuario\desktop\escuela 2019\sistemas\alu\alu3.vhd":19:0:19:1|Undefined identifier
+@E: CD255 :"C:\users\usuario\desktop\escuela 2019\sistemas\alu\alu3.vhd":22:14:22:17|No identifier "s2" in scope
+@E|Parse errors encountered - exiting
+

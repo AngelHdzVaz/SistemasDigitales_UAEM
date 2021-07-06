@@ -1,0 +1,39 @@
+MPLINK 5.08, LINKER
+Linker Map File - Created Wed Nov 15 09:28:28 2017
+
+                                 Section Info
+                  Section       Type    Address   Location Size(Bytes)
+                ---------  ---------  ---------  ---------  ---------
+                   .org_0       code   0x000000    program   0x000042
+                   .cinit    romdata   0x000021    program   0x000004
+.config_2007_BUILD/DEFAULT/PRODUCTION/DISPLAY       code   0x002007    program   0x000002
+.config_2008_BUILD/DEFAULT/PRODUCTION/DISPLAY       code   0x002008    program   0x000002
+
+
+
+                              Program Memory Usage 
+                               Start         End      
+                           ---------   ---------      
+                            0x000000    0x000022      
+                            0x002007    0x002008      
+            37 out of 8455 program addresses used, program memory utilization is 0%
+
+
+
+                              Symbols - Sorted by Name
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                   INICIO   0x000002    program     static C:\Users\Angel\Desktop\nuevos\Displayswitch.X\DisplaySwitch.asm
+                 PATRICIO   0x00000c    program     static C:\Users\Angel\Desktop\nuevos\Displayswitch.X\DisplaySwitch.asm
+                    TABLA   0x000010    program     static C:\Users\Angel\Desktop\nuevos\Displayswitch.X\DisplaySwitch.asm
+
+
+
+                              Symbols - Sorted by Address
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                   INICIO   0x000002    program     static C:\Users\Angel\Desktop\nuevos\Displayswitch.X\DisplaySwitch.asm
+                 PATRICIO   0x00000c    program     static C:\Users\Angel\Desktop\nuevos\Displayswitch.X\DisplaySwitch.asm
+                    TABLA   0x000010    program     static C:\Users\Angel\Desktop\nuevos\Displayswitch.X\DisplaySwitch.asm
+
+

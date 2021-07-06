@@ -1,0 +1,8 @@
+C:\ispLEVER_Classic2_0\synpbase\bin64\c_vhdl.exe  -osyn  "C:\users\usuario\desktop\escuela 2019\sistemas\programas\synwork\ALU3_comp.srs"  -top  ALU3  -prodtype  synplify_pro  -nostructver -dfltencoding sequential -encrypt  -pro  -dmgen  "C:\users\usuario\desktop\escuela 2019\sistemas\programas\dm"  -lite -ui -fid2 -ram -sharing on -ll 2000 -autosm -ignore_undefined_lib  -lib work "C:\users\usuario\desktop\escuela 2019\sistemas\programas\multi.vhd" -loga  "C:\users\usuario\desktop\escuela 2019\sistemas\programas\ALU3.srr" 
+rc:0 success:1
+C:\users\usuario\desktop\escuela 2019\sistemas\programas\synwork\ALU3_comp.srs|o|1558375192|1765
+"C:\users\usuario\desktop\escuela|i|0|0
+2019\sistemas\programas\multi.vhd"|i|0|0
+C:\users\usuario\desktop\escuela 2019\sistemas\programas\ALU3.srr|o|1558375192|1339
+C:\ispLEVER_Classic2_0\synpbase\bin\c_vhdl.exe|i|1401249098|2046976
+C:\ispLEVER_Classic2_0\synpbase\bin64\c_vhdl.exe|i|1401249304|5533184

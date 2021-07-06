@@ -1,0 +1,7 @@
+C:\ispLEVER_Classic2_0\synpbase\bin64\c_vhdl.exe  -osyn  C:\isplever_classic2_0\proyectos\display1\synwork\displays_comp.srs  -top  displays  -prodtype  synplify_pro  -nostructver -dfltencoding sequential -encrypt  -pro  -dmgen  C:\isplever_classic2_0\proyectos\display1\dm  -lite -ui -fid2 -ram -sharing on -ll 2000 -autosm -ignore_undefined_lib  -lib work C:\isplever_classic2_0\proyectos\display1\display.vhd -loga  C:\isplever_classic2_0\proyectos\display1\displays.srr 
+rc:0 success:1
+C:\isplever_classic2_0\proyectos\display1\synwork\displays_comp.srs|o|1544299271|1996
+C:\isplever_classic2_0\proyectos\display1\display.vhd|i|1544299255|696
+C:\isplever_classic2_0\proyectos\display1\displays.srr|o|1544299271|1494
+C:\ispLEVER_Classic2_0\synpbase\bin\c_vhdl.exe|i|1401249098|2046976
+C:\ispLEVER_Classic2_0\synpbase\bin64\c_vhdl.exe|i|1401249304|5533184

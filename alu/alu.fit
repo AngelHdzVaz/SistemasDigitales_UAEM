@@ -1,0 +1,67 @@
+Note 4042: Unable to assign un1_a_1__n, need more pins 
+like pin 23.
+Note 4042: Unable to assign un1_a_2__n, need more pins 
+like pin 23.
+Note 4042: Unable to assign L_0_, need more pins 
+like pin 23.
+Note 4042: Unable to assign L_1_, need more pins 
+like pin 23.
+Note 4042: Unable to assign L_2_, need more pins 
+like pin 23.
+Note 4042: Unable to assign L_3_, need more pins 
+like pin 23.
+Note 4042: Unable to assign un1_a_1__n, need more pins 
+like pin 22.
+Note 4042: Unable to assign un1_a_2__n, need more pins 
+like pin 22.
+Note 4042: Unable to assign L_0_, need more pins 
+like pin 22.
+Note 4042: Unable to assign L_1_, need more pins 
+like pin 22.
+Note 4042: Unable to assign L_2_, need more pins 
+like pin 22.
+Note 4042: Unable to assign L_3_, need more pins 
+like pin 22.
+Note 4042: Unable to assign un1_a_1__n, need more pins 
+like pin 21.
+Note 4042: Unable to assign un1_a_2__n, need more pins 
+like pin 21.
+Note 4042: Unable to assign L_0_, need more pins 
+like pin 21.
+Note 4042: Unable to assign L_1_, need more pins 
+like pin 21.
+Note 4042: Unable to assign L_2_, need more pins 
+like pin 21.
+Note 4042: Unable to assign L_3_, need more pins 
+like pin 21.
+Note 4042: Unable to assign un1_a_1__n, need more pins 
+like pin 20.
+Note 4042: Unable to assign un1_a_2__n, need more pins 
+like pin 20.
+Note 4042: Unable to assign L_0_, need more pins 
+like pin 20.
+Note 4042: Unable to assign L_1_, need more pins 
+like pin 20.
+Note 4042: Unable to assign L_2_, need more pins 
+like pin 20.
+Note 4042: Unable to assign L_3_, need more pins 
+like pin 20.
+Note 4042: Unable to assign un1_a_1__n, need more pins 
+like pin 19.
+Note 4042: Unable to assign un1_a_2__n, need more pins 
+like pin 19.
+Note 4042: Unable to assign L_0_, need more pins 
+like pin 19.
+Note 4042: Unable to assign L_1_, need more pins 
+like pin 19.
+Note 4042: Unable to assign L_2_, need more pins 
+like pin 19.
+Note 4042: Unable to assign L_3_, need more pins 
+like pin 19.
+$DEVICE         p22v10g  nofit 
+$PINS   20  N_25_0_2:23   N_25_0_1:14   l_c_1_2__n:22   N_29_0:15   N_12:21   un1_a_0__n:16   N_23:19   
+N_22:18   N_47_mux:20   N_48_mux:17   S_0_:10   B_0_:9   B_1_:8   B_2_:7   
+A_0_:6   A_1_:5   A_2_:4   S_1_:3   B_3_:2   A_3_:1   
+$UNASSIGNED    6  un1_a_1__n   un1_a_2__n   L_0_   L_1_   L_2_   L_3_   
+--------------------------------------------------------------
+
